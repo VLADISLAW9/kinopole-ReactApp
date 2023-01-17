@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Reem+Kufi:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+::-webkit-scrollbar {
+	width: 10px;
+}
+
+::-webkit-scrollbar-track {
+	background-color: rgb(64, 64, 64);
+}
+
+::-webkit-scrollbar-thumb {
+	box-shadow: inset 6px 6px 6px rgba(0, 0, 0, 0.4);
+	border-radius: 8px;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	
+	font-family: 'Open Sans';
+}
+
+.logo{
+	font-family: 'Reem Kufi';
+	font-weight: 700;
+}
+
+body{
+	background-color: rgb(41 37 36 / 1);;
+}
+
+.navSearch::placeholder{
+	color: rgb(81, 80, 80);
+	font-weight: 400;
+}

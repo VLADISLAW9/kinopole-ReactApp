@@ -1,0 +1,31 @@
+import React from 'react'
+import { Link } from 'react-router-dom'
+import { useActions} from '../hooks/actions.hook'
+import { IFilms } from '../models/IFilms'
+
+interface FilmItemProps {
+	film: IFilms
+}
+
+const FilmItem: React.FC<FilmItemProps> = ({ film }) => {
+	const { getFilmId } = useActions()
+
+	const handleFilmId = () => {
+		getFilmId(film.id)
+	}
+
+	return (
+		<Link onClick={handleFilmId} to={`/film/${film.id}`}>
+			<li className='hover:-translate-y-1 transition-all'>
+				<img
+					className='h-80 rounded-md hover:opacity-75 transition-opacity'
+					src={film.image}
+				/>
+				<h1 className='text-white mt-4 font-semibold'>{film.name}</h1>
+				<p className='text-gray-400 mt-2 font-extralight'>{film.data}, Film</p>
+			</li>
+		</Link>
+	)
+}
+
+export default FilmItem
