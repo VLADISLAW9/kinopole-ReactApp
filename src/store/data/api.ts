@@ -1,4 +1,5 @@
 import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/dist/query/react'
+import { IComments } from '../../models/IComments'
 import { IFilms } from '../../models/IFilms'
 
 export const api = createApi({
@@ -22,6 +23,45 @@ export const api = createApi({
 		fetchFilmInfo: build.query<IFilms, number>({
 			query: (fimlId: number) => ({
 				url: `/films/${fimlId}`,
+			}),
+		}),
+		fetchSimilarFilms: build.query<IFilms[], any>({
+			query: (film: any) => ({
+				url: `/films?id_ne=${film?.id}`,
+				params: {
+					q: film?.kind[0],
+					s: film?.kind[1],
+					f: film?.kind[2],
+				},
+			}),
+		}),
+		fetchFilmComments: build.query<IComments[], any>({
+			query: (id: any) => ({
+				url: `/films/${id}/comments`,
+			}),
+		}),
+		fetchFilmCommentsGood: build.query<IComments[], any>({
+			query: (id: any) => ({
+				url: `/films/${id}/comments`,
+			params: {
+				q:'good'
+			}
+			}),
+		}),
+		fetchFilmCommentsBad: build.query<IComments[], any>({
+			query: (id: any) => ({
+				url: `/films/${id}/comments`,
+			params:{
+				q: 'bad'
+			}
+			}),
+		}),
+		fetchFilmCommentsNone: build.query<IComments[], any>({
+			query: (id: any) => ({
+				url: `/films/${id}/comments`,
+				params:{
+					q: 'none'
+				}
 			}),
 		}),
 	}),

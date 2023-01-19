@@ -7,6 +7,100 @@
 			"name": "Spider-Man: Far From Home",
 			"data": "2019",
 			"country": "USA",
+			"pictures": [
+				"https://kinomore.netlify.app/_next/image?url=https%3A%2F%2Fwww.themoviedb.org%2Ft%2Fp%2Foriginal%2F6V3KHX1ajN7KLS20oqys3z2itPm.jpg&w=1920&q=75",
+				"https://kinomore.netlify.app/_next/image?url=https%3A%2F%2Fwww.themoviedb.org%2Ft%2Fp%2Foriginal%2F3o4NzKxeGSSsrrHnwGKrd3qHK0V.jpg&w=1920&q=75",
+				"https://kinomore.netlify.app/_next/image?url=https%3A%2F%2Fwww.themoviedb.org%2Ft%2Fp%2Foriginal%2FhSzmNczQBnYjbd5rhShdfmPwqti.jpg&w=1920&q=75",
+				"https://kinomore.netlify.app/_next/image?url=https%3A%2F%2Fst.kp.yandex.net%2Fimages%2Fkadr%2F3382082.jpg&w=1920&q=75",
+				"https://kinomore.netlify.app/_next/image?url=https%3A%2F%2Fst.kp.yandex.net%2Fimages%2Fkadr%2F3382079.jpg&w=1920&q=75",
+				"https://kinomore.netlify.app/_next/image?url=https%3A%2F%2Fst.kp.yandex.net%2Fimages%2Fkadr%2F3382078.jpg&w=1920&q=75",
+				"https://kinomore.netlify.app/_next/image?url=https%3A%2F%2Fst.kp.yandex.net%2Fimages%2Fkadr%2F3382081.jpg&w=1920&q=75",
+				"https://kinomore.netlify.app/_next/image?url=https%3A%2F%2Fst.kp.yandex.net%2Fimages%2Fkadr%2F3382075.jpg&w=1920&q=75",
+				"https://kinomore.netlify.app/_next/image?url=https%3A%2F%2Fst.kp.yandex.net%2Fimages%2Fkadr%2F3382083.jpg&w=1920&q=75",
+				"https://kinomore.netlify.app/_next/image?url=https%3A%2F%2Fst.kp.yandex.net%2Fimages%2Fkadr%2F3382084.jpg&w=1920&q=75"
+			],
+			"actors": [
+				{
+					"actorId": 1,
+					"image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1600647/9e38e7a7-0dc7-4e04-9a1d-a580ec1b4de4/orig",
+					"name": "Tom Holland",
+					"birthday": "June 1, 1996",
+					"height": "168 cm",
+					"sex": "Male"
+				},
+				{
+					"actorId": 2,
+					"image": "https://st.kp.yandex.net/images/actor_iphone/iphone360_2317683.jpg",
+					"name": "Zendaya",
+					"height": "178 cm",
+					"birthday": "September 1, 1996",
+					"sex": "Female"
+				},
+				{
+					"actorId": 3,
+					"image": "https://avatars.mds.yandex.net/get-kinopoisk-image/6201401/99a484a9-4462-4c8c-bed3-22cda29cd215/orig",
+					"name": "Jacob Batalon",
+					"birthday": "October 9, 1996",
+					"height": "165 cm",
+					"sex": "Male"
+				},
+				{
+					"actorId": 4,
+					"image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/2c4a3629-917c-431e-864e-c6e03b1b8b3a/orig",
+					"name": "Samuel L. Jackson",
+					"birthday": "December 21, 1948",
+					"height": "188 cm",
+					"sex": "Male"
+				},
+				{
+					"actorId": 5,
+					"image": "https://st.kp.yandex.net/images/actor_iphone/iphone360_22692.jpg",
+					"name": "Jake Gyllenhaal",
+					"birthday": "December 19, 1980",
+					"height": "181 cm",
+					"sex": "Male"
+				},
+				{
+					"actorId": 6,
+					"image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/bbb0dc5c-b2f9-4bfd-9512-26f214c39347/orig",
+					"name": "Jon Favreau",
+					"birthday": "October 19, 1966",
+					"height": "185 cm",
+					"sex": "Male"
+				},
+				{
+					"actorId": 7,
+					"image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/e8231946-87f6-450a-8feb-35ff6cc4588a/orig",
+					"name": "J.K. Simmons",
+					"birthday": "June 9, 1955",
+					"height": "180 cm",
+					"sex": "Male"
+				},
+				{
+					"actorId": 8,
+					"image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/c0274c46-d07b-4eaa-a0be-09e20632b91e/orig",
+					"name": "Tony Revolori",
+					"birthday": "April 28, 1996",
+					"height": "168 cm",
+					"sex": "Male"
+				},
+				{
+					"actorId": 9,
+					"image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/9ee0499c-ce39-4f3f-b1be-cee66b21af18/orig",
+					"name": "Cobie Smulders",
+					"birthday": "April 3, 1982",
+					"height": "173 cm",
+					"sex": "Female"
+				},
+				{
+					"actorId": 10,
+					"image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1704946/f7860573-57fb-470a-97e8-975842a22e6e/orig",
+					"name": "Angourie Rice",
+					"birthday": "June 1, 2001",
+					"height": "160 cm",
+					"sex": "Female"
+				}
+			],
 			"kind": ["fantasy", "action", "adventure"],
 			"age": 16,
 			"time": 129,
@@ -18,6 +112,48 @@
 			"background": "https://www.film.ru/sites/default/files/filefield_paths/7_49.jpeg",
 			"image": "https://avatars.mds.yandex.net/get-kinopoisk-image/6201401/57f8f038-f628-44d3-922d-fb28f719ff77/x1000",
 			"name": "Top Gun: Maverick",
+			"actors": [
+				{
+					"actorId": 1,
+					"image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1600647/9e38e7a7-0dc7-4e04-9a1d-a580ec1b4de4/orig",
+					"name": "Tom Holland",
+					"birthday": "June 1, 1996",
+					"height": "168 cm",
+					"sex": "Male"
+				},
+				{
+					"actorId": 2,
+					"image": "https://st.kp.yandex.net/images/actor_iphone/iphone360_2317683.jpg",
+					"name": "Zendaya",
+					"height": "178 cm",
+					"birthday": "September 1, 1996",
+					"sex": "Female"
+				},
+				{
+					"actorId": 3,
+					"image": "https://avatars.mds.yandex.net/get-kinopoisk-image/6201401/99a484a9-4462-4c8c-bed3-22cda29cd215/orig",
+					"name": "Jacob Batalon",
+					"birthday": "October 9, 1996",
+					"height": "165 cm",
+					"sex": "Male"
+				},
+				{
+					"actorId": 4,
+					"image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/2c4a3629-917c-431e-864e-c6e03b1b8b3a/orig",
+					"name": "Samuel L. Jackson",
+					"birthday": "December 21, 1948",
+					"height": "188 cm",
+					"sex": "Male"
+				},
+				{
+					"actorId": 5,
+					"image": "https://st.kp.yandex.net/images/actor_iphone/iphone360_22692.jpg",
+					"name": "Jake Gyllenhaal",
+					"birthday": "December 19, 1980",
+					"height": "181 cm",
+					"sex": "Male"
+				}
+			],
 			"data": "2022",
 			"country": "USA",
 			"kind": ["action", "drama"],
@@ -31,8 +167,92 @@
 			"background": "https://www.lastmovieoutpost.com/wp-content/uploads/2022/03/Uncharted.jpg",
 			"image": "https://st.kp.yandex.net/images/film_big/468373.jpg",
 			"name": "Uncharted",
+			"actors": [
+				{
+					"actorId": 1,
+					"image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1600647/9e38e7a7-0dc7-4e04-9a1d-a580ec1b4de4/orig",
+					"name": "Tom Holland",
+					"birthday": "June 1, 1996",
+					"height": "168 cm",
+					"sex": "Male"
+				},
+				{
+					"actorId": 2,
+					"image": "https://st.kp.yandex.net/images/actor_iphone/iphone360_2317683.jpg",
+					"name": "Zendaya",
+					"height": "178 cm",
+					"birthday": "September 1, 1996",
+					"sex": "Female"
+				},
+				{
+					"actorId": 3,
+					"image": "https://avatars.mds.yandex.net/get-kinopoisk-image/6201401/99a484a9-4462-4c8c-bed3-22cda29cd215/orig",
+					"name": "Jacob Batalon",
+					"birthday": "October 9, 1996",
+					"height": "165 cm",
+					"sex": "Male"
+				},
+				{
+					"actorId": 4,
+					"image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/2c4a3629-917c-431e-864e-c6e03b1b8b3a/orig",
+					"name": "Samuel L. Jackson",
+					"birthday": "December 21, 1948",
+					"height": "188 cm",
+					"sex": "Male"
+				},
+				{
+					"actorId": 5,
+					"image": "https://st.kp.yandex.net/images/actor_iphone/iphone360_22692.jpg",
+					"name": "Jake Gyllenhaal",
+					"birthday": "December 19, 1980",
+					"height": "181 cm",
+					"sex": "Male"
+				}
+			],
 			"data": "2022",
 			"country": "USA",
+			"actors": [
+				{
+					"actorId": 1,
+					"image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1600647/9e38e7a7-0dc7-4e04-9a1d-a580ec1b4de4/orig",
+					"name": "Tom Holland",
+					"birthday": "June 1, 1996",
+					"height": "168 cm",
+					"sex": "Male"
+				},
+				{
+					"actorId": 2,
+					"image": "https://st.kp.yandex.net/images/actor_iphone/iphone360_2317683.jpg",
+					"name": "Zendaya",
+					"height": "178 cm",
+					"birthday": "September 1, 1996",
+					"sex": "Female"
+				},
+				{
+					"actorId": 3,
+					"image": "https://avatars.mds.yandex.net/get-kinopoisk-image/6201401/99a484a9-4462-4c8c-bed3-22cda29cd215/orig",
+					"name": "Jacob Batalon",
+					"birthday": "October 9, 1996",
+					"height": "165 cm",
+					"sex": "Male"
+				},
+				{
+					"actorId": 4,
+					"image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/2c4a3629-917c-431e-864e-c6e03b1b8b3a/orig",
+					"name": "Samuel L. Jackson",
+					"birthday": "December 21, 1948",
+					"height": "188 cm",
+					"sex": "Male"
+				},
+				{
+					"actorId": 5,
+					"image": "https://st.kp.yandex.net/images/actor_iphone/iphone360_22692.jpg",
+					"name": "Jake Gyllenhaal",
+					"birthday": "December 19, 1980",
+					"height": "181 cm",
+					"sex": "Male"
+				}
+			],
 			"kind": ["adventure", "combat"],
 			"age": 16,
 			"time": 115,
@@ -45,6 +265,48 @@
 			"image": "https://avatars.mds.yandex.net/get-kinopoisk-image/6201401/e091e668-b8a3-416d-a6ea-25c1a17b781a/x1000",
 			"name": "The Batman",
 			"data": "2022",
+			"actors": [
+				{
+					"actorId": 1,
+					"image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1600647/9e38e7a7-0dc7-4e04-9a1d-a580ec1b4de4/orig",
+					"name": "Tom Holland",
+					"birthday": "June 1, 1996",
+					"height": "168 cm",
+					"sex": "Male"
+				},
+				{
+					"actorId": 2,
+					"image": "https://st.kp.yandex.net/images/actor_iphone/iphone360_2317683.jpg",
+					"name": "Zendaya",
+					"height": "178 cm",
+					"birthday": "September 1, 1996",
+					"sex": "Female"
+				},
+				{
+					"actorId": 3,
+					"image": "https://avatars.mds.yandex.net/get-kinopoisk-image/6201401/99a484a9-4462-4c8c-bed3-22cda29cd215/orig",
+					"name": "Jacob Batalon",
+					"birthday": "October 9, 1996",
+					"height": "165 cm",
+					"sex": "Male"
+				},
+				{
+					"actorId": 4,
+					"image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/2c4a3629-917c-431e-864e-c6e03b1b8b3a/orig",
+					"name": "Samuel L. Jackson",
+					"birthday": "December 21, 1948",
+					"height": "188 cm",
+					"sex": "Male"
+				},
+				{
+					"actorId": 5,
+					"image": "https://st.kp.yandex.net/images/actor_iphone/iphone360_22692.jpg",
+					"name": "Jake Gyllenhaal",
+					"birthday": "December 19, 1980",
+					"height": "181 cm",
+					"sex": "Male"
+				}
+			],
 			"country": "USA",
 			"kind": ["detective", "crime", "drama", "thriller"],
 			"age": 16,
@@ -58,6 +320,48 @@
 			"image": "https://st.kp.yandex.net/images/film_big/1313198.jpg",
 			"name": "The Northman",
 			"data": "2022",
+			"actors": [
+				{
+					"actorId": 1,
+					"image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1600647/9e38e7a7-0dc7-4e04-9a1d-a580ec1b4de4/orig",
+					"name": "Tom Holland",
+					"birthday": "June 1, 1996",
+					"height": "168 cm",
+					"sex": "Male"
+				},
+				{
+					"actorId": 2,
+					"image": "https://st.kp.yandex.net/images/actor_iphone/iphone360_2317683.jpg",
+					"name": "Zendaya",
+					"height": "178 cm",
+					"birthday": "September 1, 1996",
+					"sex": "Female"
+				},
+				{
+					"actorId": 3,
+					"image": "https://avatars.mds.yandex.net/get-kinopoisk-image/6201401/99a484a9-4462-4c8c-bed3-22cda29cd215/orig",
+					"name": "Jacob Batalon",
+					"birthday": "October 9, 1996",
+					"height": "165 cm",
+					"sex": "Male"
+				},
+				{
+					"actorId": 4,
+					"image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/2c4a3629-917c-431e-864e-c6e03b1b8b3a/orig",
+					"name": "Samuel L. Jackson",
+					"birthday": "December 21, 1948",
+					"height": "188 cm",
+					"sex": "Male"
+				},
+				{
+					"actorId": 5,
+					"image": "https://st.kp.yandex.net/images/actor_iphone/iphone360_22692.jpg",
+					"name": "Jake Gyllenhaal",
+					"birthday": "December 19, 1980",
+					"height": "181 cm",
+					"sex": "Male"
+				}
+			],
 			"country": "USA",
 			"kind": ["action", "drama", "combat"],
 			"age": 16,
@@ -71,6 +375,48 @@
 			"image": "https://st.kp.yandex.net/images/film_big/4324674.jpg",
 			"name": "Prey",
 			"data": "2022",
+			"actors": [
+				{
+					"actorId": 1,
+					"image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1600647/9e38e7a7-0dc7-4e04-9a1d-a580ec1b4de4/orig",
+					"name": "Tom Holland",
+					"birthday": "June 1, 1996",
+					"height": "168 cm",
+					"sex": "Male"
+				},
+				{
+					"actorId": 2,
+					"image": "https://st.kp.yandex.net/images/actor_iphone/iphone360_2317683.jpg",
+					"name": "Zendaya",
+					"height": "178 cm",
+					"birthday": "September 1, 1996",
+					"sex": "Female"
+				},
+				{
+					"actorId": 3,
+					"image": "https://avatars.mds.yandex.net/get-kinopoisk-image/6201401/99a484a9-4462-4c8c-bed3-22cda29cd215/orig",
+					"name": "Jacob Batalon",
+					"birthday": "October 9, 1996",
+					"height": "165 cm",
+					"sex": "Male"
+				},
+				{
+					"actorId": 4,
+					"image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/2c4a3629-917c-431e-864e-c6e03b1b8b3a/orig",
+					"name": "Samuel L. Jackson",
+					"birthday": "December 21, 1948",
+					"height": "188 cm",
+					"sex": "Male"
+				},
+				{
+					"actorId": 5,
+					"image": "https://st.kp.yandex.net/images/actor_iphone/iphone360_22692.jpg",
+					"name": "Jake Gyllenhaal",
+					"birthday": "December 19, 1980",
+					"height": "181 cm",
+					"sex": "Male"
+				}
+			],
 			"country": "USA",
 			"kind": ["horror", "fantasy", "thriller"],
 			"age": 18,
@@ -85,6 +431,48 @@
 			"name": "The Adam Project",
 			"data": "2022",
 			"country": "USA",
+			"actors": [
+				{
+					"actorId": 1,
+					"image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1600647/9e38e7a7-0dc7-4e04-9a1d-a580ec1b4de4/orig",
+					"name": "Tom Holland",
+					"birthday": "June 1, 1996",
+					"height": "168 cm",
+					"sex": "Male"
+				},
+				{
+					"actorId": 2,
+					"image": "https://st.kp.yandex.net/images/actor_iphone/iphone360_2317683.jpg",
+					"name": "Zendaya",
+					"height": "178 cm",
+					"birthday": "September 1, 1996",
+					"sex": "Female"
+				},
+				{
+					"actorId": 3,
+					"image": "https://avatars.mds.yandex.net/get-kinopoisk-image/6201401/99a484a9-4462-4c8c-bed3-22cda29cd215/orig",
+					"name": "Jacob Batalon",
+					"birthday": "October 9, 1996",
+					"height": "165 cm",
+					"sex": "Male"
+				},
+				{
+					"actorId": 4,
+					"image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/2c4a3629-917c-431e-864e-c6e03b1b8b3a/orig",
+					"name": "Samuel L. Jackson",
+					"birthday": "December 21, 1948",
+					"height": "188 cm",
+					"sex": "Male"
+				},
+				{
+					"actorId": 5,
+					"image": "https://st.kp.yandex.net/images/actor_iphone/iphone360_22692.jpg",
+					"name": "Jake Gyllenhaal",
+					"birthday": "December 19, 1980",
+					"height": "181 cm",
+					"sex": "Male"
+				}
+			],
 			"kind": ["action", "combat", "comedy", "adventure"],
 			"age": 16,
 			"time": 106,
@@ -100,6 +488,48 @@
 			"country": "USA",
 			"kind": ["fantasy", "action", "adventure", "science fiction"],
 			"age": 16,
+			"actors": [
+				{
+					"actorId": 1,
+					"image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1600647/9e38e7a7-0dc7-4e04-9a1d-a580ec1b4de4/orig",
+					"name": "Tom Holland",
+					"birthday": "June 1, 1996",
+					"height": "168 cm",
+					"sex": "Male"
+				},
+				{
+					"actorId": 2,
+					"image": "https://st.kp.yandex.net/images/actor_iphone/iphone360_2317683.jpg",
+					"name": "Zendaya",
+					"height": "178 cm",
+					"birthday": "September 1, 1996",
+					"sex": "Female"
+				},
+				{
+					"actorId": 3,
+					"image": "https://avatars.mds.yandex.net/get-kinopoisk-image/6201401/99a484a9-4462-4c8c-bed3-22cda29cd215/orig",
+					"name": "Jacob Batalon",
+					"birthday": "October 9, 1996",
+					"height": "165 cm",
+					"sex": "Male"
+				},
+				{
+					"actorId": 4,
+					"image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/2c4a3629-917c-431e-864e-c6e03b1b8b3a/orig",
+					"name": "Samuel L. Jackson",
+					"birthday": "December 21, 1948",
+					"height": "188 cm",
+					"sex": "Male"
+				},
+				{
+					"actorId": 5,
+					"image": "https://st.kp.yandex.net/images/actor_iphone/iphone360_22692.jpg",
+					"name": "Jake Gyllenhaal",
+					"birthday": "December 19, 1980",
+					"height": "181 cm",
+					"sex": "Male"
+				}
+			],
 			"time": 126,
 			"budget": "440 000 000 $",
 			"title": "Doctor Strange, with the help of Wong, saves a teenage girl named America Chavez from a giant octopus, who, when frightened, can open portals to parallel universes. Trying to save a new acquaintance from an evil force that wants to get her ability, the Doctor, along with America, embarks on a journey through the multiverse."
@@ -111,6 +541,48 @@
 			"name": "The Gray Man",
 			"data": "2022",
 			"country": "USA",
+			"actors": [
+				{
+					"actorId": 1,
+					"image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1600647/9e38e7a7-0dc7-4e04-9a1d-a580ec1b4de4/orig",
+					"name": "Tom Holland",
+					"birthday": "June 1, 1996",
+					"height": "168 cm",
+					"sex": "Male"
+				},
+				{
+					"actorId": 2,
+					"image": "https://st.kp.yandex.net/images/actor_iphone/iphone360_2317683.jpg",
+					"name": "Zendaya",
+					"height": "178 cm",
+					"birthday": "September 1, 1996",
+					"sex": "Female"
+				},
+				{
+					"actorId": 3,
+					"image": "https://avatars.mds.yandex.net/get-kinopoisk-image/6201401/99a484a9-4462-4c8c-bed3-22cda29cd215/orig",
+					"name": "Jacob Batalon",
+					"birthday": "October 9, 1996",
+					"height": "165 cm",
+					"sex": "Male"
+				},
+				{
+					"actorId": 4,
+					"image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/2c4a3629-917c-431e-864e-c6e03b1b8b3a/orig",
+					"name": "Samuel L. Jackson",
+					"birthday": "December 21, 1948",
+					"height": "188 cm",
+					"sex": "Male"
+				},
+				{
+					"actorId": 5,
+					"image": "https://st.kp.yandex.net/images/actor_iphone/iphone360_22692.jpg",
+					"name": "Jake Gyllenhaal",
+					"birthday": "December 19, 1980",
+					"height": "181 cm",
+					"sex": "Male"
+				}
+			],
 			"kind": ["action", "thriller"],
 			"age": 16,
 			"time": 120,
@@ -123,6 +595,48 @@
 			"image": "https://st.kp.yandex.net/images/film_big/1392550.jpg",
 			"name": "Bullet Train",
 			"data": "2022",
+			"actors": [
+				{
+					"actorId": 1,
+					"image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1600647/9e38e7a7-0dc7-4e04-9a1d-a580ec1b4de4/orig",
+					"name": "Tom Holland",
+					"birthday": "June 1, 1996",
+					"height": "168 cm",
+					"sex": "Male"
+				},
+				{
+					"actorId": 2,
+					"image": "https://st.kp.yandex.net/images/actor_iphone/iphone360_2317683.jpg",
+					"name": "Zendaya",
+					"height": "178 cm",
+					"birthday": "September 1, 1996",
+					"sex": "Female"
+				},
+				{
+					"actorId": 3,
+					"image": "https://avatars.mds.yandex.net/get-kinopoisk-image/6201401/99a484a9-4462-4c8c-bed3-22cda29cd215/orig",
+					"name": "Jacob Batalon",
+					"birthday": "October 9, 1996",
+					"height": "165 cm",
+					"sex": "Male"
+				},
+				{
+					"actorId": 4,
+					"image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/2c4a3629-917c-431e-864e-c6e03b1b8b3a/orig",
+					"name": "Samuel L. Jackson",
+					"birthday": "December 21, 1948",
+					"height": "188 cm",
+					"sex": "Male"
+				},
+				{
+					"actorId": 5,
+					"image": "https://st.kp.yandex.net/images/actor_iphone/iphone360_22692.jpg",
+					"name": "Jake Gyllenhaal",
+					"birthday": "December 19, 1980",
+					"height": "181 cm",
+					"sex": "Male"
+				}
+			],
 			"country": "USA",
 			"kind": ["action", "comedy"],
 			"age": 16,
@@ -135,6 +649,48 @@
 			"background": "https://www.film.ru/sites/default/files/filefield_paths/7_49.jpeg",
 			"image": "https://avatars.mds.yandex.net/get-kinopoisk-image/6201401/57f8f038-f628-44d3-922d-fb28f719ff77/x1000",
 			"name": "Top Gun: Maverick",
+			"actors": [
+				{
+					"actorId": 1,
+					"image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1600647/9e38e7a7-0dc7-4e04-9a1d-a580ec1b4de4/orig",
+					"name": "Tom Holland",
+					"birthday": "June 1, 1996",
+					"height": "168 cm",
+					"sex": "Male"
+				},
+				{
+					"actorId": 2,
+					"image": "https://st.kp.yandex.net/images/actor_iphone/iphone360_2317683.jpg",
+					"name": "Zendaya",
+					"height": "178 cm",
+					"birthday": "September 1, 1996",
+					"sex": "Female"
+				},
+				{
+					"actorId": 3,
+					"image": "https://avatars.mds.yandex.net/get-kinopoisk-image/6201401/99a484a9-4462-4c8c-bed3-22cda29cd215/orig",
+					"name": "Jacob Batalon",
+					"birthday": "October 9, 1996",
+					"height": "165 cm",
+					"sex": "Male"
+				},
+				{
+					"actorId": 4,
+					"image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/2c4a3629-917c-431e-864e-c6e03b1b8b3a/orig",
+					"name": "Samuel L. Jackson",
+					"birthday": "December 21, 1948",
+					"height": "188 cm",
+					"sex": "Male"
+				},
+				{
+					"actorId": 5,
+					"image": "https://st.kp.yandex.net/images/actor_iphone/iphone360_22692.jpg",
+					"name": "Jake Gyllenhaal",
+					"birthday": "December 19, 1980",
+					"height": "181 cm",
+					"sex": "Male"
+				}
+			],
 			"data": "2022",
 			"country": "USA",
 			"kind": ["action", "drama"],
@@ -148,6 +704,48 @@
 			"background": "https://www.film.ru/sites/default/files/filefield_paths/7_49.jpeg",
 			"image": "https://avatars.mds.yandex.net/get-kinopoisk-image/6201401/57f8f038-f628-44d3-922d-fb28f719ff77/x1000",
 			"name": "Top Gun: Maverick",
+			"actors": [
+				{
+					"actorId": 1,
+					"image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1600647/9e38e7a7-0dc7-4e04-9a1d-a580ec1b4de4/orig",
+					"name": "Tom Holland",
+					"birthday": "June 1, 1996",
+					"height": "168 cm",
+					"sex": "Male"
+				},
+				{
+					"actorId": 2,
+					"image": "https://st.kp.yandex.net/images/actor_iphone/iphone360_2317683.jpg",
+					"name": "Zendaya",
+					"height": "178 cm",
+					"birthday": "September 1, 1996",
+					"sex": "Female"
+				},
+				{
+					"actorId": 3,
+					"image": "https://avatars.mds.yandex.net/get-kinopoisk-image/6201401/99a484a9-4462-4c8c-bed3-22cda29cd215/orig",
+					"name": "Jacob Batalon",
+					"birthday": "October 9, 1996",
+					"height": "165 cm",
+					"sex": "Male"
+				},
+				{
+					"actorId": 4,
+					"image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/2c4a3629-917c-431e-864e-c6e03b1b8b3a/orig",
+					"name": "Samuel L. Jackson",
+					"birthday": "December 21, 1948",
+					"height": "188 cm",
+					"sex": "Male"
+				},
+				{
+					"actorId": 5,
+					"image": "https://st.kp.yandex.net/images/actor_iphone/iphone360_22692.jpg",
+					"name": "Jake Gyllenhaal",
+					"birthday": "December 19, 1980",
+					"height": "181 cm",
+					"sex": "Male"
+				}
+			],
 			"data": "2022",
 			"country": "USA",
 			"kind": ["action", "drama"],
@@ -155,6 +753,39 @@
 			"time": 130,
 			"budget": "140 000 000 $",
 			"title": "Pete Mitchell, nicknamed Maverick, has been one of the Navy's best pilots for more than 30 years: a fearless test pilot who pushes the boundaries of what is possible and studiously avoids a promotion that would land him forever. While training the Top Gun Alumni for a special mission, Maverick meets Lieutenant Bradley Bradshaw, the son of his late friend, Lieutenant Nick Bradshaw. Ahead - uncertainty, behind - the ghosts of the past. Maverick is forced to confront his deep-seated fears, which threaten to come to life as part of a mission that requires exceptional dedication from those who will be assigned to take off."
+		}
+	],
+	"comments":[
+		{
+			"id": 1,
+			"filmId": 1,
+			"mark": "good",
+			"name": "“People cannot live without faith. And the current ones are ready to believe in anything.”",
+			"body": "2017 has been an experimental year for Marvel's most commercially successful comic book adaptation studio. Firstly, the long-awaited project about one of the most popular superheroes of the Marvel Universe, Spider-Man, was launched. Secondly, director Taika Waititi breathed new life into the Thor series, which turned out to be not the most attractive from the point of view of audience interest, after which not only the series itself received permission to shoot a new fourth part, which was not part of the Marvel rules, because the studio adhered to range of three films",
+			"data": "November 24, 2020"
+		},
+		{
+			"id": 2,
+			"filmId": 1,
+			"mark":"good",
+			"name": "“People cannot live without faith. And the current ones are ready to believe in anything.”",
+			"body": "2017 has been an experimental year for Marvel's most commercially successful comic book adaptation studio. Firstly, the long-awaited project about one of the most popular superheroes of the Marvel Universe, Spider-Man, was launched. Secondly, director Taika Waititi breathed new life into the Thor series, which turned out to be not the most attractive from the point of view of audience interest, after which not only the series itself received permission to shoot a new fourth part, which was not part of the Marvel rules, because the studio adhered to range of three films",
+			"data": "November 24, 2020"
+		},
+		{
+			"id": 3,
+			"filmId": 1,
+			"mark": "none",
+			"name": "“People cannot live without faith. And the current ones are ready to believe in anything.”",
+			"body": "2017 has been an experimental year for Marvel's most commercially successful comic book adaptation studio. Firstly, the long-awaited project about one of the most popular superheroes of the Marvel Universe, Spider-Man, was launched. Secondly, director Taika Waititi breathed new life into the Thor series, which turned out to be not the most attractive from the point of view of audience interest, after which not only the series itself received permission to shoot a new fourth part, which was not part of the Marvel rules, because the studio adhered to range of three films",
+			"data": "November 24, 2020"
+		},{
+			"id": 4,
+			"filmId": 1,
+			"mark": "bad",
+			"name": "“People cannot live without faith. And the current ones are ready to believe in anything.”",
+			"body": "2017 has been an experimental year for Marvel's most commercially successful comic book adaptation studio. Firstly, the long-awaited project about one of the most popular superheroes of the Marvel Universe, Spider-Man, was launched. Secondly, director Taika Waititi breathed new life into the Thor series, which turned out to be not the most attractive from the point of view of audience interest, after which not only the series itself received permission to shoot a new fourth part, which was not part of the Marvel rules, because the studio adhered to range of three films",
+			"data": "November 24, 2020"
 		}
 	]
 }
