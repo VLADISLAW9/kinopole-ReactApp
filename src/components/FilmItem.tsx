@@ -18,7 +18,6 @@ const FilmItem: React.FC<FilmItemProps> = ({ film }) => {
 	return (
 		<Link
 			onClick={handleFilmId}
-			preventScrollReset={false}
 			to={`/film/${film.id}`}
 		>
 			<li className='hover:-translate-y-1 transition-all'>

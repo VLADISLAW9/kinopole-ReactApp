@@ -8,6 +8,12 @@ export const api = createApi({
 	tagTypes: ['api'],
 	refetchOnFocus: true,
 	endpoints: build => ({
+		fetchAllFilms: build.query<IFilms[], string>({
+			query: () => ({
+				url: '/films',
+			}),
+			providesTags: result => ['api'],
+		}),
 		fetchCarouselFilms: build.query<IFilms[], string>({
 			query: () => ({
 				url: '/films?_limit=3',
@@ -17,12 +23,15 @@ export const api = createApi({
 		fetchNewFilms: build.query<IFilms[], string>({
 			query: () => ({
 				url: '/films?_limit=10',
+				params: {
+					q: 2022,
+				},
 			}),
 			providesTags: result => ['api'],
 		}),
 		fetchFilmInfo: build.query<IFilms, number>({
-			query: (fimlId: number) => ({
-				url: `/films/${fimlId}`,
+			query: (filmId: number) => ({
+				url: `/films/${filmId}`,
 			}),
 		}),
 		fetchSimilarFilms: build.query<IFilms[], any>({
@@ -43,25 +52,33 @@ export const api = createApi({
 		fetchFilmCommentsGood: build.query<IComments[], any>({
 			query: (id: any) => ({
 				url: `/films/${id}/comments`,
-			params: {
-				q:'good'
-			}
+				params: {
+					q: 'good',
+				},
 			}),
 		}),
 		fetchFilmCommentsBad: build.query<IComments[], any>({
 			query: (id: any) => ({
 				url: `/films/${id}/comments`,
-			params:{
-				q: 'bad'
-			}
+				params: {
+					q: 'bad',
+				},
 			}),
 		}),
 		fetchFilmCommentsNone: build.query<IComments[], any>({
 			query: (id: any) => ({
 				url: `/films/${id}/comments`,
-				params:{
-					q: 'none'
-				}
+				params: {
+					q: 'none',
+				},
+			}),
+		}),
+		searchFilms: build.query<IFilms[], string>({
+			query: (film: string) => ({
+				url: '/films',
+				params: {
+					q: film,
+				},
 			}),
 		}),
 	}),

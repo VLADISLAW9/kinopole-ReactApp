@@ -17,32 +17,38 @@
 	border-radius: 8px;
 }
 
-*{
+* {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
 }
 
-body{
-	
+.App {
+}
+
+.footer {
+}
+
+body {
 	font-family: 'Open Sans';
 }
 
-.logo{
+.logo {
 	font-family: 'Reem Kufi';
 	font-weight: 700;
 }
 
-body{
-	background-color: rgb(41 37 36 / 1);;
+body {
+	background-color: rgb(41 37 36 / 1);
 }
 
-.navSearch::placeholder{
+.navSearch::placeholder {
 	color: rgb(81, 80, 80);
 	font-weight: 400;
 }
 
-.slick-prev:before, .slick-next:before{	
+.slick-prev:before,
+.slick-next:before {
 	color: rgb(185 28 28 / 1);
 	font-size: 40px;
 }

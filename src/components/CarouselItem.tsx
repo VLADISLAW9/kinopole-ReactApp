@@ -20,7 +20,7 @@ const CarouselItem: React.FC<FilmItemProps> = ({ film }) => {
 			<div className='filter-none w-1/3'>
 				<h1 className='text-5xl font-bold text-white'>{film.name}</h1>
 				<p className='font-normal text-white mt-5'>{film.title}</p>
-				<button className='mt-7 px-7 py-3 bg-red-700 rounded-2xl text-white text-lg font-semibold flex items-center'>
+				<button className='hover:opacity-75 transition-opacity mt-7 px-7 py-3 bg-red-700 rounded-2xl text-white text-lg font-semibold flex items-center'>
 					More
 					<AiOutlineArrowRight className='ml-5 translate-y-px' />
 				</button>
