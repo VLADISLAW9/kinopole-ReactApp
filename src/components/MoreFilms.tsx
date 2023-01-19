@@ -52,7 +52,7 @@ const MoreFilms: React.FC<FilmInfoProps> = ({ filmInfo }) => {
 			>
 				{films?.map(film => (
 					<Link
-						onClick={() => getFilmId(film.id)}
+						onClick={() => (getFilmId(film.id), window.scrollTo(0, 0))}
 						className='hover:-translate-y-1 cursor-pointer transition-transform flex justify-center  flex-shrink-0 w-1/6 mr-5'
 						to=''
 					>

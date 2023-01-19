@@ -13,7 +13,6 @@ const FilmPage = () => {
 	const [value, setValue] = useState<string | number>('Description')
 	const { filmId } = useAppSelector(state => state.getFilmId)
 	const { data: filmInfo } = api.useFetchFilmInfoQuery(filmId)
-
 	const addFav = () => {
 		setFav(true)
 	}
@@ -37,7 +36,7 @@ const FilmPage = () => {
 	
 
 	return (
-		<div className='px-20 mt-10'>
+		<div  className='px-20 mt-10'>
 			<div className='flex mt-14'>
 				<img className='w-1/4 h-1/4 rounded-md' src={filmInfo?.image} />
 				<div className='ml-28'>

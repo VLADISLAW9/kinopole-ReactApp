@@ -26,15 +26,36 @@ const Comments: React.FC<FilmInfoProps> = ({ filmInfo }) => {
 							}, ${com.mark === 'bad' && 'border-4 border-red-600  '},
 						${
 							com.mark === 'none' && 'border-4 border-stone-600 '
-						} px-10 bg-stone-800  py-10 mb-5 rounded-xl`}
+						} px-10 bg-stone-800  py-10 mb-10 rounded-xl`}
 						>
-							<h1 className='text-white font-semibold text-xl font-semibold mb-3'>
+							<h1
+								className={` 
+									${com.mark === 'good' && ' text-emerald-500'} 
+									${com.mark === 'bad' && 'text-red-600'}
+									${com.mark === 'none' && 'text-stone-600 '} 
+									font-semibold text-lg mb-5 
+								`}
+							>
 								{com.name}
 							</h1>
-							<p className='text-white font-light mb-6 border-b-2 pb-3 border-white'>
+							<p
+								className={`
+									${com.mark === 'good' && ' text-emerald-500 border-emerald-500'} 
+									${com.mark === 'bad' && 'text-red-600 border-red-500'}
+									${com.mark === 'none' && 'text-stone-500 border-stone-600'}
+									text-white font-light mb-6 border-b-2 pb-3`}
+							>
 								{com.body}
 							</p>
-							<p className='text-white font-extralight'>{com.data}</p>
+							<p
+								className={`
+									${com.mark === 'good' && ' text-emerald-500 '} 
+									${com.mark === 'bad' && 'text-red-600 '}
+									${com.mark === 'none' && 'text-stone-500 '}
+									font-extralight text-sm`}
+							>
+								{com.data}
+							</p>
 						</li>
 					))}
 				</ul>
@@ -57,7 +78,7 @@ const Comments: React.FC<FilmInfoProps> = ({ filmInfo }) => {
 						</h1>
 						<p className='text-stone-300 text-sm font-extralight '>Negative</p>
 					</div>
-					<div className='mb-2'>
+					<div >
 						<h1 className='text-stone-500 text-3xl font-semibold'>
 							{commentsNone?.length}
 						</h1>

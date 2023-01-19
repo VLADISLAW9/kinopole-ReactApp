@@ -11,11 +11,16 @@ const FilmItem: React.FC<FilmItemProps> = ({ film }) => {
 	const { getFilmId } = useActions()
 
 	const handleFilmId = () => {
-		getFilmId(film.id)
+		getFilmId(film.id) 
+		window.scrollTo(0, 0)
 	}
 
 	return (
-		<Link onClick={handleFilmId} to={`/film/${film.id}`}>
+		<Link
+			onClick={handleFilmId}
+			preventScrollReset={false}
+			to={`/film/${film.id}`}
+		>
 			<li className='hover:-translate-y-1 transition-all'>
 				<img
 					className='h-80 rounded-md hover:opacity-75 transition-opacity'
