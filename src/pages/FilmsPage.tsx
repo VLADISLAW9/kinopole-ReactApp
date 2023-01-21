@@ -1,4 +1,5 @@
 import React from 'react'
+import FilmsFilter from '../components/FilmsFilter'
 import { api } from '../store/data/api'
 
 const FilmsPage = () => {
@@ -11,21 +12,7 @@ const FilmsPage = () => {
 				Selection of films from all over the world
 			</p>
 			<div className='flex justify-between mt-10'>
-				<div className='w-[80%] mr-10'>
-					<h1 className='px-2 py-1 border-2 text-stone-400 border-stone-600 rounded-md text-center font-bold'>
-						<span className='font-medium text-stone-400'>Raiting:</span> 1 - 10
-					</h1>
-					<h1 className='px-2 py-1 border-2 text-stone-400 border-stone-600 rounded-md text-center mt-2 font-bold'>
-						<span className='font-medium'>Years of production:</span> 1960 -
-						2023
-					</h1>
-					<h1 className='px-2 py-1 border-2 text-stone-400 border-stone-600 rounded-md text-center  mt-2 font-bold'>
-						<span className='font-medium'>Genre:</span> All genres
-					</h1>
-					<h1 className='px-2 py-1 border-2 text-stone-400 border-stone-600 rounded-md text-center  mt-2 font-bold'>
-						<span className='font-medium'>Release year:</span> New first
-					</h1>
-				</div>
+				<FilmsFilter/>
 				<div>
 					<ul className='flex flex-col '>
 						{films?.map(film => (

@@ -26,11 +26,11 @@ const NavSearch = () => {
 		<div className='z-10 relative w-3/5'>
 			<input
 				placeholder="I'm searching for..."
-				className={`
-				${films?.length! > 0 && 'rounded-b-none  '} 
-				relative	navSearch px-5 py-3 bg-stone-800 text-white w-4/5 rounded-t-3xl
-				 rounded-b-3xl outline-none
-				`}
+				className={
+					films?.length! > 0
+						? 'relative	navSearch px-5 py-3 bg-stone-800 text-white w-4/5 rounded-t-3xl rounded-b-none outline-none '
+						: 'relative	navSearch px-5 py-3 bg-stone-800 text-white w-4/5 rounded-t-3xl rounded-b-3xl outline-none'
+				}
 				type='text'
 				value={search}
 				onChange={e => setSearch(e.target.value)}

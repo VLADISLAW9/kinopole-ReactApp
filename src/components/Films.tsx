@@ -17,7 +17,7 @@ const Films = () => {
 				</Link>
 			</div>
 
-			<ul className='grid grid-cols-5 gap-8 mt-10 list-none'>
+			<ul className='films-grid grid grid-cols-5 gap-8 mt-10 list-none'>
 				{films?.map(film => (
 					<FilmItem key={film.id} film={film} />
 				))}
