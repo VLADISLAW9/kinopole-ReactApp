@@ -23,12 +23,6 @@
 	box-sizing: border-box;
 }
 
-.App {
-}
-
-.footer {
-}
-
 body {
 	font-family: 'Open Sans';
 }
@@ -52,3 +46,52 @@ body {
 	color: rgb(185 28 28 / 1);
 	font-size: 40px;
 }
+
+/* filter range */
+
+:where(.css-dev-only-do-not-override-1i9hnpv).ant-slider .ant-slider-track {
+	background-color: #B91C1C;
+}
+
+:where(.css-dev-only-do-not-override-1i9hnpv).ant-slider:hover .ant-slider-track:hover {
+	background-color: #B91C1C;
+}
+
+:where(.css-dev-only-do-not-override-1i9hnpv).ant-slider:active .ant-slider-track:active {
+	background-color: #B91C1C;
+}
+
+:where(.css-dev-only-do-not-override-1i9hnpv).ant-slider
+	.ant-slider-handle::after {
+	box-shadow: 0 0 0 2px #B91C1C;
+	background-color: #B91C1C;
+}
+
+:where(.css-dev-only-do-not-override-1i9hnpv).ant-slider:active 
+	.ant-slider-handle::after {
+	box-shadow: 0 0 0 2px #B91C1C;
+	background-color: #B91C1C;
+}
+
+:where(.css-dev-only-do-not-override-1i9hnpv).ant-slider:hover
+	.ant-slider-handle::after {
+	box-shadow: 0 0 0 2px #B91C1C;
+	background-color: #B91C1C;
+}
+
+:where(.css-dev-only-do-not-override-1i9hnpv).ant-slider:hover .ant-slider-track {
+	background-color: #B91C1C;
+}
+
+:where(.css-dev-only-do-not-override-1i9hnpv).ant-slider:hover .ant-slider-rail {
+	background-color: rgb(68 64 60 / 1);
+}
+
+:where(.css-dev-only-do-not-override-1i9hnpv).ant-slider .ant-slider-rail {
+	background-color: rgb(68 64 60 / 1);
+}
+
+:where(.css-dev-only-do-not-override-1i9hnpv).ant-slider .ant-slider-handle:focus::after{
+	box-shadow: none;
+}
+
