@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import { MdKeyboardArrowRight } from 'react-icons/md'
 import Genre from './Genre'
 import RaitingRange from './RaitingRange'
+import Sorted from './Sorted'
 import YearsRange from './YearsRange'
 
 const FilmsFilter = () => {
@@ -32,7 +33,7 @@ const FilmsFilter = () => {
 			</h1>
 			<ul className='flex flex-col mt-7'>
 				<li className='mb-4 flex flex-col py-3'>
-					<div className='flex items-center mb-5'>
+					<div className='flex justify-between items-center mb-5'>
 						<h1 className='block flex-initial w-48 text-xl font-bold text-stone-400'>
 							Raiting
 						</h1>
@@ -48,8 +49,8 @@ const FilmsFilter = () => {
 					{onRaiting && <RaitingRange />}
 				</li>
 				<li className='mb-4 flex flex-col py-3'>
-					<div className='flex items-center mb-5'>
-						<h1 className='block flex-initial w-48 text-xl font-bold text-stone-400'>
+					<div className='flex justify-between items-center mb-5'>
+						<h1 className='block justify-between flex-initial w-48 text-xl font-bold text-stone-400'>
 							Years
 						</h1>
 						<MdKeyboardArrowRight
@@ -64,7 +65,7 @@ const FilmsFilter = () => {
 					{onYears && <YearsRange />}
 				</li>
 				<li className='mb-4 flex flex-col py-3'>
-					<div className='flex items-center mb-5'>
+					<div className='flex justify-between items-center mb-5'>
 						<h1 className='block flex-initial w-48 text-xl font-bold text-stone-400'>
 							Genre
 						</h1>
@@ -80,9 +81,9 @@ const FilmsFilter = () => {
 					{onRaiting && <Genre />}
 				</li>
 				<li className='mb-4 flex flex-col py-3'>
-					<div className='flex items-center mb-5'>
+					<div className='flex justify-between items-center mb-5'>
 						<h1 className='block flex-initial w-48 text-xl font-bold text-stone-400'>
-							Genre
+							Sorted
 						</h1>
 						<MdKeyboardArrowRight
 							onClick={handleRaiting}
@@ -93,7 +94,7 @@ const FilmsFilter = () => {
 							}
 						/>
 					</div>
-					{/* {onRaiting && <Genre/>} */}
+					{onRaiting && <Sorted/>}
 				</li>
 			</ul>
 		</div>

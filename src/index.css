@@ -50,40 +50,44 @@ body {
 /* filter range */
 
 :where(.css-dev-only-do-not-override-1i9hnpv).ant-slider .ant-slider-track {
-	background-color: #B91C1C;
+	background-color: #b91c1c;
 }
 
-:where(.css-dev-only-do-not-override-1i9hnpv).ant-slider:hover .ant-slider-track:hover {
-	background-color: #B91C1C;
+:where(.css-dev-only-do-not-override-1i9hnpv).ant-slider:hover
+	.ant-slider-track:hover {
+	background-color: #b91c1c;
 }
 
-:where(.css-dev-only-do-not-override-1i9hnpv).ant-slider:active .ant-slider-track:active {
-	background-color: #B91C1C;
+:where(.css-dev-only-do-not-override-1i9hnpv).ant-slider:active
+	.ant-slider-track:active {
+	background-color: #b91c1c;
 }
 
 :where(.css-dev-only-do-not-override-1i9hnpv).ant-slider
 	.ant-slider-handle::after {
-	box-shadow: 0 0 0 2px #B91C1C;
-	background-color: #B91C1C;
+	box-shadow: 0 0 0 2px #b91c1c;
+	background-color: #b91c1c;
 }
 
-:where(.css-dev-only-do-not-override-1i9hnpv).ant-slider:active 
+:where(.css-dev-only-do-not-override-1i9hnpv).ant-slider:active
 	.ant-slider-handle::after {
-	box-shadow: 0 0 0 2px #B91C1C;
-	background-color: #B91C1C;
+	box-shadow: 0 0 0 2px #b91c1c;
+	background-color: #b91c1c;
 }
 
 :where(.css-dev-only-do-not-override-1i9hnpv).ant-slider:hover
 	.ant-slider-handle::after {
-	box-shadow: 0 0 0 2px #B91C1C;
-	background-color: #B91C1C;
+	box-shadow: 0 0 0 2px #b91c1c;
+	background-color: #b91c1c;
 }
 
-:where(.css-dev-only-do-not-override-1i9hnpv).ant-slider:hover .ant-slider-track {
-	background-color: #B91C1C;
+:where(.css-dev-only-do-not-override-1i9hnpv).ant-slider:hover
+	.ant-slider-track {
+	background-color: #b91c1c;
 }
 
-:where(.css-dev-only-do-not-override-1i9hnpv).ant-slider:hover .ant-slider-rail {
+:where(.css-dev-only-do-not-override-1i9hnpv).ant-slider:hover
+	.ant-slider-rail {
 	background-color: rgb(68 64 60 / 1);
 }
 
@@ -91,7 +95,15 @@ body {
 	background-color: rgb(68 64 60 / 1);
 }
 
-:where(.css-dev-only-do-not-override-1i9hnpv).ant-slider .ant-slider-handle:focus::after{
+:where(.css-dev-only-do-not-override-1i9hnpv).ant-slider
+	.ant-slider-handle:focus::after {
 	box-shadow: none;
 }
 
+.css-v4u5dn-MuiInputBase-root-MuiInput-root:before {
+ border-bottom: 1px solid rgb(168, 162, 158) !important;
+}
+
+.css-10bey84-MuiSvgIcon-root-MuiNativeSelect-icon{
+	color: rgb(168, 162, 158) !important;
+}

@@ -70,7 +70,7 @@ const FilmPage = () => {
 					<h1 className='mt-10 text-white font-bold text-xl'>About the film</h1>
 					<ul className='mt-7'>
 						<li className='mt-4 flex'>
-							<span className='block flex-initial w-36  text-gray-400'>
+							<span className='block   w-36  text-gray-400'>
 								Country
 							</span>
 							<span className='relative text-white '>{filmInfo?.country}</span>
