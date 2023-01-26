@@ -94,9 +94,15 @@ const FilmsFilter = () => {
 							}
 						/>
 					</div>
-					{onRaiting && <Sorted/>}
+					{onRaiting && <Sorted />}
 				</li>
 			</ul>
+			<button className='mt-5 px-6 py-3 bg-red-800 text-white rounded-3xl text-xl hover:opacity-75 transition-opacity'>
+				Send
+			</button>
+			<button className='ml-7 mt-10 px-6 py-3 bg-stone-700 text-white rounded-3xl text-xl hover:opacity-75 transition-opacity'>
+				Clear
+			</button>
 		</div>
 	)
 }

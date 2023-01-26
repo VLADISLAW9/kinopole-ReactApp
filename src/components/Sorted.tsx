@@ -1,7 +1,4 @@
-import { FormControl, InputLabel, NativeSelect } from '@mui/material'
-import { styled } from '@mui/system'
 import React from 'react'
-import InputBase from '@mui/material/InputBase'
 
 const Sorted = () => {
 	const [sort, setSort] = React.useState('')
@@ -10,28 +7,14 @@ const Sorted = () => {
 	}
 
 	return (
-		<FormControl sx={{ m: 1 }} variant='standard'>
-			<InputLabel
-				sx={{ color: 'rgb(168 162 158 / 1)'}}
-				htmlFor='demo-customized-select-native'
-			>
-				Selected
-			</InputLabel>
-			<NativeSelect
-				className='text-stone-400'
-				id='demo-customized-select-native'
-				value={sort}
-				onChange={handleChange}
-			>
-				<option aria-label='None' value='' />
-				<option className='text-stone-500' value={'New'}>
-					New First
-				</option>
-				<option className='text-stone-500' value={'Old'}>
-					Old First
-				</option>
-			</NativeSelect>
-		</FormControl>
+		<select
+			className='px-4 py-4 mt-5 rounded-3xl text-xl bg-stone-800 text-stone-400 border border-stone-400'
+			onChange={handleChange}
+		>
+			<option disabled value={''}>Selected</option>
+			<option value={'new'}>New First</option>
+			<option value={'old'}>Old First</option>
+		</select>
 	)
 }
 
