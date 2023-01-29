@@ -1,24 +1,33 @@
 import React, { useState } from 'react'
 import Box from '@mui/material/Box'
 import { Slider } from 'antd'
+import { useAppSelector } from '../hooks/redux.hook'
+import { useActions } from '../hooks/actions.hook'
 
 export default function RaitingRange() {
-	const [inputValue, setInputValue] = useState<any>([6,10])
+	const [inputValue, setInputValue] = useState<any>([0, 10])
+	const { raiting } = useAppSelector(state => state.filter)
+	const { addRaiting } = useActions()
+
+	// console.log(raiting)
 
 	const onChange = (e: any) => {
 		// console.log(e)
 		setInputValue(e)
+		addRaiting(e)
 	}
 
 	const onAfterChange = (e: any) => {
 		// console.log(e)
 		setInputValue(e)
+		addRaiting(e)
 	}
 
 	const onChangeInput = (e: any) => {
 		let copy = Object.assign([], inputValue)
 		copy[0] = Number(e.target.value)
 		setInputValue(copy)
+		addRaiting(copy)
 		// console.log(inputValue)
 	}
 
@@ -26,6 +35,7 @@ export default function RaitingRange() {
 		let copy = Object.assign([], inputValue)
 		copy[1] = Number(e.target.value)
 		setInputValue(copy)
+		addRaiting(copy)
 		// console.log(inputValue)
 	}
 

@@ -1,11 +1,11 @@
-import { useDispatch } from "react-redux";
-import { bindActionCreators } from "redux";
-import { genreActions } from "../store/slices/genre.slice";
-import { filmIdAction } from "../store/slices/getFilmId.slice";
+import { useDispatch } from 'react-redux'
+import { bindActionCreators } from 'redux'
+import { filterActions } from '../store/slices/filter.slice'
+import { filmIdAction } from '../store/slices/getFilmId.slice'
 
 const actions = {
 	...filmIdAction,
-	...genreActions,
+	...filterActions,
 }
 
 export const useActions = () => {

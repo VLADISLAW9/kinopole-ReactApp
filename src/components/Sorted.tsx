@@ -1,20 +1,54 @@
 import React from 'react'
+import { useActions } from '../hooks/actions.hook'
+import { useAppSelector } from '../hooks/redux.hook'
+import { pink } from '@mui/material/colors'
+import Radio from '@mui/material/Radio'
 
 const Sorted = () => {
-	const [sort, setSort] = React.useState('')
-	const handleChange = (event: any) => {
-		setSort(event.target.value)
+	// const [sort, setSort] = React.useState('')
+	const { sorted } = useAppSelector(state => state.filter)
+	const { addSorted } = useActions()
+
+	const [selectedValue, setSelectedValue] = React.useState('new')
+
+	const handleChange = (event: React.ChangeEvent<HTMLInputElement>) => {
+		setSelectedValue(event.target.value)
+		addSorted(event.target.value)
 	}
 
+	const controlProps = (item: string) => ({
+		checked: selectedValue === item,
+		onChange: handleChange,
+		value: item,
+		name: 'color-radio-button-demo',
+		inputProps: { 'aria-label': item },
+	})
+
 	return (
-		<select
-			className='px-4 py-4 mt-5 rounded-3xl text-xl bg-stone-800 text-stone-400 border border-stone-400'
-			onChange={handleChange}
-		>
-			<option disabled value={''}>Selected</option>
-			<option value={'new'}>New First</option>
-			<option value={'old'}>Old First</option>
-		</select>
+		<ul className='flex flex-col'>
+			<li className='flex items-center'>
+				<Radio
+					{...controlProps('new')}
+					sx={{
+						color: '#B91C1C',
+						'&.Mui-checked': {
+							color: '#B91C1C',
+						},
+					}}
+				/><span className='text-stone-400 font-medium text-lg'>New first</span>
+			</li>
+			<li className='flex items-center'>
+				<Radio
+					{...controlProps('old')}
+					sx={{
+						color: '#B91C1C',
+						'&.Mui-checked': {
+							color: '#B91C1C',
+						},
+					}}
+				/><span className='text-stone-400 font-medium text-lg'>Old first</span>
+			</li>
+		</ul>
 	)
 }
 

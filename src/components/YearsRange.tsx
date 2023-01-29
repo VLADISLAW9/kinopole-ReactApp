@@ -1,24 +1,33 @@
 import React, { useState } from 'react'
 import Box from '@mui/material/Box'
 import { Slider } from 'antd'
+import { useAppSelector } from '../hooks/redux.hook'
+import { useActions } from '../hooks/actions.hook'
 
 export default function YearsRange() {
+	const { years } = useAppSelector(state => state.filter)
+	const { addYears } = useActions()
 	const [inputValue, setInputValue] = useState<any>([1960, 2023])
+
+	console.log(years)
 
 	const onChange = (e: any) => {
 		// console.log(e)
 		setInputValue(e)
+		addYears(e)
 	}
 
 	const onAfterChange = (e: any) => {
 		// console.log(e)
 		setInputValue(e)
+		addYears(e)
 	}
 
 	const onChangeInput = (e: any) => {
 		let copy = Object.assign([], inputValue)
 		copy[0] = Number(e.target.value)
 		setInputValue(copy)
+		addYears(copy)
 		// console.log(inputValue)
 	}
 
@@ -26,6 +35,7 @@ export default function YearsRange() {
 		let copy = Object.assign([], inputValue)
 		copy[1] = Number(e.target.value)
 		setInputValue(copy)
+		addYears(copy)
 		// console.log(inputValue)
 	}
 

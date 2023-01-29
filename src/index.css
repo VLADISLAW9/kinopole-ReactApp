@@ -101,9 +101,35 @@ body {
 }
 
 .css-v4u5dn-MuiInputBase-root-MuiInput-root:before {
- border-bottom: 1px solid rgb(168, 162, 158) !important;
+	border-bottom: 1px solid rgb(168, 162, 158) !important;
 }
 
-.css-10bey84-MuiSvgIcon-root-MuiNativeSelect-icon{
+.css-10bey84-MuiSvgIcon-root-MuiNativeSelect-icon {
 	color: rgb(168, 162, 158) !important;
+}
+
+/* genre selector */
+
+.ant-select-show-search:where(
+		.css-dev-only-do-not-override-1i9hnpv
+	).ant-select:not(
+		:where(.css-dev-only-do-not-override-1i9hnpv).ant-select-customize-input
+	)
+	.ant-select-selector {
+	background-color: #292524;
+	border-color: #a8a29e;
+	color: #a8a29e;
+}
+
+:where(.css-dev-only-do-not-override-1i9hnpv).ant-select
+	.ant-select-arrow
+	.anticon {
+	color: #a8a29e;
+}
+
+:where(.css-dev-only-do-not-override-1i9hnpv).ant-select:not(
+		.ant-select-disabled
+	):not(.ant-select-customize-input):not(.ant-pagination-size-changer):hover
+	.ant-select-selector {
+	border-color: #a8a29e;
 }
