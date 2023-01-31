@@ -3,7 +3,7 @@ import Logo from './Logo'
 
 const Footer = () => {
 	return (
-		<div className='footer mt-20 flex justify-between items-center w-full px-20 py-14 bg-stone-900 '>
+		<div className='footer flex justify-between items-center w-full px-20 py-14 bg-stone-900 '>
 			<Logo  />
 			<ul className='flex items-center '>
 				<li className='hover:opacity-75 mr-10 cursor-pointer text-white font-medium  '>

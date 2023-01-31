@@ -5,6 +5,7 @@
 			"background": "https://4kwallpapers.com/images/wallpapers/spider-man-far-from-home-5k-7680x4320-947.jpg",
 			"image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1900788/5cadd28b-996e-4224-ab98-f7aed64aa56c/x1000",
 			"name": "Spider-Man: Far From Home",
+			"video": "https://www.youtube.com/watch?v=Nt9L1jCKGnE&ab_channel=SonyPicturesEntertainment",
 			"data": "2019",
 			"country": "USA",
 			"pictures": [
@@ -112,6 +113,7 @@
 			"background": "https://www.film.ru/sites/default/files/filefield_paths/7_49.jpeg",
 			"image": "https://avatars.mds.yandex.net/get-kinopoisk-image/6201401/57f8f038-f628-44d3-922d-fb28f719ff77/x1000",
 			"name": "Top Gun: Maverick",
+			"video": "https://www.youtube.com/watch?v=giXco2jaZ_4&ab_channel=ParamountPictures",
 			"actors": [
 				{
 					"actorId": 1,
@@ -167,6 +169,7 @@
 			"background": "https://www.lastmovieoutpost.com/wp-content/uploads/2022/03/Uncharted.jpg",
 			"image": "https://st.kp.yandex.net/images/film_big/468373.jpg",
 			"name": "Uncharted",
+			"video":"https://www.youtube.com/watch?v=eHp3MbsCbMg&ab_channel=SonyPicturesEntertainment",
 			"actors": [
 				{
 					"actorId": 1,
@@ -264,6 +267,7 @@
 			"background": "https://gamemag.ru/images/imagemanager/cache/f4/119e/f4119e_uhdpaper.com-download-pc-2k-wallpaper-101-0-f.jpg",
 			"image": "https://avatars.mds.yandex.net/get-kinopoisk-image/6201401/e091e668-b8a3-416d-a6ea-25c1a17b781a/x1000",
 			"name": "The Batman",
+			"video":"https://www.youtube.com/watch?v=mqqft2x_Aa4&ab_channel=WarnerBros.Pictures",
 			"data": "2022",
 			"actors": [
 				{
@@ -319,6 +323,7 @@
 			"background": "https://www.film.ru/sites/default/files/filefield_paths/7_49.jpeg",
 			"image": "https://st.kp.yandex.net/images/film_big/1313198.jpg",
 			"name": "The Northman",
+			"video": "https://www.youtube.com/watch?v=mqqft2x_Aa4&ab_channel=WarnerBros.Pictures",
 			"data": "2022",
 			"actors": [
 				{
@@ -374,6 +379,7 @@
 			"background": "https://www.film.ru/sites/default/files/filefield_paths/7_49.jpeg",
 			"image": "https://st.kp.yandex.net/images/film_big/4324674.jpg",
 			"name": "Prey",
+			"video":"https://www.youtube.com/watch?v=wZ7LytagKlc&ab_channel=20thCenturyStudios",
 			"data": "2022",
 			"actors": [
 				{
@@ -430,6 +436,7 @@
 			"image": "https://st.kp.yandex.net/images/film_big/714185.jpg",
 			"name": "The Adam Project",
 			"data": "2022",
+			"video":"https://www.youtube.com/watch?v=IE8HIsIrq4o&ab_channel=Netflix",
 			"country": "USA",
 			"actors": [
 				{
@@ -485,6 +492,7 @@
 			"image": "https://st.kp.yandex.net/images/film_big/1219909.jpg",
 			"name": "Doctor Strange in the Multiverse of Madness",
 			"data": "2022",
+			"video":"https://www.youtube.com/watch?v=aWzlQ2N6qqg&ab_channel=MarvelEntertainment",
 			"country": "USA",
 			"kind": ["fantasy", "action", "adventure", "science fiction"],
 			"age": 16,
@@ -539,6 +547,7 @@
 			"background": "https://www.film.ru/sites/default/files/filefield_paths/7_49.jpeg",
 			"image": "https://st.kp.yandex.net/images/film_big/558393.jpg",
 			"name": "The Gray Man",
+			"video":"https://www.youtube.com/watch?v=BmllggGO4pM&ab_channel=Netflix",
 			"data": "2022",
 			"country": "USA",
 			"actors": [
@@ -594,6 +603,7 @@
 			"background": "https://www.film.ru/sites/default/files/filefield_paths/7_49.jpeg",
 			"image": "https://st.kp.yandex.net/images/film_big/1392550.jpg",
 			"name": "Bullet Train",
+			"video":"https://www.youtube.com/watch?v=0IOsk2Vlc4o&ab_channel=SonyPicturesEntertainment",
 			"data": "2022",
 			"actors": [
 				{
@@ -643,116 +653,6 @@
 			"time": 130,
 			"budget": "103 000 000 $",
 			"title": "A mercenary codenamed Ladybug is sent on a new mission: instead of a sick colleague, he must take the Tokyo-Kyoto high-speed train, steal a suitcase and get off at an intermediate station. But the execution of a simple task is greatly complicated when it turns out that the composition is simply teeming with all sorts of killers."
-		},
-		{
-			"id": 11,
-			"background": "https://www.film.ru/sites/default/files/filefield_paths/7_49.jpeg",
-			"image": "https://avatars.mds.yandex.net/get-kinopoisk-image/6201401/57f8f038-f628-44d3-922d-fb28f719ff77/x1000",
-			"name": "Top Gun: Maverick",
-			"actors": [
-				{
-					"actorId": 1,
-					"image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1600647/9e38e7a7-0dc7-4e04-9a1d-a580ec1b4de4/orig",
-					"name": "Tom Holland",
-					"birthday": "June 1, 1996",
-					"height": "168 cm",
-					"sex": "Male"
-				},
-				{
-					"actorId": 2,
-					"image": "https://st.kp.yandex.net/images/actor_iphone/iphone360_2317683.jpg",
-					"name": "Zendaya",
-					"height": "178 cm",
-					"birthday": "September 1, 1996",
-					"sex": "Female"
-				},
-				{
-					"actorId": 3,
-					"image": "https://avatars.mds.yandex.net/get-kinopoisk-image/6201401/99a484a9-4462-4c8c-bed3-22cda29cd215/orig",
-					"name": "Jacob Batalon",
-					"birthday": "October 9, 1996",
-					"height": "165 cm",
-					"sex": "Male"
-				},
-				{
-					"actorId": 4,
-					"image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/2c4a3629-917c-431e-864e-c6e03b1b8b3a/orig",
-					"name": "Samuel L. Jackson",
-					"birthday": "December 21, 1948",
-					"height": "188 cm",
-					"sex": "Male"
-				},
-				{
-					"actorId": 5,
-					"image": "https://st.kp.yandex.net/images/actor_iphone/iphone360_22692.jpg",
-					"name": "Jake Gyllenhaal",
-					"birthday": "December 19, 1980",
-					"height": "181 cm",
-					"sex": "Male"
-				}
-			],
-			"data": "2022",
-			"country": "USA",
-			"kind": ["action", "drama"],
-			"age": 16,
-			"time": 130,
-			"budget": "140 000 000 $",
-			"title": "Pete Mitchell, nicknamed Maverick, has been one of the Navy's best pilots for more than 30 years: a fearless test pilot who pushes the boundaries of what is possible and studiously avoids a promotion that would land him forever. While training the Top Gun Alumni for a special mission, Maverick meets Lieutenant Bradley Bradshaw, the son of his late friend, Lieutenant Nick Bradshaw. Ahead - uncertainty, behind - the ghosts of the past. Maverick is forced to confront his deep-seated fears, which threaten to come to life as part of a mission that requires exceptional dedication from those who will be assigned to take off."
-		},
-		{
-			"id": 12,
-			"background": "https://www.film.ru/sites/default/files/filefield_paths/7_49.jpeg",
-			"image": "https://avatars.mds.yandex.net/get-kinopoisk-image/6201401/57f8f038-f628-44d3-922d-fb28f719ff77/x1000",
-			"name": "Top Gun: Maverick",
-			"actors": [
-				{
-					"actorId": 1,
-					"image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1600647/9e38e7a7-0dc7-4e04-9a1d-a580ec1b4de4/orig",
-					"name": "Tom Holland",
-					"birthday": "June 1, 1996",
-					"height": "168 cm",
-					"sex": "Male"
-				},
-				{
-					"actorId": 2,
-					"image": "https://st.kp.yandex.net/images/actor_iphone/iphone360_2317683.jpg",
-					"name": "Zendaya",
-					"height": "178 cm",
-					"birthday": "September 1, 1996",
-					"sex": "Female"
-				},
-				{
-					"actorId": 3,
-					"image": "https://avatars.mds.yandex.net/get-kinopoisk-image/6201401/99a484a9-4462-4c8c-bed3-22cda29cd215/orig",
-					"name": "Jacob Batalon",
-					"birthday": "October 9, 1996",
-					"height": "165 cm",
-					"sex": "Male"
-				},
-				{
-					"actorId": 4,
-					"image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/2c4a3629-917c-431e-864e-c6e03b1b8b3a/orig",
-					"name": "Samuel L. Jackson",
-					"birthday": "December 21, 1948",
-					"height": "188 cm",
-					"sex": "Male"
-				},
-				{
-					"actorId": 5,
-					"image": "https://st.kp.yandex.net/images/actor_iphone/iphone360_22692.jpg",
-					"name": "Jake Gyllenhaal",
-					"birthday": "December 19, 1980",
-					"height": "181 cm",
-					"sex": "Male"
-				}
-			],
-			"data": "2022",
-			"country": "USA",
-			"kind": ["action", "drama"],
-			"age": 16,
-			"time": 130,
-			"budget": "140 000 000 $",
-			"title": "Pete Mitchell, nicknamed Maverick, has been one of the Navy's best pilots for more than 30 years: a fearless test pilot who pushes the boundaries of what is possible and studiously avoids a promotion that would land him forever. While training the Top Gun Alumni for a special mission, Maverick meets Lieutenant Bradley Bradshaw, the son of his late friend, Lieutenant Nick Bradshaw. Ahead - uncertainty, behind - the ghosts of the past. Maverick is forced to confront his deep-seated fears, which threaten to come to life as part of a mission that requires exceptional dedication from those who will be assigned to take off."
 		}
 	],
 	"comments":[

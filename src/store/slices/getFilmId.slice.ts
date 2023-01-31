@@ -3,7 +3,7 @@ import { createSlice, PayloadAction } from "@reduxjs/toolkit"
 const FILM_ID_KEY = 'fik.'
 
 interface FilmIdState {
-	filmId: number
+	filmId: number 
 }
 
 const initialState: FilmIdState = {
@@ -14,7 +14,7 @@ export const filmIdSlice = createSlice({
 	name: 'filmId',
 	initialState,
 	reducers: {
-		getFilmId(state, action:PayloadAction<number>) {
+		getFilmId(state, action:PayloadAction<any>) {
 			state.filmId = action.payload
 			localStorage.setItem(FILM_ID_KEY, JSON.stringify(state.filmId))
 		}

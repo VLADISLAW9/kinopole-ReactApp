@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import { useAppSelector } from '../hooks/redux.hook'
 import { api } from '../store/data/api'
 import { BsFillPlayFill } from 'react-icons/bs'
@@ -7,17 +7,42 @@ import CarouselActors from '../components/CarouselActors'
 import FilmPicture from '../components/FilmPicture'
 import MoreFilms from '../components/MoreFilms'
 import Comments from '../components/Commenst'
+import { Link } from 'react-router-dom'
+import { useActions } from '../hooks/actions.hook'
 
 const FilmPage = () => {
-	const [fav, setFav] = useState(false)
-	const [value, setValue] = useState<string | number>('Description')
 	const { filmId } = useAppSelector(state => state.getFilmId)
+	const { addWill, removeWill } = useActions()
+	const {will} = useAppSelector(state => state.filmState)
 	const { data: filmInfo } = api.useFetchFilmInfoQuery(filmId)
+	const [fav, setFav] = useState(false)
+	const { getFilmId } = useActions()
+	const [value, setValue] = useState<string | number>('Description')
+	console.log(will)
+
+	useEffect(() => {
+		for(let i = 0; i < will.length; i++){
+			if(will[i].id === filmId) {
+				setFav(true)
+			}
+			else{
+				setFav(false)
+			}
+		}
+	})
+
+	const handleFilmId = () => {
+		getFilmId(filmInfo?.id)
+		window.scrollTo(0, 0)
+	}
+
 	const addFav = () => {
+		addWill(filmInfo)
 		setFav(true)
 	}
 
 	const removeFav = () => {
+		removeWill(filmInfo)
 		setFav(false)
 	}
 
@@ -33,10 +58,8 @@ const FilmPage = () => {
 		setValue('Image')
 	}
 
-	
-
 	return (
-		<div  className='px-20 mt-10'>
+		<div className='px-20 mt-10'>
 			<div className='flex mt-14'>
 				<img className='w-1/4 h-1/4 rounded-md' src={filmInfo?.image} />
 				<div className='ml-28'>
@@ -44,10 +67,12 @@ const FilmPage = () => {
 						{filmInfo?.name} ({filmInfo?.data})
 					</h1>
 					<div className='flex mt-10'>
-						<button className='hover:opacity-75 transition-opacity px-5 py-3 bg-red-700  rounded-2xl text-white text-lg font-semibold flex items-center'>
-							<BsFillPlayFill className=' w-6 h-6 translate-y-[0px]' />
-							<span className='ml-1'>Watch</span>
-						</button>
+						<Link onClick={handleFilmId} to={`/player/${filmInfo?.id}`}>
+							<button className='hover:opacity-75 transition-opacity px-5 py-3 bg-red-700  rounded-2xl text-white text-lg font-semibold flex items-center'>
+								<BsFillPlayFill className=' w-6 h-6 translate-y-[0px]' />
+								<span className='ml-1'>Watch</span>
+							</button>
+						</Link>
 						{!fav && (
 							<button
 								onClick={addFav}
@@ -70,9 +95,7 @@ const FilmPage = () => {
 					<h1 className='mt-10 text-white font-bold text-xl'>About the film</h1>
 					<ul className='mt-7'>
 						<li className='mt-4 flex'>
-							<span className='block   w-36  text-gray-400'>
-								Country
-							</span>
+							<span className='block   w-36  text-gray-400'>Country</span>
 							<span className='relative text-white '>{filmInfo?.country}</span>
 						</li>
 						<li className='mt-4 flex'>
@@ -145,8 +168,8 @@ const FilmPage = () => {
 			)}
 			{value === 'Actors' && <CarouselActors filmInfo={filmInfo} />}
 			{value === 'Image' && <FilmPicture filmInfo={filmInfo} />}
-			<MoreFilms filmInfo ={filmInfo}/>
-			<Comments filmInfo={filmInfo}/>
+			<MoreFilms filmInfo={filmInfo} />
+			<Comments filmInfo={filmInfo} />
 		</div>
 	)
 }

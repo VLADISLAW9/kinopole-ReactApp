@@ -2,6 +2,7 @@ import { configureStore } from '@reduxjs/toolkit'
 import { getDefaultMiddleware } from '@reduxjs/toolkit/dist/getDefaultMiddleware'
 import { setupListeners } from '@reduxjs/toolkit/dist/query'
 import { api } from './data/api'
+import { filmStateReducer } from './slices/filmsState.slice'
 import { filterReducer } from './slices/filter.slice'
 import { filmIdReducer } from './slices/getFilmId.slice'
 
@@ -10,6 +11,7 @@ export const store = configureStore({
 		[api.reducerPath]: api.reducer,
 		getFilmId: filmIdReducer,
 		filter: filterReducer,
+		filmState: filmStateReducer,
 	},
 	middleware: getDefaultMiddleware =>
 		getDefaultMiddleware().concat(api.middleware),

@@ -3,6 +3,7 @@ import { IActor } from "./IActor"
 
 export interface IFilms {
 	id: number
+	video: string
 	background?: string
 	image: string
 	actors:IActor[]

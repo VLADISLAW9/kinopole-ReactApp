@@ -6,6 +6,8 @@ import Navbar from './components/Navbar'
 import FilmPage from './pages/FilmPage'
 import FilmsPage from './pages/FilmsPage'
 import Home from './pages/Home'
+import PlayFilmPage from './pages/PlayFilmPage'
+import ProfilePage from './pages/ProfilePage'
 
 function App() {
 	
@@ -16,6 +18,8 @@ function App() {
 				<Route path='/' element={<Home />} />
 				<Route path='/film/:id' element={<FilmPage />} />
 				<Route path='/films' element={<FilmsPage/>}/>
+				<Route path='/player/:id' element={<PlayFilmPage/>}/>
+				<Route path='/profile' element={<ProfilePage/>} />
 			</Routes>
 			<Footer/>
 		</div>
