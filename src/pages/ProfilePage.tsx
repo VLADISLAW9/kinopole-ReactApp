@@ -1,5 +1,5 @@
 import { Avatar } from '@mui/material'
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import { useActions } from '../hooks/actions.hook'
 import { useAppSelector } from '../hooks/redux.hook'
@@ -24,6 +24,14 @@ const ProfilePage = () => {
 	const onWasWatch = () => {
 		setValue('was')
 	}
+
+	useEffect(() => {
+		for (let i = 1; i < now.length - 1; i++) {
+			if (now[i].id === now[i + 1].id) {
+				now.splice(now[i], 1)
+			}
+		}
+	})
 
 	return (
 		<div className='px-20 mt-20 mb-20'>
@@ -126,7 +134,7 @@ const ProfilePage = () => {
 									<Link
 										onClick={() => (getFilmId(film.id), window.scrollTo(0, 0))}
 										className='hover:-translate-y-1 cursor-pointer transition-transform flex justify-center  flex-shrink-0 w-1/6 mr-5'
-										to='/film/:id'
+										to='/player/:id'
 									>
 										<li>
 											<div>

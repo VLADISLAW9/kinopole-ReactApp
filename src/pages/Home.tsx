@@ -1,14 +1,25 @@
 import React from 'react'
 import CinemaCarousel from '../components/CinemaCarousel'
 import Sections from '../components/Sections'
+import Spiner from '../components/Spinner'
+import { api } from '../store/data/api'
 
 const Home = () => {
+	const { isLoading: newFilmsLoading } = api.useFetchNewFilmsQuery('')
+	const { isLoading: carouselFilmsLoading } = api.useFetchCarouselFilmsQuery('')
+
 	return (
 		<div>
-			<CinemaCarousel />
-			<div className='px-20 mt-10 mb-10'>
-				<Sections />
-			</div>
+			{newFilmsLoading && carouselFilmsLoading ? (
+				<Spiner />
+			) : (
+				<>
+					<CinemaCarousel />
+					<div className='px-20 mt-12 mb-10'>
+						<Sections />
+					</div>
+				</>
+			)}
 		</div>
 	)
 }

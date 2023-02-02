@@ -1,8 +1,5 @@
-import { height } from '@mui/system'
-import { url } from 'inspector'
 import React from 'react'
 import ReactPlayer from 'react-player'
-import MoreFilms from '../components/MoreFilms'
 import { useAppSelector } from '../hooks/redux.hook'
 import { api } from '../store/data/api'
 import { AiOutlineArrowLeft } from 'react-icons/ai'
@@ -14,23 +11,22 @@ const PlayFilmPage = () => {
 	const { now, will, was } = useAppSelector(state => state.filmState)
 	const { addNow, removeNow, addWas, removeWas, removeWill } = useActions()
 
-	console.log(now.includes(filmInfo))
+	// console.log(now.includes(filmInfo))
 
 	const bgStyle = {
 		backgroundImage: `url('${filmInfo?.background}')`,
 		backgroundPosition: 'bottom',
 		backgroundSize: 'cover',
 		backgroundRepeat: 'no-repeat',
-		backdropFilter: `blur(8px)`,
 		height: '100vh',
 		width: '100%',
 	}
 	const blur = {
-		backdropFilter: `blur(16px)`,
+		backdropFilter: `blur(32px)`,
 		height: '100vh',
-		display: 'flex',
-		justifyContent: 'center',
-		alignItems: 'center',
+		// display: 'flex',
+		// justifyContent: 'center',
+		// alignItems: 'center',
 		width: '100%',
 	}
 	const contentStyle = {
@@ -49,41 +45,58 @@ const PlayFilmPage = () => {
 				removeWill(filmInfo)
 			}
 		}
-		if (now.includes(filmInfo) === false) {
+
+		if (now.length === 0) {
 			addNow(filmInfo)
+		} else {
+			for (let i = 0; i < now.length; i++) {
+				if (now[i].id !== filmId) {
+					addNow(filmInfo)
+				}
+			}
 		}
 	}
 
 	const removeFilmFromWatching = () => {
 		removeNow(filmInfo)
-		if (was.includes(filmInfo) !== true) {
+		if (was.length === 0) {
 			addWas(filmInfo)
+		} else {
+			for (let i = 0; i < was.length; i++) {
+				if (was[i].id !== filmId) {
+					addWas(filmInfo)
+				}
+			}
 		}
 	}
 
 	return (
 		<div className='absolute z-20' style={bgStyle}>
 			<div style={blur}>
-				<div className='flex flex-col justify-center'>
-					<button
-						className='flex items-center mb-5 hover:opacity-75 transition-opacity'
-						onClick={goBack}
-					>
-						<AiOutlineArrowLeft className='text-white mr-1 w-6 h-6' />
-						<span className='text-white text-xl'>Back</span>
-					</button>
-					<ReactPlayer
-						onPlay={addFilmToWatching}
-						onEnded={removeFilmFromWatching}
-						style={contentStyle}
-						light
-						controls
-						playing
-						className='shadow-xl'
-						width={1200}
-						height={600}
-						url={filmInfo?.video}
-					/>
+				<div className='pt-5 px-10'>
+					<div className='flex'>
+						<button
+							className='flex items-center mb-5 mr-3 hover:opacity-75 transition-opacity'
+							onClick={goBack}
+						>
+							<AiOutlineArrowLeft className='text-white w-6 h-6' />
+						</button>
+						<h1 className='font-bold  text-white'>{filmInfo?.name}</h1>
+					</div>
+					<div className='flex justify-center'>
+						<ReactPlayer
+							onPlay={addFilmToWatching}
+							onEnded={removeFilmFromWatching}
+							style={contentStyle}
+							light
+							controls
+							height={600}
+							width={1200}
+							playing
+							className='shadow-xl'
+							url={filmInfo?.video}
+						/>
+					</div>
 				</div>
 			</div>
 		</div>

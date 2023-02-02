@@ -1,6 +1,7 @@
 import React from 'react'
 import { IFilms } from '../models/IFilms'
 import { api } from '../store/data/api'
+import {FaRegSadCry} from 'react-icons/fa'
 
 interface FilmInfoProps {
 	filmInfo?: IFilms
@@ -19,6 +20,14 @@ const Comments: React.FC<FilmInfoProps> = ({ filmInfo }) => {
 			</h1>
 			<div className='flex'>
 				<ul className='w-[65%]'>
+					{comments?.length === 0 && (
+						<li className='flex mt-10 flex-col justify-center items-center'>
+							<FaRegSadCry className='text-stone-700 w-32 h-32' />
+							<p className='font-bold mt-3 text-stone-700 text-xl'>
+								Not a comments
+							</p>
+						</li>
+					)}
 					{comments?.map(com => (
 						<li
 							className={` ${
@@ -78,7 +87,7 @@ const Comments: React.FC<FilmInfoProps> = ({ filmInfo }) => {
 						</h1>
 						<p className='text-stone-300 text-sm font-extralight '>Negative</p>
 					</div>
-					<div >
+					<div>
 						<h1 className='text-stone-500 text-3xl font-semibold'>
 							{commentsNone?.length}
 						</h1>

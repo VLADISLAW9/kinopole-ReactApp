@@ -10,12 +10,12 @@ const FilmsPage = () => {
 		state => state.filter
 	)
 
-	console.log(
-		films
-			?.map(f => f)
-			.sort((a, b) => Number(a.data) - Number(b.data))
-			.map(f => f.data)
-	)
+	// console.log(
+	// 	films
+	// 		?.map(f => f)
+	// 		.sort((a, b) => Number(a.data) - Number(b.data))
+	// 		.map(f => f.data)
+	// )
 
 	return (
 		<div className='px-20 mt-10'>
@@ -82,7 +82,8 @@ const FilmsPage = () => {
 											?.filter(
 												f =>
 													Number(f.data) >= years[0] &&
-													Number(f.data) <= years[1]
+													Number(f.data) <= years[1] &&
+													f.kind.some(f => f === genre)
 											)
 											.map(film => film)
 											.sort((a, b) => Number(a.data) - Number(b.data))
