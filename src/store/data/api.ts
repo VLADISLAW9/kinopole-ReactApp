@@ -22,7 +22,7 @@ export const api = createApi({
 		}),
 		fetchNewFilms: build.query<IFilms[], string>({
 			query: () => ({
-				url: '/films?_limit=10',
+				url: '/films?_limit=12',
 				params: {
 					q: 2022,
 				},

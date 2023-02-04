@@ -1,3 +1,4 @@
+import { CardMedia } from '@mui/material'
 import React from 'react'
 import { Link } from 'react-router-dom'
 import { useActions} from '../hooks/actions.hook'
@@ -16,15 +17,20 @@ const FilmItem: React.FC<FilmItemProps> = ({ film }) => {
 	}
 
 	return (
-		<Link
-			onClick={handleFilmId}
-			to={`/film/${film.id}`}
-		>
+		<Link onClick={handleFilmId} to={`/film/${film.id}`}>
 			<li className='hover:-translate-y-1 transition-all'>
-				<img
-					className='rounded-md hover:opacity-75 transition-opacity'
-					src={film.image}
-				/>
+				<div className=''>
+					{/* <img
+						className='max-h-[260px] max-w-[190px] rounded-md hover:opacity-75 transition-opacity'
+						src={film.image}
+					/> */}
+					<CardMedia
+						className='hover:opacity-75 transition-opacity'
+						sx={{ height: 320, borderRadius: 2 }}
+						image={film.image}
+						title='green iguana'
+					/>
+				</div>
 				<h1 className='text-white mt-4 font-semibold'>{film.name}</h1>
 				<p className='text-gray-400 mt-2 font-extralight'>{film.data}, Film</p>
 			</li>
