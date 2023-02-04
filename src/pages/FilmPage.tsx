@@ -13,7 +13,7 @@ import { useActions } from '../hooks/actions.hook'
 const FilmPage = () => {
 	const { filmId } = useAppSelector(state => state.getFilmId)
 	const { addWill, removeWill } = useActions()
-	const {will} = useAppSelector(state => state.filmState)
+	const { will } = useAppSelector(state => state.filmState)
 	const { data: filmInfo } = api.useFetchFilmInfoQuery(filmId)
 	const [fav, setFav] = useState(false)
 	const { getFilmId } = useActions()
@@ -21,11 +21,10 @@ const FilmPage = () => {
 	console.log(will)
 
 	useEffect(() => {
-		for(let i = 0; i < will.length; i++){
-			if(will[i].id === filmId) {
+		for (let i = 0; i < will.length; i++) {
+			if (will[i].id === filmId) {
 				setFav(true)
-			}
-			else{
+			} else {
 				setFav(false)
 			}
 		}
@@ -59,37 +58,43 @@ const FilmPage = () => {
 	}
 
 	return (
-		<div className='px-20 mt-10 mb-20	'>
-			<div className='flex mt-14'>
-				<img className='w-1/4 h-1/4 rounded-md' src={filmInfo?.image} />
-				<div className='ml-28'>
-					<h1 className='text-white text-4xl font-bold'>
+		<div className='container__filmPage px-20 mt-10 mb-20	'>
+			<div className='filmPage flex mt-14'>
+				<div className='filmPage__image  w-1/4 h-1/4 '>
+					<img className='rounded-md' src={filmInfo?.image} />
+				</div>
+				<div className='filmPage__info ml-28'>
+					<h1 className='info__name text-white text-4xl font-bold'>
 						{filmInfo?.name} ({filmInfo?.data})
 					</h1>
-					<div className='flex mt-10'>
+					<div className='info__btns flex mt-10'>
 						<Link onClick={handleFilmId} to={`/player/${filmInfo?.id}`}>
-							<button className='hover:opacity-75 transition-opacity px-5 py-3 bg-red-700  rounded-2xl text-white text-lg font-semibold flex items-center'>
+							<button className='info__btn hover:opacity-75 transition-opacity px-5 py-3 bg-red-700  rounded-2xl text-white text-lg font-semibold flex items-center'>
 								<BsFillPlayFill className=' w-6 h-6 translate-y-[0px]' />
 								<span className='ml-1'>Watch</span>
 							</button>
 						</Link>
 						{!fav && (
-							<button
-								onClick={addFav}
-								className='hover:opacity-75 transition-opacity ml-10 px-5 py-3 bg-stone-600  rounded-2xl text-white text-lg font-semibold flex items-center'
-							>
-								<RiFlag2Line className=' w-6 h-6 translate-y-[0px]' />
-								<span className='ml-2'>Will watch</span>
-							</button>
+							<div>
+								<button
+									onClick={addFav}
+									className='info__btn info__btn_fav hover:opacity-75 transition-opacity ml-10 px-5 py-3 bg-stone-600  rounded-2xl text-white text-lg font-semibold flex items-center'
+								>
+									<RiFlag2Line className=' w-6 h-6 translate-y-[0px]' />
+									<span className='ml-2'>Will watch</span>
+								</button>
+							</div>
 						)}
 						{fav && (
-							<button
-								onClick={removeFav}
-								className='hover:opacity-75 transition-opacity ml-10 px-5 py-3 bg-stone-600 rounded-2xl text-white text-lg font-semibold flex items-center'
-							>
-								<RiFlag2Fill className=' w-6 h-6 translate-y-[0px]' />
-								<span className='ml-2'>Won't watch</span>
-							</button>
+							<div>
+								<button
+									onClick={removeFav}
+									className='info__btn info__btn_fav hover:opacity-75 transition-opacity ml-10 px-5 py-3 bg-stone-600 rounded-2xl text-white text-lg font-semibold flex items-center'
+								>
+									<RiFlag2Fill className=' w-6 h-6 translate-y-[0px]' />
+									<span className='ml-2'>Won't watch</span>
+								</button>
+							</div>
 						)}
 					</div>
 					<h1 className='mt-10 text-white font-bold text-xl'>About the film</h1>

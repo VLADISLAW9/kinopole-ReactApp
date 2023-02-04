@@ -22,7 +22,7 @@ const FilmItem: React.FC<FilmItemProps> = ({ film }) => {
 		>
 			<li className='hover:-translate-y-1 transition-all'>
 				<img
-					className='h-80 rounded-md hover:opacity-75 transition-opacity'
+					className='rounded-md hover:opacity-75 transition-opacity'
 					src={film.image}
 				/>
 				<h1 className='text-white mt-4 font-semibold'>{film.name}</h1>

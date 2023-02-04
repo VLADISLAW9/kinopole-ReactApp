@@ -41,7 +41,7 @@ const ProfilePage = () => {
 					Сinephile
 				</span>
 			</div>
-			<ul className='flex mt-20 justify-center'>
+			<ul className='flex mt-20 justify-center '>
 				<li
 					onClick={onWillWatch}
 					className={` ${
@@ -74,23 +74,14 @@ const ProfilePage = () => {
 				</li>
 			</ul>
 			{value === 'will' && (
-				<ul
-					className='mt-7 pt-4'
-					ref={scrollRef}
-					style={{
-						display: 'flex',
-						overflow: 'hidden',
-						justifyContent: 'center',
-						scrollSnapType: 'x mandatory',
-					}}
-				>
-					{will.length > 0 ? (
-						<>
+				<>
+					{will.length > 0 && (
+						<ul className='profile__list mt-7'>
 							{will.map(film => (
 								<Link
 									onClick={() => (getFilmId(film.id), window.scrollTo(0, 0))}
-									className='hover:-translate-y-1 cursor-pointer transition-transform flex justify-center  flex-shrink-0 w-1/6 mr-5'
-									to='/film/:id'
+									className='hover:-translate-y-1 cursor-pointer transition-transform flex justify-center  '
+									to='/player/:id'
 								>
 									<li>
 										<div>
@@ -105,105 +96,92 @@ const ProfilePage = () => {
 									</li>
 								</Link>
 							))}
-						</>
-					) : (
-						<li className='flex flex-col mt-5 justify-center items-center'>
-							<FaRegSadCry className='text-stone-700 w-32 h-32' />
-							<p className='font-bold mt-3 text-stone-700 text-xl'>
-								Not a films
-							</p>
-						</li>
+						</ul>
 					)}
-				</ul>
-			)}
-			{value === 'now' && (
-				<>
-					<ul
-						className='mt-7 pt-4'
-						ref={scrollRef}
-						style={{
-							display: 'flex',
-							overflow: 'hidden',
-							justifyContent: 'center',
-							scrollSnapType: 'x mandatory',
-						}}
-					>
-						{now.length > 0 ? (
-							<>
-								{now.map(film => (
-									<Link
-										onClick={() => (getFilmId(film.id), window.scrollTo(0, 0))}
-										className='hover:-translate-y-1 cursor-pointer transition-transform flex justify-center  flex-shrink-0 w-1/6 mr-5'
-										to='/player/:id'
-									>
-										<li>
-											<div>
-												<img
-													className='hover:opacity-75 transition-opacity rounded-md'
-													src={film.image}
-												/>
-												<h1 className='mt-3 text-white font-medium'>
-													{film.name}
-												</h1>
-											</div>
-										</li>
-									</Link>
-								))}
-							</>
-						) : (
-							<li className='flex flex-col mt-5 justify-center items-center'>
+					{will.length === 0 && (
+						<ul>
+							<li className='flex flex-col mt-10 justify-center items-center'>
 								<FaRegSadCry className='text-stone-700 w-32 h-32' />
 								<p className='font-bold mt-3 text-stone-700 text-xl'>
 									Not a films
 								</p>
 							</li>
-						)}
-					</ul>
+						</ul>
+					)}
+				</>
+			)}
+			{value === 'now' && (
+				<>
+					{now.length > 0 && (
+						<ul className='profile__list mt-7'>
+							{now.map(film => (
+								<Link
+									onClick={() => (getFilmId(film.id), window.scrollTo(0, 0))}
+									className='hover:-translate-y-1 cursor-pointer transition-transform flex justify-center  '
+									to='/player/:id'
+								>
+									<li>
+										<div>
+											<img
+												className='hover:opacity-75 transition-opacity rounded-md'
+												src={film.image}
+											/>
+											<h1 className='mt-3 text-white font-medium'>
+												{film.name}
+											</h1>
+										</div>
+									</li>
+								</Link>
+							))}
+						</ul>
+					)}
+					{now.length === 0 && (
+						<ul>
+							<li className='flex flex-col mt-10 justify-center items-center'>
+								<FaRegSadCry className='text-stone-700 w-32 h-32' />
+								<p className='font-bold mt-3 text-stone-700 text-xl'>
+									Not a films
+								</p>
+							</li>
+						</ul>
+					)}
 				</>
 			)}
 			{value === 'was' && (
 				<>
-					<ul
-						className='mt-7 pt-4'
-						ref={scrollRef}
-						style={{
-							display: 'flex',
-							overflow: 'hidden',
-							justifyContent: 'center',
-							scrollSnapType: 'x mandatory',
-						}}
-					>
-						{was.length > 0 ? (
-							<>
-								{was.map(film => (
-									<Link
-										onClick={() => (getFilmId(film.id), window.scrollTo(0, 0))}
-										className='hover:-translate-y-1 cursor-pointer transition-transform flex justify-center  flex-shrink-0 w-1/6 mr-5'
-										to='/film/:id'
-									>
-										<li>
-											<div>
-												<img
-													className='hover:opacity-75 transition-opacity rounded-md'
-													src={film.image}
-												/>
-												<h1 className='mt-3 text-white font-medium'>
-													{film.name}
-												</h1>
-											</div>
-										</li>
-									</Link>
-								))}
-							</>
-						) : (
-							<li className='flex flex-col mt-5 justify-center items-center'>
+					{was.length > 0 && (
+						<ul className='mt-7 profile__list'>
+							{was.map(film => (
+								<Link
+									onClick={() => (getFilmId(film.id), window.scrollTo(0, 0))}
+									className='hover:-translate-y-1 cursor-pointer transition-transform flex justify-center'
+									to='/player/:id'
+								>
+									<li className=''>
+										<div>
+											<img
+												className='hover:opacity-75 transition-opacity  rounded-md'
+												src={film.image}
+											/>
+											<h1 className='mt-3 text-white font-medium'>
+												{film.name}
+											</h1>
+										</div>
+									</li>
+								</Link>
+							))}
+						</ul>
+					)}
+					{was.length === 0 && (
+						<ul>
+							<li className='flex flex-col mt-10 justify-center items-center'>
 								<FaRegSadCry className='text-stone-700 w-32 h-32' />
 								<p className='font-bold mt-3 text-stone-700 text-xl'>
 									Not a films
 								</p>
 							</li>
-						)}
-					</ul>
+						</ul>
+					)}
 				</>
 			)}
 		</div>

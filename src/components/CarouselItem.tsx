@@ -23,12 +23,16 @@ const CarouselItem: React.FC<FilmItemProps> = ({ film }) => {
 
 	return (
 		<div
-			className='bg-cover h-[500px] flex items-center px-20'
+			className='carousel bg-cover h-[500px] flex items-center px-20'
 			style={contentStyle}
 		>
-			<div className='filter-none w-1/3'>
-				<h1 className='text-5xl font-bold text-white'>{film.name}</h1>
-				<p className='font-normal text-white mt-5'>{film.title}</p>
+			<div className='carousel__content filter-none w-1/3'>
+				<h1 className='carousel__filmName text-5xl font-bold text-white'>
+					{film.name}
+				</h1>
+				<p className='carousel__filmTitle font-normal text-white mt-5'>
+					{film.title}
+				</p>
 				<Link onClick={handleFilmId} to={`/film/${film.id}`}>
 					<button className='hover:opacity-75 transition-opacity mt-7 px-7 py-3 bg-red-700 rounded-2xl text-white text-lg font-semibold flex items-center'>
 						More

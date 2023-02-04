@@ -15,7 +15,7 @@ const Home = () => {
 			) : (
 				<>
 					<CinemaCarousel />
-					<div className='px-20 mt-12 mb-10'>
+					<div className='container__home px-20 mt-12 mb-10'>
 						<Sections />
 					</div>
 				</>

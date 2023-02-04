@@ -6,13 +6,21 @@ import NavSearch from './NavSearch'
 
 const Navbar = () => {
 	return (
-		<div className='flex justify-between items-center w-full px-20 py-4 bg-stone-900 '>
-			<Logo />
-			<NavSearch />
-			<Link to='/profile'>
-				<Avatar />
-			</Link>
-		</div>
+		<ul className='navbar flex justify-between items-center w-full px-20 py-4 bg-stone-900 '>
+			<li className='flex justify-start'>
+				<Link to='/'>
+					<Logo />
+				</Link>
+			</li>
+			<li className='navbar__search w-[65%] '>
+				<NavSearch />
+			</li>
+			<li className='flex justify-end w-[7%]'>
+				<Link to='/profile'>
+					<Avatar />
+				</Link>
+			</li>
+		</ul>
 	)
 }
 

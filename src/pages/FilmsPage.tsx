@@ -18,15 +18,17 @@ const FilmsPage = () => {
 	// )
 
 	return (
-		<div className='px-20 mt-10'>
-			<h1 className='text-stone-500 text-[63px] font-bold'>All films</h1>
-			<p className='text-stone-400 text-[13.2px]'>
+		<div className='container__filmPage px-20 mt-10 mb-10'>
+			<h1 className='filmPage__header text-stone-500 text-[63px] font-bold'>
+				All films
+			</h1>
+			<p className='filmPage__title text-stone-400 text-[13.2px]'>
 				Selection of films from all over the world
 			</p>
-			<div className='flex justify-between mt-10'>
+			<div className='filmPage__block flex justify-between mt-10'>
 				<FilmsFilter />
-				<div className='w-[300%]'>
-					<ul className='flex flex-col '>
+				<div className='filmPage__films '>
+					<ul className='films__list flex flex-col '>
 						{genre === 'all' ? (
 							<>
 								{sorted === 'new' ? (

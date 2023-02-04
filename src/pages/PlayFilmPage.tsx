@@ -83,7 +83,7 @@ const PlayFilmPage = () => {
 						</button>
 						<h1 className='font-bold  text-white'>{filmInfo?.name}</h1>
 					</div>
-					<div className='flex justify-center'>
+					<div className='flex justify-center items-center'>
 						<ReactPlayer
 							onPlay={addFilmToWatching}
 							onEnded={removeFilmFromWatching}

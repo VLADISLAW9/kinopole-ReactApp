@@ -23,13 +23,13 @@ const NavSearch = () => {
 	}, [debounced, films])
 
 	return (
-		<div className='z-10 relative w-3/5'>
+		<div className='z-10 relative flex justify-center'>
 			<input
 				placeholder="I'm searching for..."
 				className={
 					films?.length! > 0
-						? 'relative	navSearch px-5 py-3 bg-stone-800 text-white w-4/5 rounded-t-3xl rounded-b-none outline-none '
-						: 'relative	navSearch px-5 py-3 bg-stone-800 text-white w-4/5 rounded-t-3xl rounded-b-3xl outline-none'
+						? ' relative	navSearch px-5 py-3 bg-stone-800 text-white w-[100%] rounded-t-3xl rounded-b-none outline-none '
+						: ' relative	navSearch px-5 py-3 bg-stone-800 text-white w-[100%] rounded-t-3xl rounded-b-3xl outline-none'
 				}
 				type='text'
 				value={search}
@@ -37,7 +37,7 @@ const NavSearch = () => {
 			/>
 
 			{dropdown && (
-				<ul className='w-[80%] text-white list-none absolute top-[45px] left-0  right-0 max-h-[200px] overflow-y-scroll rounded-b-3xl  bg-stone-800'>
+				<ul className='navbar__dropdown w-[100%] text-white list-none absolute top-[45px] left-0  right-0 max-h-[200px] overflow-y-scroll rounded-bl-3xl bg-stone-800'>
 					{isLoading && <p className='text-center'>Loading...</p>}
 					{films?.map(film => (
 						<Link

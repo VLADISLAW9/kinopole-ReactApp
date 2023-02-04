@@ -18,14 +18,14 @@ const MoreFilms: React.FC<FilmInfoProps> = ({ filmInfo }) => {
 
 	return (
 		<div className='mt-5 mb-10'>
-			<div className='flex items-center justify-between'>
+			<div className='similar__header flex items-center justify-between'>
 				<h1 className='text-white text-2xl font-medium'>
 					Similar films
 					<span className='font-light text-gray-400 ml-3'>
 						({films?.length})
 					</span>
 				</h1>
-				<div className=''>
+				<div className='similar__btns'>
 					<button
 						className='px-2 py-2 bg-stone-600 rounded-full  mr-4'
 						onClick={() => prev()}
@@ -42,7 +42,7 @@ const MoreFilms: React.FC<FilmInfoProps> = ({ filmInfo }) => {
 			</div>
 
 			<ul
-				className='mt-7 pt-4'
+				className='similar__list mt-7 pt-4'
 				ref={scrollRef}
 				style={{
 					display: 'flex',
@@ -53,17 +53,17 @@ const MoreFilms: React.FC<FilmInfoProps> = ({ filmInfo }) => {
 				{films?.map(film => (
 					<Link
 						onClick={() => (getFilmId(film.id), window.scrollTo(0, 0))}
-						className='hover:-translate-y-1 cursor-pointer transition-transform flex justify-center  flex-shrink-0 w-1/6 mr-5'
-						to=''
+						className='silmilar__item hover:-translate-y-1 cursor-pointer transition-transform flex items-start justify-center  flex-shrink-0 w-1/6 mr-5'
+						to='/film/:id'
 					>
-						<li>
-							<div>
-								<img
-									className='hover:opacity-75 transition-opacity rounded-md'
-									src={film.image}
-								/>
+						<li className='similar__film'>
+								<div>
+									<img
+										className='max-h-80 hover:opacity-75 transition-opacity rounded-md'
+										src={film.image}
+									/>
+								</div>
 								<h1 className='mt-3 text-white font-medium'>{film.name}</h1>
-							</div>
 						</li>
 					</Link>
 				))}

@@ -19,11 +19,11 @@ const Comments: React.FC<FilmInfoProps> = ({ filmInfo }) => {
 				Review of film critics
 			</h1>
 			<div className='flex'>
-				<ul className='w-[65%]'>
+				<ul className='comments__list w-[65%]'>
 					{comments?.length === 0 && (
 						<li className='flex mt-10 flex-col justify-center items-center'>
-							<FaRegSadCry className='text-stone-700 w-32 h-32' />
-							<p className='font-bold mt-3 text-stone-700 text-xl'>
+							<FaRegSadCry className='comments__icon text-stone-700 w-32 h-32' />
+							<p className='comments__text font-bold mt-3 text-stone-700 text-xl'>
 								Not a comments
 							</p>
 						</li>
@@ -31,17 +31,20 @@ const Comments: React.FC<FilmInfoProps> = ({ filmInfo }) => {
 					{comments?.map(com => (
 						<li
 							className={` ${
-								com.mark === 'good' && ' border-4 border-emerald-600 '
-							}, ${com.mark === 'bad' && 'border-4 border-red-600  '},
+								com.mark === 'good' &&
+								' comments__item border-4 border-emerald-600 '
+							}, ${
+								com.mark === 'bad' && 'comments__item border-4 border-red-600  '
+							},
 						${
-							com.mark === 'none' && 'border-4 border-stone-600 '
+							com.mark === 'none' && 'comments__item border-4 border-stone-600 '
 						} px-10 bg-stone-800  py-10 mb-10 rounded-xl`}
 						>
 							<h1
 								className={` 
-									${com.mark === 'good' && ' text-emerald-500'} 
-									${com.mark === 'bad' && 'text-red-600'}
-									${com.mark === 'none' && 'text-stone-600 '} 
+									${com.mark === 'good' && ' comments__header text-emerald-500'} 
+									${com.mark === 'bad' && 'text-red-600 comments__header'}
+									${com.mark === 'none' && 'text-stone-600 comments__header'} 
 									font-semibold text-lg mb-5 
 								`}
 							>
@@ -49,9 +52,9 @@ const Comments: React.FC<FilmInfoProps> = ({ filmInfo }) => {
 							</h1>
 							<p
 								className={`
-									${com.mark === 'good' && ' text-emerald-500 border-emerald-500'} 
-									${com.mark === 'bad' && 'text-red-600 border-red-500'}
-									${com.mark === 'none' && 'text-stone-500 border-stone-600'}
+									${com.mark === 'good' && 'comments__text text-emerald-500 border-emerald-500'} 
+									${com.mark === 'bad' && 'comments__text text-red-600 border-red-500'}
+									${com.mark === 'none' && 'comments__text text-stone-500 border-stone-600'}
 									text-white font-light mb-6 border-b-2 pb-3`}
 							>
 								{com.body}
@@ -68,7 +71,7 @@ const Comments: React.FC<FilmInfoProps> = ({ filmInfo }) => {
 						</li>
 					))}
 				</ul>
-				<div className='flex flex-col ml-36'>
+				<div className='comments__counter flex flex-col ml-36'>
 					<div className='mb-2'>
 						<h1 className='text-white text-3xl font-semibold'>
 							{comments?.length}
