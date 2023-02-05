@@ -8,6 +8,12 @@ export const api = createApi({
 	tagTypes: ['api'],
 	refetchOnFocus: true,
 	endpoints: build => ({
+		fetchAllCartoons: build.query<IFilms[], string>({
+			query: () => ({
+				url: '/cartoons',
+			}),
+			providesTags: result => ['api'],
+		}),
 		fetchAllFilms: build.query<IFilms[], string>({
 			query: () => ({
 				url: '/films',
@@ -29,9 +35,23 @@ export const api = createApi({
 			}),
 			providesTags: result => ['api'],
 		}),
+		fetchNewCartoons: build.query<IFilms[], string>({
+			query: () => ({
+				url: '/cartoons?_limit=12',
+				params: {
+					q: 2022,
+				},
+			}),
+			providesTags: result => ['api'],
+		}),
 		fetchFilmInfo: build.query<IFilms, number>({
 			query: (filmId: number) => ({
 				url: `/films/${filmId}`,
+			}),
+		}),
+		fetchCartoonInfo: build.query<IFilms, number>({
+			query: (cartoonId: number) => ({
+				url: `/cartoons/${cartoonId}`,
 			}),
 		}),
 		fetchSimilarFilms: build.query<IFilms[], any>({

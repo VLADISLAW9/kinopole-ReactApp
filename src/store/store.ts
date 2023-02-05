@@ -4,12 +4,14 @@ import { setupListeners } from '@reduxjs/toolkit/dist/query'
 import { api } from './data/api'
 import { filmStateReducer } from './slices/filmsState.slice'
 import { filterReducer } from './slices/filter.slice'
+import { cartoonIdReducer } from './slices/getCartoonId'
 import { filmIdReducer } from './slices/getFilmId.slice'
 
 export const store = configureStore({
 	reducer: {
 		[api.reducerPath]: api.reducer,
 		getFilmId: filmIdReducer,
+		getCartoonId: cartoonIdReducer,
 		filter: filterReducer,
 		filmState: filmStateReducer,
 	},

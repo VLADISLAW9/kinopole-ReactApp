@@ -100,7 +100,7 @@ const ProfilePage = () => {
 					)}
 					{will.length === 0 && (
 						<ul>
-							<li className='flex flex-col mt-10 justify-center items-center'>
+							<li className='flex flex-col mt-20 mb-20 justify-center items-center'>
 								<FaRegSadCry className='text-stone-700 w-32 h-32' />
 								<p className='font-bold mt-3 text-stone-700 text-xl'>
 									Not a films
@@ -137,7 +137,7 @@ const ProfilePage = () => {
 					)}
 					{now.length === 0 && (
 						<ul>
-							<li className='flex flex-col mt-10 justify-center items-center'>
+							<li className='flex flex-col mt-20 mb-20 justify-center items-center'>
 								<FaRegSadCry className='text-stone-700 w-32 h-32' />
 								<p className='font-bold mt-3 text-stone-700 text-xl'>
 									Not a films
@@ -174,7 +174,7 @@ const ProfilePage = () => {
 					)}
 					{was.length === 0 && (
 						<ul>
-							<li className='flex flex-col mt-10 justify-center items-center'>
+							<li className='flex flex-col mt-20 mb-20 justify-center items-center'>
 								<FaRegSadCry className='text-stone-700 w-32 h-32' />
 								<p className='font-bold mt-3 text-stone-700 text-xl'>
 									Not a films

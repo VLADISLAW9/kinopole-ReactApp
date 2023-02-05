@@ -10,19 +10,18 @@ import Comments from '../components/Commenst'
 import { Link } from 'react-router-dom'
 import { useActions } from '../hooks/actions.hook'
 
-const FilmPage = () => {
-	const { filmId } = useAppSelector(state => state.getFilmId)
+const CartoonPage = () => {
+	const { cartoonId } = useAppSelector(state => state.getCartoonId)
 	const { addWill, removeWill } = useActions()
 	const { will } = useAppSelector(state => state.filmState)
-	const { data: filmInfo } = api.useFetchFilmInfoQuery(filmId)
+	const { data: cartoonInfo } = api.useFetchCartoonInfoQuery(cartoonId)
 	const [fav, setFav] = useState(false)
-	const { getFilmId } = useActions()
+	const { getCartoonId } = useActions()
 	const [value, setValue] = useState<string | number>('Description')
-	console.log(will)
 
 	useEffect(() => {
 		for (let i = 0; i < will.length; i++) {
-			if (will[i].id === filmId) {
+			if (will[i].id === cartoonId) {
 				setFav(true)
 			} else {
 				setFav(false)
@@ -30,18 +29,18 @@ const FilmPage = () => {
 		}
 	})
 
-	const handleFilmId = () => {
-		getFilmId(filmInfo?.id)
+	const handleCartoonmId = () => {
+		getCartoonId(cartoonInfo?.id)
 		window.scrollTo(0, 0)
 	}
 
 	const addFav = () => {
-		addWill(filmInfo)
+		addWill(cartoonInfo)
 		setFav(true)
 	}
 
 	const removeFav = () => {
-		removeWill(filmInfo)
+		removeWill(cartoonInfo)
 		setFav(false)
 	}
 
@@ -61,14 +60,14 @@ const FilmPage = () => {
 		<div className='container__filmPage px-20 mt-10 mb-20	'>
 			<div className='filmPage flex mt-14'>
 				<div className='filmPage__image  w-1/4 h-1/4 '>
-					<img className='rounded-md' src={filmInfo?.image} />
+					<img className='rounded-md' src={cartoonInfo?.image} />
 				</div>
 				<div className='filmPage__info ml-28'>
 					<h1 className='info__name text-white text-4xl font-bold'>
-						{filmInfo?.name} ({filmInfo?.data})
+						{cartoonInfo?.name} ({cartoonInfo?.data})
 					</h1>
 					<div className='info__btns flex mt-10'>
-						<Link onClick={handleFilmId} to={`/FilmPlayer/${filmInfo?.id}`}>
+						<Link onClick={handleCartoonmId} to={`/CartoonPlayer/${cartoonInfo?.id}`}>
 							<button className='info__btn hover:opacity-75 transition-opacity px-5 py-3 bg-red-700  rounded-2xl text-white text-lg font-semibold flex items-center'>
 								<BsFillPlayFill className=' w-6 h-6 translate-y-[0px]' />
 								<span className='ml-1'>Watch</span>
@@ -101,14 +100,16 @@ const FilmPage = () => {
 					<ul className='mt-7'>
 						<li className='mt-4 flex'>
 							<span className='block   w-36  text-gray-400'>Country</span>
-							<span className='relative text-white '>{filmInfo?.country}</span>
+							<span className='relative text-white '>
+								{cartoonInfo?.country}
+							</span>
 						</li>
 						<li className='mt-4 flex'>
 							<span className='block flex-initial w-36  text-gray-400'>
 								Kind
 							</span>
 							<span className='relative text-white '>
-								{filmInfo?.kind.map(i => (
+								{cartoonInfo?.kind.map(i => (
 									<span className='mr-2'>{i}</span>
 								))}
 							</span>
@@ -117,19 +118,23 @@ const FilmPage = () => {
 							<span className='block flex-initial w-36  text-gray-400'>
 								Age
 							</span>
-							<span className='relative text-white '>{filmInfo?.age}+</span>
+							<span className='relative text-white '>{cartoonInfo?.age}+</span>
 						</li>
 						<li className='mt-4 flex'>
 							<span className='block flex-initial w-36  text-gray-400'>
 								Time
 							</span>
-							<span className='relative text-white '>{filmInfo?.time} min</span>
+							<span className='relative text-white '>
+								{cartoonInfo?.time} min
+							</span>
 						</li>
 						<li className='mt-4 flex'>
 							<span className='block flex-initial w-36  text-gray-400'>
 								Budget
 							</span>
-							<span className='relative text-white '>{filmInfo?.budget}</span>
+							<span className='relative text-white '>
+								{cartoonInfo?.budget}
+							</span>
 						</li>
 					</ul>
 				</div>
@@ -168,15 +173,17 @@ const FilmPage = () => {
 			</ul>
 			{value === 'Description' && (
 				<div className='mt-5 mb-20 '>
-					<p className='text-white font-light leading-8'>{filmInfo?.title}</p>
+					<p className='text-white font-light leading-8'>
+						{cartoonInfo?.title}
+					</p>
 				</div>
 			)}
-			{value === 'Actors' && <CarouselActors filmInfo={filmInfo} />}
-			{value === 'Image' && <FilmPicture filmInfo={filmInfo} />}
-			<MoreFilms filmInfo={filmInfo} />
-			<Comments filmInfo={filmInfo} />
+			{value === 'Actors' && <CarouselActors filmInfo={cartoonInfo} />}
+			{value === 'Image' && <FilmPicture filmInfo={cartoonInfo} />}
+			<MoreFilms filmInfo={cartoonInfo} />
+			<Comments filmInfo={cartoonInfo} />
 		</div>
 	)
 }
 
-export default FilmPage
+export default CartoonPage

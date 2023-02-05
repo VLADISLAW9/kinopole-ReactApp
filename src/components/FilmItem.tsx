@@ -20,13 +20,10 @@ const FilmItem: React.FC<FilmItemProps> = ({ film }) => {
 		<Link onClick={handleFilmId} to={`/film/${film.id}`}>
 			<li className='hover:-translate-y-1 transition-all'>
 				<div className=''>
-					{/* <img
-						className='max-h-[260px] max-w-[190px] rounded-md hover:opacity-75 transition-opacity'
-						src={film.image}
-					/> */}
+				
 					<CardMedia
 						className='hover:opacity-75 transition-opacity'
-						sx={{ height: 320, borderRadius: 2 }}
+						sx={{ height: 400 , borderRadius: 2 }}
 						image={film.image}
 						title='green iguana'
 					/>
