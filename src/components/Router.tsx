@@ -9,6 +9,7 @@ import PlayCartoonPage from '../pages/PlayCartoonPage'
 import PlayFilmPage from '../pages/PlayFilmPage'
 import ProfilePage from '../pages/ProfilePage'
 import SerialPage from '../pages/SerialPage'
+import SeriesPage from '../pages/SeriesPage'
 
 const Router = () => {
 	return (
@@ -17,6 +18,7 @@ const Router = () => {
 			<Route path='/film/:id' element={<FilmPage />} />
 			<Route path='/serial/:id' element={<SerialPage />} />
 			<Route path='/films' element={<FilmsPage />} />
+			<Route path='/series' element={<SeriesPage/>} />
 			<Route path='/cartoons' element={<CartoonsPage />} />
 			<Route path='/FilmPlayer/:id' element={<PlayFilmPage />} />
 			<Route path='/CartoonPlayer/:id' element={<PlayCartoonPage />} />

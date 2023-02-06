@@ -22,6 +22,12 @@ export const api = createApi({
 			}),
 			providesTags: result => ['api'],
 		}),
+		fetchAllSeries: build.query<IFilms[], string>({
+			query: () => ({
+				url: '/series',
+			}),
+			providesTags: result => ['api'],
+		}),
 		fetchAllFilms: build.query<IFilms[], string>({
 			query: () => ({
 				url: '/films',
