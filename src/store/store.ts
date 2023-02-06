@@ -6,12 +6,14 @@ import { filmStateReducer } from './slices/filmsState.slice'
 import { filterReducer } from './slices/filter.slice'
 import { cartoonIdReducer } from './slices/getCartoonId'
 import { filmIdReducer } from './slices/getFilmId.slice'
+import { serialIdReducer } from './slices/getSerialId.slice'
 
 export const store = configureStore({
 	reducer: {
 		[api.reducerPath]: api.reducer,
 		getFilmId: filmIdReducer,
 		getCartoonId: cartoonIdReducer,
+		getSerialId: serialIdReducer,
 		filter: filterReducer,
 		filmState: filmStateReducer,
 	},

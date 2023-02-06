@@ -8,12 +8,14 @@ import Home from '../pages/Home'
 import PlayCartoonPage from '../pages/PlayCartoonPage'
 import PlayFilmPage from '../pages/PlayFilmPage'
 import ProfilePage from '../pages/ProfilePage'
+import SerialPage from '../pages/SerialPage'
 
 const Router = () => {
 	return (
 		<Routes>
 			<Route path='/' element={<Home />} />
 			<Route path='/film/:id' element={<FilmPage />} />
+			<Route path='/serial/:id' element={<SerialPage />} />
 			<Route path='/films' element={<FilmsPage />} />
 			<Route path='/cartoons' element={<CartoonsPage />} />
 			<Route path='/FilmPlayer/:id' element={<PlayFilmPage />} />

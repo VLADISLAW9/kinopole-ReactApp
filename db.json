@@ -1523,5 +1523,1171 @@
 			"budget": "78 000 000 $",
 			"title": "Hollywood, 1926 At a noisy party in the producer's mansion, aspiring actress Nellie Laroy and a guy from the serving staff, Manny Torres, meet. The event is not only fun, but also beneficial for both: Nellie receives an invitation to shoot, and Manny drives drunk silent film star Jack Conrad home, and he asks the guy to work as his assistant. So both get on the set and begin to make a career in the movie: Nelly - in the acting field, Manny - as an assistant producer. Meanwhile, progress does not stand still, and sound films are gaining popularity."
 		}
+	],
+	"series": [
+		{
+			"id": 1,
+			"background": "https://4kwallpapers.com/images/wallpapers/spider-man-far-from-home-5k-7680x4320-947.jpg",
+			"image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/dd78edfd-6a1f-486c-9a86-6acbca940418/300x450",
+			"name": "Game of Thrones",
+			"video": "https://www.youtube.com/watch?v=Nt9L1jCKGnE&ab_channel=SonyPicturesEntertainment",
+			"data": "2022",
+			"country": "USA",
+			"actors": [
+				{
+					"actorId": 1,
+					"image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1600647/9e38e7a7-0dc7-4e04-9a1d-a580ec1b4de4/orig",
+					"name": "Tom Holland",
+					"birthday": "June 1, 1996",
+					"height": "168 cm",
+					"sex": "Male"
+				},
+				{
+					"actorId": 2,
+					"image": "https://st.kp.yandex.net/images/actor_iphone/iphone360_2317683.jpg",
+					"name": "Zendaya",
+					"height": "178 cm",
+					"birthday": "September 1, 1996",
+					"sex": "Female"
+				},
+				{
+					"actorId": 3,
+					"image": "https://avatars.mds.yandex.net/get-kinopoisk-image/6201401/99a484a9-4462-4c8c-bed3-22cda29cd215/orig",
+					"name": "Jacob Batalon",
+					"birthday": "October 9, 1996",
+					"height": "165 cm",
+					"sex": "Male"
+				},
+				{
+					"actorId": 4,
+					"image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/2c4a3629-917c-431e-864e-c6e03b1b8b3a/orig",
+					"name": "Samuel L. Jackson",
+					"birthday": "December 21, 1948",
+					"height": "188 cm",
+					"sex": "Male"
+				},
+				{
+					"actorId": 5,
+					"image": "https://st.kp.yandex.net/images/actor_iphone/iphone360_22692.jpg",
+					"name": "Jake Gyllenhaal",
+					"birthday": "December 19, 1980",
+					"height": "181 cm",
+					"sex": "Male"
+				},
+				{
+					"actorId": 6,
+					"image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/bbb0dc5c-b2f9-4bfd-9512-26f214c39347/orig",
+					"name": "Jon Favreau",
+					"birthday": "October 19, 1966",
+					"height": "185 cm",
+					"sex": "Male"
+				},
+				{
+					"actorId": 7,
+					"image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/e8231946-87f6-450a-8feb-35ff6cc4588a/orig",
+					"name": "J.K. Simmons",
+					"birthday": "June 9, 1955",
+					"height": "180 cm",
+					"sex": "Male"
+				},
+				{
+					"actorId": 8,
+					"image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/c0274c46-d07b-4eaa-a0be-09e20632b91e/orig",
+					"name": "Tony Revolori",
+					"birthday": "April 28, 1996",
+					"height": "168 cm",
+					"sex": "Male"
+				},
+				{
+					"actorId": 9,
+					"image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/9ee0499c-ce39-4f3f-b1be-cee66b21af18/orig",
+					"name": "Cobie Smulders",
+					"birthday": "April 3, 1982",
+					"height": "173 cm",
+					"sex": "Female"
+				},
+				{
+					"actorId": 10,
+					"image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1704946/f7860573-57fb-470a-97e8-975842a22e6e/orig",
+					"name": "Angourie Rice",
+					"birthday": "June 1, 2001",
+					"height": "160 cm",
+					"sex": "Female"
+				}
+			],
+			"kind": ["fantasy", "drama", "action", "adventure"],
+			"seasons": 8,
+			"age": 16,
+			"time": 55,
+			"budget": "160 000 000 $",
+			"title": "Knights, dead men and dragons - in an epic battle for the fate of the world. The series that changed television forever"
+		},
+		{
+			"id": 2,
+			"background": "https://4kwallpapers.com/images/wallpapers/spider-man-far-from-home-5k-7680x4320-947.jpg",
+			"image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1900788/fb35416f-3b0d-4b96-bc65-cf6923f9e329/300x450",
+			"name": "Breaking Bad",
+			"video": "https://www.youtube.com/watch?v=Nt9L1jCKGnE&ab_channel=SonyPicturesEntertainment",
+			"data": "2022",
+			"country": "USA",
+			"actors": [
+				{
+					"actorId": 1,
+					"image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1600647/9e38e7a7-0dc7-4e04-9a1d-a580ec1b4de4/orig",
+					"name": "Tom Holland",
+					"birthday": "June 1, 1996",
+					"height": "168 cm",
+					"sex": "Male"
+				},
+				{
+					"actorId": 2,
+					"image": "https://st.kp.yandex.net/images/actor_iphone/iphone360_2317683.jpg",
+					"name": "Zendaya",
+					"height": "178 cm",
+					"birthday": "September 1, 1996",
+					"sex": "Female"
+				},
+				{
+					"actorId": 3,
+					"image": "https://avatars.mds.yandex.net/get-kinopoisk-image/6201401/99a484a9-4462-4c8c-bed3-22cda29cd215/orig",
+					"name": "Jacob Batalon",
+					"birthday": "October 9, 1996",
+					"height": "165 cm",
+					"sex": "Male"
+				},
+				{
+					"actorId": 4,
+					"image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/2c4a3629-917c-431e-864e-c6e03b1b8b3a/orig",
+					"name": "Samuel L. Jackson",
+					"birthday": "December 21, 1948",
+					"height": "188 cm",
+					"sex": "Male"
+				},
+				{
+					"actorId": 5,
+					"image": "https://st.kp.yandex.net/images/actor_iphone/iphone360_22692.jpg",
+					"name": "Jake Gyllenhaal",
+					"birthday": "December 19, 1980",
+					"height": "181 cm",
+					"sex": "Male"
+				},
+				{
+					"actorId": 6,
+					"image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/bbb0dc5c-b2f9-4bfd-9512-26f214c39347/orig",
+					"name": "Jon Favreau",
+					"birthday": "October 19, 1966",
+					"height": "185 cm",
+					"sex": "Male"
+				},
+				{
+					"actorId": 7,
+					"image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/e8231946-87f6-450a-8feb-35ff6cc4588a/orig",
+					"name": "J.K. Simmons",
+					"birthday": "June 9, 1955",
+					"height": "180 cm",
+					"sex": "Male"
+				},
+				{
+					"actorId": 8,
+					"image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/c0274c46-d07b-4eaa-a0be-09e20632b91e/orig",
+					"name": "Tony Revolori",
+					"birthday": "April 28, 1996",
+					"height": "168 cm",
+					"sex": "Male"
+				},
+				{
+					"actorId": 9,
+					"image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/9ee0499c-ce39-4f3f-b1be-cee66b21af18/orig",
+					"name": "Cobie Smulders",
+					"birthday": "April 3, 1982",
+					"height": "173 cm",
+					"sex": "Female"
+				},
+				{
+					"actorId": 10,
+					"image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1704946/f7860573-57fb-470a-97e8-975842a22e6e/orig",
+					"name": "Angourie Rice",
+					"birthday": "June 1, 2001",
+					"height": "160 cm",
+					"sex": "Female"
+				}
+			],
+			"kind": ["thriller", "drama"],
+			"seasons": 5,
+			"age": 18,
+			"time": 45,
+			"budget": "160 000 000 $",
+			"title": "Knights, dead men and dragons - in an epic battle for the fate of the world. The series that changed television forever"
+		},
+		{
+			"id": 3,
+			"background": "https://4kwallpapers.com/images/wallpapers/spider-man-far-from-home-5k-7680x4320-947.jpg",
+			"image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1599028/270df10e-2e72-4d8e-a49b-f84c751162a7/300x450",
+			"name": "House, M.D",
+			"video": "https://www.youtube.com/watch?v=Nt9L1jCKGnE&ab_channel=SonyPicturesEntertainment",
+			"data": "2022",
+			"country": "USA",
+			"actors": [
+				{
+					"actorId": 1,
+					"image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1600647/9e38e7a7-0dc7-4e04-9a1d-a580ec1b4de4/orig",
+					"name": "Tom Holland",
+					"birthday": "June 1, 1996",
+					"height": "168 cm",
+					"sex": "Male"
+				},
+				{
+					"actorId": 2,
+					"image": "https://st.kp.yandex.net/images/actor_iphone/iphone360_2317683.jpg",
+					"name": "Zendaya",
+					"height": "178 cm",
+					"birthday": "September 1, 1996",
+					"sex": "Female"
+				},
+				{
+					"actorId": 3,
+					"image": "https://avatars.mds.yandex.net/get-kinopoisk-image/6201401/99a484a9-4462-4c8c-bed3-22cda29cd215/orig",
+					"name": "Jacob Batalon",
+					"birthday": "October 9, 1996",
+					"height": "165 cm",
+					"sex": "Male"
+				},
+				{
+					"actorId": 4,
+					"image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/2c4a3629-917c-431e-864e-c6e03b1b8b3a/orig",
+					"name": "Samuel L. Jackson",
+					"birthday": "December 21, 1948",
+					"height": "188 cm",
+					"sex": "Male"
+				},
+				{
+					"actorId": 5,
+					"image": "https://st.kp.yandex.net/images/actor_iphone/iphone360_22692.jpg",
+					"name": "Jake Gyllenhaal",
+					"birthday": "December 19, 1980",
+					"height": "181 cm",
+					"sex": "Male"
+				},
+				{
+					"actorId": 6,
+					"image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/bbb0dc5c-b2f9-4bfd-9512-26f214c39347/orig",
+					"name": "Jon Favreau",
+					"birthday": "October 19, 1966",
+					"height": "185 cm",
+					"sex": "Male"
+				},
+				{
+					"actorId": 7,
+					"image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/e8231946-87f6-450a-8feb-35ff6cc4588a/orig",
+					"name": "J.K. Simmons",
+					"birthday": "June 9, 1955",
+					"height": "180 cm",
+					"sex": "Male"
+				},
+				{
+					"actorId": 8,
+					"image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/c0274c46-d07b-4eaa-a0be-09e20632b91e/orig",
+					"name": "Tony Revolori",
+					"birthday": "April 28, 1996",
+					"height": "168 cm",
+					"sex": "Male"
+				},
+				{
+					"actorId": 9,
+					"image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/9ee0499c-ce39-4f3f-b1be-cee66b21af18/orig",
+					"name": "Cobie Smulders",
+					"birthday": "April 3, 1982",
+					"height": "173 cm",
+					"sex": "Female"
+				},
+				{
+					"actorId": 10,
+					"image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1704946/f7860573-57fb-470a-97e8-975842a22e6e/orig",
+					"name": "Angourie Rice",
+					"birthday": "June 1, 2001",
+					"height": "160 cm",
+					"sex": "Female"
+				}
+			],
+			"kind": ["fantasy", "drama", "action", "adventure"],
+			"seasons": 8,
+			"age": 16,
+			"time": 43,
+			"budget": "160 000 000 $",
+			"title": "The series is about a team of doctors who must correctly diagnose a patient and save him. Leading the team is Dr. Gregory House, who walks with a cane after a muscle infarction in his right leg was diagnosed too late. As a doctor, House is simply a genius, but he himself is not distinguished by penetration in communicating with patients and avoids them with pleasure, if only there is an opportunity. He himself spends all the time in the fight against his own pain, and the cane in his hand only emphasizes his tough, poisonous manner of communication. At times, his behavior can be called almost inhuman, and at the same time he is an excellent doctor with an atypical mind and impeccable instinct, which earned him deep respect. Being an infectious disease specialist, he is also a wonderful diagnostician who loves to solve medical mysteries in order to save someone's life."
+		},
+		{
+			"id": 4,
+			"background": "https://4kwallpapers.com/images/wallpapers/spider-man-far-from-home-5k-7680x4320-947.jpg",
+			"image": "https://kinopoisk-ru.clstorage.net/b2r8V9452/a89bdefp/gUUdv5fmqRalX6w5-iCQoRXx0shFpHGXGMrYlGhQc0gmZNtTieDSOVbF9zyUHKeJFTdKPsy--NUXMpSmMlXjOHWBOD6So1gHUJ_Z2I7VhcQg5RZNoNAAU52umUVdhca61WZYcR7CscvUxzEo8Aj2_JAyrj-pa-nQs4Og0RTkkz4QdK6dd3SqQldNXhwKMcLTRYE0SiTWZdWYqawEi-MCieeHajJeQML6JaQAiyLogq-x8FxeOpu5widQsND3MhI9A7QtjMVFWJLmvS_NWWHRwkUQFDslVwRlWEvOlagAQ1n2NokBHFHgW5bn0kuRSxEuAuDPrpvqOXMUE8FiRHBzLxH0PPxXp_lDJ63d7iiA8xHHILUYFdXmJ6rY_lVK0vFJpabr4B1x0glXtXF5AvlDLOHAn4wZqhmjFvGxAXQyA6xi1gz-VHeakWXOT7-JMPPSRRL0iYalpUcKuR9F-KAyGiQUyFK8MABLFTUASbBJQmyScq-fuhhZ0VWxgaH2c4OOYeSenPZ0uhL073xtaMGzI6fQhMonF-QnufoMJnvj4Sm2dWsRTLPRqgaE44jQS2NOM4KOXGvq2gNUw-MgJBAhTHB3TUzHlWhhRr2sP6swQKJlUkZIFwe3F9npr2fY4BH4F7TogpwjAslmpcPoI9rSPMHDXe_L6chBJaPzw2ewUC5Ddr3-pIYrAneuT_960ABxJzK2GFVkpgR4OM8UqUHx6cbWeVNvEhHaNfUxixA4AG9h0x4tCgr6kHQyULOEgHEtEfT_7HWU2kJ07X1OS3JhcEaCxEgElrV2etm9ZslQsPo2tHkCHbIyeQQmg3si-0B8wvBtjSo7S4J1onMwtgAiPEEFfP5W1Xsg90-Or9qRAREVciWKNyWXNcpavHRY8fA6VrfZU22DAIgUJpE5AZqAPmDRHn_72VjwdbPCoFcw4__BBJwOpwTpYIU93UxLknIiVsJ1CoZ0lhWpC343StIRWfb12wPcEqOZ5dQzC1JbExyyQB4fmdvJwPZxkxHl4iFsUdSdnabHyzMVTJ-uOUGjU6cghamXVCRlWglNdapgAclnxStBrVITanYUsVvxawJ8UOD9bMk7WBCEc8ESloChXiD2ni4GxLkjxa_fzorCAiEHILcb5cdXhdm7zeS6kYNp9vZbcb3DcslkJoCIgzlBbbOzDH-paxpBNUICA-XBES4z9vw-FraI8CS9vRxrUJNjNyKGeoWHZEUqSpzW-rJDK8ek-IEeYdKp95fxuTPaAz9BIt4eejh6wMcjk2LHQ-KPY6YNbiU1GKAFvJ-9qxEREPfTd3k3FnRnSnisdguhE8q3trqyXwMQSBU18Ujw-BGdUcDsP5kKS2IW8gGQ1VBgvwDFTQ3kd0txxg1tXwsQQQGGwraa9WWmF6h5DSeb0lK4hndIc88Q0cp3xdO5AljzvWDhbc3ouzqS1AGBI7aTE9zTNF0slMXqgAQszc5LgSNQJRInWTbEZFQoKfw261AymCcWO-PtUqFKR5eDGZDb4pxSYy3smOv5gqTikSKEETPc0EdtTARnCxLUD52uC1ERQaXANmrHdAUlimqctFuA4aqFtusALcHCiyW2AegjacAPQzIMPNqLC6FnQZIgNEDCv6D2z173JoizN-1cnknCcLBUAyeLpKUH10uIHweYoCFrRCQosg-QorgU9YBJ06qxHrORDk3p-7gy5iITk-Qxsn4CNVw-Fla7cQQPzT55M4BidsN2-MRVddT7-N6WOfBDKUR0qzB9UtJ5J8WAy-JKsGySEq682Wg4A2Xz4OKGcQHuIhYd7BW2uqCn7d59iYHQoTbQ1SklBLXl2cocpioQMItXNGkTbRMyKmWVMStg-wFsE8Bc3hqa26GlABFD1gIhXlPWzs2Fd3iiZQ8vb0ohkoHHcPTY5mWUxeqJXofqUADaZzfKgh6iUvskd4FZ0cjxbGIAD42pi0ljB8OgwXVwE_wx5B7O5FWo0nVPr7xr8mICxZFXCte1dXQqGxwkimAReiT2eHJeUHGIRKfzWyOKEkzCk-4_O0laETfzkOL3gnEPUmY_f8clWzAnLcwtCVJCkRbghSqHlJT32Bs-9ZuTwThkZqiBTBNy2SWGg3jwafK9QAEuvykIGZKlEkPRdaLjjyE0L_2212ixRW7vPfsy4gO1IkSqhuZnFkjrDwbpsLNZddbZEmxy0LgFhSGbU1gRnXIyXV-7evgy5CHyI2Rzgz2Bpw-NpsfKo-Tsj15J86Fj1WFGaCXndyVIuD5kGNGi29QHKAC8MmHphmTAWNHrwP8y4o6sOXppgLTh8gL2gcOtUPQPHVdmysEHHs9t-JBisMazFai01iRk6HqP1LtSwhuEZHlgf-Dzydb3IsgQCCNe0OANr4kLyKNXUQHT9DMzbkP2Lv1FJptDRQ--j7qAkiM3soUaRtZndZiJ3zR7gqGqdLV6cVxhQNoGZ5OqsHiQ_nGyzr54m9mipZJDorYxEExiJt_edcTpIwfuzU4LUnFSVKElqAZllhfYC3xVeKJyuiWEyxGMsUFI14UxiWFpY1xQ02xMytgZchUxgvN1UrA98QVfXJaEC0Km7y292YPy44QzZ4g058fVGHkOVkpQAiok1zth_VMCGVcnAVtjWTI8MQIM_7nJaEDnkOOyd8AzzbMGD9-31Poy9A7ffHkg0KH1sBdqJ6RmF5kbjlTKgeE6RGYYsG1jYksmNfL7ogliPMIRD764CdrCZ_PjM4YyMo-xRN1uZeYIAXS9TYwJIaKAJwCnufSlxAVIOQ83inACGzXmWeJNcWO4xgeC-OEZwjwAExzsuAob0sYwU6AEETPtICVNjHe26sLHDI6uW5OiMGQBx6m1NKTEWZr-Zjii4wsF9HjjbrHCORXHUvnRqsDPgBCM7OrruXKWYBNCl4KgTfBmHxy1xprxBt6PbCsyMuH1EAQ4NKeXF7nqPDWI8ENJ5rVKU-2gw0uW1fL48bjyPMCA3W7YywhQ51Djk",
+			"name": "Sherlock",
+			"video": "https://www.youtube.com/watch?v=Nt9L1jCKGnE&ab_channel=SonyPicturesEntertainment",
+			"data": "2022",
+			"country": "USA",
+			"actors": [
+				{
+					"actorId": 1,
+					"image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1600647/9e38e7a7-0dc7-4e04-9a1d-a580ec1b4de4/orig",
+					"name": "Tom Holland",
+					"birthday": "June 1, 1996",
+					"height": "168 cm",
+					"sex": "Male"
+				},
+				{
+					"actorId": 2,
+					"image": "https://st.kp.yandex.net/images/actor_iphone/iphone360_2317683.jpg",
+					"name": "Zendaya",
+					"height": "178 cm",
+					"birthday": "September 1, 1996",
+					"sex": "Female"
+				},
+				{
+					"actorId": 3,
+					"image": "https://avatars.mds.yandex.net/get-kinopoisk-image/6201401/99a484a9-4462-4c8c-bed3-22cda29cd215/orig",
+					"name": "Jacob Batalon",
+					"birthday": "October 9, 1996",
+					"height": "165 cm",
+					"sex": "Male"
+				},
+				{
+					"actorId": 4,
+					"image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/2c4a3629-917c-431e-864e-c6e03b1b8b3a/orig",
+					"name": "Samuel L. Jackson",
+					"birthday": "December 21, 1948",
+					"height": "188 cm",
+					"sex": "Male"
+				},
+				{
+					"actorId": 5,
+					"image": "https://st.kp.yandex.net/images/actor_iphone/iphone360_22692.jpg",
+					"name": "Jake Gyllenhaal",
+					"birthday": "December 19, 1980",
+					"height": "181 cm",
+					"sex": "Male"
+				},
+				{
+					"actorId": 6,
+					"image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/bbb0dc5c-b2f9-4bfd-9512-26f214c39347/orig",
+					"name": "Jon Favreau",
+					"birthday": "October 19, 1966",
+					"height": "185 cm",
+					"sex": "Male"
+				},
+				{
+					"actorId": 7,
+					"image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/e8231946-87f6-450a-8feb-35ff6cc4588a/orig",
+					"name": "J.K. Simmons",
+					"birthday": "June 9, 1955",
+					"height": "180 cm",
+					"sex": "Male"
+				},
+				{
+					"actorId": 8,
+					"image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/c0274c46-d07b-4eaa-a0be-09e20632b91e/orig",
+					"name": "Tony Revolori",
+					"birthday": "April 28, 1996",
+					"height": "168 cm",
+					"sex": "Male"
+				},
+				{
+					"actorId": 9,
+					"image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/9ee0499c-ce39-4f3f-b1be-cee66b21af18/orig",
+					"name": "Cobie Smulders",
+					"birthday": "April 3, 1982",
+					"height": "173 cm",
+					"sex": "Female"
+				},
+				{
+					"actorId": 10,
+					"image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1704946/f7860573-57fb-470a-97e8-975842a22e6e/orig",
+					"name": "Angourie Rice",
+					"birthday": "June 1, 2001",
+					"height": "160 cm",
+					"sex": "Female"
+				}
+			],
+			"kind": ["fantasy", "drama", "thriller"],
+			"seasons": 8,
+			"age": 16,
+			"time": 55,
+			"budget": "160 000 000 $",
+			"title": "Knights, dead men and dragons - in an epic battle for the fate of the world. The series that changed television forever"
+		},
+		{
+			"id": 5,
+			"background": "https://4kwallpapers.com/images/wallpapers/spider-man-far-from-home-5k-7680x4320-947.jpg",
+			"image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1629390/c340e00b-17ca-4ad2-b55a-a941a524926f/300x450",
+			"name": "How I Met Your Mother",
+			"video": "https://www.youtube.com/watch?v=Nt9L1jCKGnE&ab_channel=SonyPicturesEntertainment",
+			"data": "2022",
+			"country": "USA",
+			"actors": [
+				{
+					"actorId": 1,
+					"image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1600647/9e38e7a7-0dc7-4e04-9a1d-a580ec1b4de4/orig",
+					"name": "Tom Holland",
+					"birthday": "June 1, 1996",
+					"height": "168 cm",
+					"sex": "Male"
+				},
+				{
+					"actorId": 2,
+					"image": "https://st.kp.yandex.net/images/actor_iphone/iphone360_2317683.jpg",
+					"name": "Zendaya",
+					"height": "178 cm",
+					"birthday": "September 1, 1996",
+					"sex": "Female"
+				},
+				{
+					"actorId": 3,
+					"image": "https://avatars.mds.yandex.net/get-kinopoisk-image/6201401/99a484a9-4462-4c8c-bed3-22cda29cd215/orig",
+					"name": "Jacob Batalon",
+					"birthday": "October 9, 1996",
+					"height": "165 cm",
+					"sex": "Male"
+				},
+				{
+					"actorId": 4,
+					"image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/2c4a3629-917c-431e-864e-c6e03b1b8b3a/orig",
+					"name": "Samuel L. Jackson",
+					"birthday": "December 21, 1948",
+					"height": "188 cm",
+					"sex": "Male"
+				},
+				{
+					"actorId": 5,
+					"image": "https://st.kp.yandex.net/images/actor_iphone/iphone360_22692.jpg",
+					"name": "Jake Gyllenhaal",
+					"birthday": "December 19, 1980",
+					"height": "181 cm",
+					"sex": "Male"
+				},
+				{
+					"actorId": 6,
+					"image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/bbb0dc5c-b2f9-4bfd-9512-26f214c39347/orig",
+					"name": "Jon Favreau",
+					"birthday": "October 19, 1966",
+					"height": "185 cm",
+					"sex": "Male"
+				},
+				{
+					"actorId": 7,
+					"image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/e8231946-87f6-450a-8feb-35ff6cc4588a/orig",
+					"name": "J.K. Simmons",
+					"birthday": "June 9, 1955",
+					"height": "180 cm",
+					"sex": "Male"
+				},
+				{
+					"actorId": 8,
+					"image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/c0274c46-d07b-4eaa-a0be-09e20632b91e/orig",
+					"name": "Tony Revolori",
+					"birthday": "April 28, 1996",
+					"height": "168 cm",
+					"sex": "Male"
+				},
+				{
+					"actorId": 9,
+					"image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/9ee0499c-ce39-4f3f-b1be-cee66b21af18/orig",
+					"name": "Cobie Smulders",
+					"birthday": "April 3, 1982",
+					"height": "173 cm",
+					"sex": "Female"
+				},
+				{
+					"actorId": 10,
+					"image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1704946/f7860573-57fb-470a-97e8-975842a22e6e/orig",
+					"name": "Angourie Rice",
+					"birthday": "June 1, 2001",
+					"height": "160 cm",
+					"sex": "Female"
+				}
+			],
+			"kind": ["comedy"],
+			"seasons": 9,
+			"age": 16,
+			"time": 40,
+			"budget": "160 000 000 $",
+			"title": "How I Met Your Mother is a comedy about Ted and how he fell in love. All the trouble begins with the fact that Ted's best friend, Marshall, suddenly announces that he wants to propose to his old friend Lily, a kindergarten teacher. By then, Ted realizes that he needs to put in more effort if he really hopes to find his true love. Helping him in this search is his friend Barney - a convinced bachelor, always with his own, sometimes too much, opinion on everything that happens, with a penchant for costumes and the right way to meet girls. When Ted meets Robin, he decides it's love at first sight, but fate has something else in store."
+		},
+		{
+			"id": 6,
+			"background": "https://4kwallpapers.com/images/wallpapers/spider-man-far-from-home-5k-7680x4320-947.jpg",
+			"image": "https://kinopoisk-ru.clstorage.net/b2r8V9452/a89bdefp/gUUdv5fmqRalX6w5-iCQoRXx0shFpHGXGMrYlGhQc0gmZNtTieDSOVbF9zyULBeJJYfKO9m7WKUiR9HmN0XzXVWBOJvyk1gHIIrp2AugtWTA4GZNNbCg852umUVdhca61WZYcR7CscvUxzEo8Aj2_JAyrj-pa-nQs4Og0RTkkz4QdK6dd3SqQldNXhwKMcLTRYE0SiTWZdWYqawEi-MCieeHajJeQML6JaQAiyLogq-x8FxeOpu5widQsND3MhI9A7QtjMVFWJLmvS_NWWHRwkUQFDslVwRlWEvOlagAQ1n2NokBHFHgW5bn0kuRSxEuAuDPrpvqOXMUE8FiRHBzLxH0PPxXp_lDJ63d7iiA8xHHILUYFdXmJ6rY_lVK0vFJpabr4B1x0glXtXF5AvlDLOHAn4wZqhmjFvGxAXQyA6xi1gz-VHeakWXOT7-JMPPSRRL0iYalpUcKuR9F-KAyGiQUyFK8MABLFTUASbBJQmyScq-fuhhZ0VWxgaH2c4OOYeSenPZ0uhL073xtaMGzI6fQhMonF-QnufoMJnvj4Sm2dWsRTLPRqgaE44jQS2NOM4KOXGvq2gNUw-MgJBAhTHB3TUzHlWhhRr2sP6swQKJlUkZIFwe3F9npr2fY4BH4F7TogpwjAslmpcPoI9rSPMHDXe_L6chBJaPzw2ewUC5Ddr3-pIYrAneuT_960ABxJzK2GFVkpgR4OM8UqUHx6cbWeVNvEhHaNfUxixA4AG9h0x4tCgr6kHQyULOEgHEtEfT_7HWU2kJ07X1OS3JhcEaCxEgElrV2etm9ZslQsPo2tHkCHbIyeQQmg3si-0B8wvBtjSo7S4J1onMwtgAiPEEFfP5W1Xsg90-Or9qRAREVciWKNyWXNcpavHRY8fA6VrfZU22DAIgUJpE5AZqAPmDRHn_72VjwdbPCoFcw4__BBJwOpwTpYIU93UxLknIiVsJ1CoZ0lhWpC343StIRWfb12wPcEqOZ5dQzC1JbExyyQB4fmdvJwPZxkxHl4iFsUdSdnabHyzMVTJ-uOUGjU6cghamXVCRlWglNdapgAclnxStBrVITanYUsVvxawJ8UOD9bMk7WBCEc8ESloChXiD2ni4GxLkjxa_fzorCAiEHILcb5cdXhdm7zeS6kYNp9vZbcb3DcslkJoCIgzlBbbOzDH-paxpBNUICA-XBES4z9vw-FraI8CS9vRxrUJNjNyKGeoWHZEUqSpzW-rJDK8ek-IEeYdKp95fxuTPaAz9BIt4eejh6wMcjk2LHQ-KPY6YNbiU1GKAFvJ-9qxEREPfTd3k3FnRnSnisdguhE8q3trqyXwMQSBU18Ujw-BGdUcDsP5kKS2IW8gGQ1VBgvwDFTQ3kd0txxg1tXwsQQQGGwraa9WWmF6h5DSeb0lK4hndIc88Q0cp3xdO5AljzvWDhbc3ouzqS1AGBI7aTE9zTNF0slMXqgAQszc5LgSNQJRInWTbEZFQoKfw261AymCcWO-PtUqFKR5eDGZDb4pxSYy3smOv5gqTikSKEETPc0EdtTARnCxLUD52uC1ERQaXANmrHdAUlimqctFuA4aqFtusALcHCiyW2AegjacAPQzIMPNqLC6FnQZIgNEDCv6D2z173JoizN-1cnknCcLBUAyeLpKUH10uIHweYoCFrRCQosg-QorgU9YBJ06qxHrORDk3p-7gy5iITk-Qxsn4CNVw-Fla7cQQPzT55M4BidsN2-MRVddT7-N6WOfBDKUR0qzB9UtJ5J8WAy-JKsGySEq682Wg4A2Xz4OKGcQHuIhYd7BW2uqCn7d59iYHQoTbQ1SklBLXl2cocpioQMItXNGkTbRMyKmWVMStg-wFsE8Bc3hqa26GlABFD1gIhXlPWzs2Fd3iiZQ8vb0ohkoHHcPTY5mWUxeqJXofqUADaZzfKgh6iUvskd4FZ0cjxbGIAD42pi0ljB8OgwXVwE_wx5B7O5FWo0nVPr7xr8mICxZFXCte1dXQqGxwkimAReiT2eHJeUHGIRKfzWyOKEkzCk-4_O0laETfzkOL3gnEPUmY_f8clWzAnLcwtCVJCkRbghSqHlJT32Bs-9ZuTwThkZqiBTBNy2SWGg3jwafK9QAEuvykIGZKlEkPRdaLjjyE0L_2212ixRW7vPfsy4gO1IkSqhuZnFkjrDwbpsLNZddbZEmxy0LgFhSGbU1gRnXIyXV-7evgy5CHyI2Rzgz2Bpw-NpsfKo-Tsj15J86Fj1WFGaCXndyVIuD5kGNGi29QHKAC8MmHphmTAWNHrwP8y4o6sOXppgLTh8gL2gcOtUPQPHVdmysEHHs9t-JBisMazFai01iRk6HqP1LtSwhuEZHlgf-Dzydb3IsgQCCNe0OANr4kLyKNXUQHT9DMzbkP2Lv1FJptDRQ--j7qAkiM3soUaRtZndZiJ3zR7gqGqdLV6cVxhQNoGZ5OqsHiQ_nGyzr54m9mipZJDorYxEExiJt_edcTpIwfuzU4LUnFSVKElqAZllhfYC3xVeKJyuiWEyxGMsUFI14UxiWFpY1xQ02xMytgZchUxgvN1UrA98QVfXJaEC0Km7y292YPy44QzZ4g058fVGHkOVkpQAiok1zth_VMCGVcnAVtjWTI8MQIM_7nJaEDnkOOyd8AzzbMGD9-31Poy9A7ffHkg0KH1sBdqJ6RmF5kbjlTKgeE6RGYYsG1jYksmNfL7ogliPMIRD764CdrCZ_PjM4YyMo-xRN1uZeYIAXS9TYwJIaKAJwCnufSlxAVIOQ83inACGzXmWeJNcWO4xgeC-OEZwjwAExzsuAob0sYwU6AEETPtICVNjHe26sLHDI6uW5OiMGQBx6m1NKTEWZr-Zjii4wsF9HjjbrHCORXHUvnRqsDPgBCM7OrruXKWYBNCl4KgTfBmHxy1xprxBt6PbCsyMuH1EAQ4NKeXF7nqPDWI8ENJ5rVKU-2gw0uW1fL48bjyPMCA3W7YywhQ51Djk",
+			"name": "The Office",
+			"video": "https://www.youtube.com/watch?v=Nt9L1jCKGnE&ab_channel=SonyPicturesEntertainment",
+			"data": "2022",
+			"country": "USA",
+			"actors": [
+				{
+					"actorId": 1,
+					"image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1600647/9e38e7a7-0dc7-4e04-9a1d-a580ec1b4de4/orig",
+					"name": "Tom Holland",
+					"birthday": "June 1, 1996",
+					"height": "168 cm",
+					"sex": "Male"
+				},
+				{
+					"actorId": 2,
+					"image": "https://st.kp.yandex.net/images/actor_iphone/iphone360_2317683.jpg",
+					"name": "Zendaya",
+					"height": "178 cm",
+					"birthday": "September 1, 1996",
+					"sex": "Female"
+				},
+				{
+					"actorId": 3,
+					"image": "https://avatars.mds.yandex.net/get-kinopoisk-image/6201401/99a484a9-4462-4c8c-bed3-22cda29cd215/orig",
+					"name": "Jacob Batalon",
+					"birthday": "October 9, 1996",
+					"height": "165 cm",
+					"sex": "Male"
+				},
+				{
+					"actorId": 4,
+					"image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/2c4a3629-917c-431e-864e-c6e03b1b8b3a/orig",
+					"name": "Samuel L. Jackson",
+					"birthday": "December 21, 1948",
+					"height": "188 cm",
+					"sex": "Male"
+				},
+				{
+					"actorId": 5,
+					"image": "https://st.kp.yandex.net/images/actor_iphone/iphone360_22692.jpg",
+					"name": "Jake Gyllenhaal",
+					"birthday": "December 19, 1980",
+					"height": "181 cm",
+					"sex": "Male"
+				},
+				{
+					"actorId": 6,
+					"image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/bbb0dc5c-b2f9-4bfd-9512-26f214c39347/orig",
+					"name": "Jon Favreau",
+					"birthday": "October 19, 1966",
+					"height": "185 cm",
+					"sex": "Male"
+				},
+				{
+					"actorId": 7,
+					"image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/e8231946-87f6-450a-8feb-35ff6cc4588a/orig",
+					"name": "J.K. Simmons",
+					"birthday": "June 9, 1955",
+					"height": "180 cm",
+					"sex": "Male"
+				},
+				{
+					"actorId": 8,
+					"image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/c0274c46-d07b-4eaa-a0be-09e20632b91e/orig",
+					"name": "Tony Revolori",
+					"birthday": "April 28, 1996",
+					"height": "168 cm",
+					"sex": "Male"
+				},
+				{
+					"actorId": 9,
+					"image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/9ee0499c-ce39-4f3f-b1be-cee66b21af18/orig",
+					"name": "Cobie Smulders",
+					"birthday": "April 3, 1982",
+					"height": "173 cm",
+					"sex": "Female"
+				},
+				{
+					"actorId": 10,
+					"image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1704946/f7860573-57fb-470a-97e8-975842a22e6e/orig",
+					"name": "Angourie Rice",
+					"birthday": "June 1, 2001",
+					"height": "160 cm",
+					"sex": "Female"
+				}
+			],
+			"kind": ["comedy"],
+			"seasons": 9,
+			"age": 16,
+			"time": 45,
+			"budget": "160 000 000 $",
+			"title": "A series about the workdays of a small regional office of a large company, the inhabitants of which must endure the kookies of their unlucky boss all day long."
+		},
+		{
+			"id": 7,
+			"background": "https://4kwallpapers.com/images/wallpapers/spider-man-far-from-home-5k-7680x4320-947.jpg",
+			"image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1599028/209536e2-8eda-47e3-9044-3a1d330ba809/300x450",
+			"name": "Anna",
+			"video": "https://www.youtube.com/watch?v=Nt9L1jCKGnE&ab_channel=SonyPicturesEntertainment",
+			"data": "2022",
+			"country": "Canada",
+			"actors": [
+				{
+					"actorId": 1,
+					"image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1600647/9e38e7a7-0dc7-4e04-9a1d-a580ec1b4de4/orig",
+					"name": "Tom Holland",
+					"birthday": "June 1, 1996",
+					"height": "168 cm",
+					"sex": "Male"
+				},
+				{
+					"actorId": 2,
+					"image": "https://st.kp.yandex.net/images/actor_iphone/iphone360_2317683.jpg",
+					"name": "Zendaya",
+					"height": "178 cm",
+					"birthday": "September 1, 1996",
+					"sex": "Female"
+				},
+				{
+					"actorId": 3,
+					"image": "https://avatars.mds.yandex.net/get-kinopoisk-image/6201401/99a484a9-4462-4c8c-bed3-22cda29cd215/orig",
+					"name": "Jacob Batalon",
+					"birthday": "October 9, 1996",
+					"height": "165 cm",
+					"sex": "Male"
+				},
+				{
+					"actorId": 4,
+					"image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/2c4a3629-917c-431e-864e-c6e03b1b8b3a/orig",
+					"name": "Samuel L. Jackson",
+					"birthday": "December 21, 1948",
+					"height": "188 cm",
+					"sex": "Male"
+				},
+				{
+					"actorId": 5,
+					"image": "https://st.kp.yandex.net/images/actor_iphone/iphone360_22692.jpg",
+					"name": "Jake Gyllenhaal",
+					"birthday": "December 19, 1980",
+					"height": "181 cm",
+					"sex": "Male"
+				},
+				{
+					"actorId": 6,
+					"image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/bbb0dc5c-b2f9-4bfd-9512-26f214c39347/orig",
+					"name": "Jon Favreau",
+					"birthday": "October 19, 1966",
+					"height": "185 cm",
+					"sex": "Male"
+				},
+				{
+					"actorId": 7,
+					"image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/e8231946-87f6-450a-8feb-35ff6cc4588a/orig",
+					"name": "J.K. Simmons",
+					"birthday": "June 9, 1955",
+					"height": "180 cm",
+					"sex": "Male"
+				},
+				{
+					"actorId": 8,
+					"image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/c0274c46-d07b-4eaa-a0be-09e20632b91e/orig",
+					"name": "Tony Revolori",
+					"birthday": "April 28, 1996",
+					"height": "168 cm",
+					"sex": "Male"
+				},
+				{
+					"actorId": 9,
+					"image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/9ee0499c-ce39-4f3f-b1be-cee66b21af18/orig",
+					"name": "Cobie Smulders",
+					"birthday": "April 3, 1982",
+					"height": "173 cm",
+					"sex": "Female"
+				},
+				{
+					"actorId": 10,
+					"image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1704946/f7860573-57fb-470a-97e8-975842a22e6e/orig",
+					"name": "Angourie Rice",
+					"birthday": "June 1, 2001",
+					"height": "160 cm",
+					"sex": "Female"
+				}
+			],
+			"kind": ["drama"],
+			"seasons": 3,
+			"age": 16,
+			"time": 44,
+			"budget": "160 000 000 $",
+			"title": "Ann is a thirteen-year-old orphan. The girl lost her parents early and has been living in an orphanage ever since. The life of the heroine changes dramatically when, as a result of a mistake, she ends up with new foster parents, an old maid and her younger brother."
+		},
+		{
+			"id": 8,
+			"background": "https://4kwallpapers.com/images/wallpapers/spider-man-far-from-home-5k-7680x4320-947.jpg",
+			"image": "https://avatars.mds.yandex.net/get-kinopoisk-image/4303601/4639b97f-1ff6-4f63-b7f6-02ea1a14f553/300x450",
+			"name": "Stranger Things",
+			"video": "https://www.youtube.com/watch?v=Nt9L1jCKGnE&ab_channel=SonyPicturesEntertainment",
+			"data": "2022",
+			"country": "USA",
+			"actors": [
+				{
+					"actorId": 1,
+					"image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1600647/9e38e7a7-0dc7-4e04-9a1d-a580ec1b4de4/orig",
+					"name": "Tom Holland",
+					"birthday": "June 1, 1996",
+					"height": "168 cm",
+					"sex": "Male"
+				},
+				{
+					"actorId": 2,
+					"image": "https://st.kp.yandex.net/images/actor_iphone/iphone360_2317683.jpg",
+					"name": "Zendaya",
+					"height": "178 cm",
+					"birthday": "September 1, 1996",
+					"sex": "Female"
+				},
+				{
+					"actorId": 3,
+					"image": "https://avatars.mds.yandex.net/get-kinopoisk-image/6201401/99a484a9-4462-4c8c-bed3-22cda29cd215/orig",
+					"name": "Jacob Batalon",
+					"birthday": "October 9, 1996",
+					"height": "165 cm",
+					"sex": "Male"
+				},
+				{
+					"actorId": 4,
+					"image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/2c4a3629-917c-431e-864e-c6e03b1b8b3a/orig",
+					"name": "Samuel L. Jackson",
+					"birthday": "December 21, 1948",
+					"height": "188 cm",
+					"sex": "Male"
+				},
+				{
+					"actorId": 5,
+					"image": "https://st.kp.yandex.net/images/actor_iphone/iphone360_22692.jpg",
+					"name": "Jake Gyllenhaal",
+					"birthday": "December 19, 1980",
+					"height": "181 cm",
+					"sex": "Male"
+				},
+				{
+					"actorId": 6,
+					"image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/bbb0dc5c-b2f9-4bfd-9512-26f214c39347/orig",
+					"name": "Jon Favreau",
+					"birthday": "October 19, 1966",
+					"height": "185 cm",
+					"sex": "Male"
+				},
+				{
+					"actorId": 7,
+					"image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/e8231946-87f6-450a-8feb-35ff6cc4588a/orig",
+					"name": "J.K. Simmons",
+					"birthday": "June 9, 1955",
+					"height": "180 cm",
+					"sex": "Male"
+				},
+				{
+					"actorId": 8,
+					"image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/c0274c46-d07b-4eaa-a0be-09e20632b91e/orig",
+					"name": "Tony Revolori",
+					"birthday": "April 28, 1996",
+					"height": "168 cm",
+					"sex": "Male"
+				},
+				{
+					"actorId": 9,
+					"image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/9ee0499c-ce39-4f3f-b1be-cee66b21af18/orig",
+					"name": "Cobie Smulders",
+					"birthday": "April 3, 1982",
+					"height": "173 cm",
+					"sex": "Female"
+				},
+				{
+					"actorId": 10,
+					"image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1704946/f7860573-57fb-470a-97e8-975842a22e6e/orig",
+					"name": "Angourie Rice",
+					"birthday": "June 1, 2001",
+					"height": "160 cm",
+					"sex": "Female"
+				}
+			],
+			"kind": ["thriller", "horror", "fantasy"],
+			"seasons": 5,
+			"age": 16,
+			"time": 44,
+			"budget": "160 000 000 $",
+			"title": "1980s, quiet provincial American town. The favorable course of local life is disturbed by the mysterious disappearance of a teenager named Will. The boy's relatives and the local sheriff are determined to find out the circumstances of the case, and the events also affect Will's best friend Mike. He starts his own investigation. Mike is sure that he is close to the solution, and now he has to find himself in the midst of a fierce battle of otherworldly forces."
+		},
+		{
+			"id": 9,
+			"background": "https://4kwallpapers.com/images/wallpapers/spider-man-far-from-home-5k-7680x4320-947.jpg",
+			"image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1599028/e1ec4209-569e-4745-a324-b180af8097ef/300x450",
+			"name": "Peaky Blinders",
+			"video": "https://www.youtube.com/watch?v=Nt9L1jCKGnE&ab_channel=SonyPicturesEntertainment",
+			"data": "2022",
+			"country": "USA",
+			"actors": [
+				{
+					"actorId": 1,
+					"image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1600647/9e38e7a7-0dc7-4e04-9a1d-a580ec1b4de4/orig",
+					"name": "Tom Holland",
+					"birthday": "June 1, 1996",
+					"height": "168 cm",
+					"sex": "Male"
+				},
+				{
+					"actorId": 2,
+					"image": "https://st.kp.yandex.net/images/actor_iphone/iphone360_2317683.jpg",
+					"name": "Zendaya",
+					"height": "178 cm",
+					"birthday": "September 1, 1996",
+					"sex": "Female"
+				},
+				{
+					"actorId": 3,
+					"image": "https://avatars.mds.yandex.net/get-kinopoisk-image/6201401/99a484a9-4462-4c8c-bed3-22cda29cd215/orig",
+					"name": "Jacob Batalon",
+					"birthday": "October 9, 1996",
+					"height": "165 cm",
+					"sex": "Male"
+				},
+				{
+					"actorId": 4,
+					"image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/2c4a3629-917c-431e-864e-c6e03b1b8b3a/orig",
+					"name": "Samuel L. Jackson",
+					"birthday": "December 21, 1948",
+					"height": "188 cm",
+					"sex": "Male"
+				},
+				{
+					"actorId": 5,
+					"image": "https://st.kp.yandex.net/images/actor_iphone/iphone360_22692.jpg",
+					"name": "Jake Gyllenhaal",
+					"birthday": "December 19, 1980",
+					"height": "181 cm",
+					"sex": "Male"
+				},
+				{
+					"actorId": 6,
+					"image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/bbb0dc5c-b2f9-4bfd-9512-26f214c39347/orig",
+					"name": "Jon Favreau",
+					"birthday": "October 19, 1966",
+					"height": "185 cm",
+					"sex": "Male"
+				},
+				{
+					"actorId": 7,
+					"image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/e8231946-87f6-450a-8feb-35ff6cc4588a/orig",
+					"name": "J.K. Simmons",
+					"birthday": "June 9, 1955",
+					"height": "180 cm",
+					"sex": "Male"
+				},
+				{
+					"actorId": 8,
+					"image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/c0274c46-d07b-4eaa-a0be-09e20632b91e/orig",
+					"name": "Tony Revolori",
+					"birthday": "April 28, 1996",
+					"height": "168 cm",
+					"sex": "Male"
+				},
+				{
+					"actorId": 9,
+					"image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/9ee0499c-ce39-4f3f-b1be-cee66b21af18/orig",
+					"name": "Cobie Smulders",
+					"birthday": "April 3, 1982",
+					"height": "173 cm",
+					"sex": "Female"
+				},
+				{
+					"actorId": 10,
+					"image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1704946/f7860573-57fb-470a-97e8-975842a22e6e/orig",
+					"name": "Angourie Rice",
+					"birthday": "June 1, 2001",
+					"height": "160 cm",
+					"sex": "Female"
+				}
+			],
+			"kind": ["drama"],
+			"seasons": 9,
+			"age": 16,
+			"time": 45,
+			"budget": "160 000 000 $",
+			"title": "Knights, dead men and dragons - in an epic battle for the fate of the world. The series that changed television forever"
+		},
+		{
+			"id": 10,
+			"background": "https://4kwallpapers.com/images/wallpapers/spider-man-far-from-home-5k-7680x4320-947.jpg",
+			"image": "https://kinopoisk-ru.clstorage.net/b2r8V9452/a89bdefp/gUUdv5fmqRalX6w5-iCQoRXx0shFpHGXGMrYlGhQc0gmZNtTieDSOVbF9zyULBeJJYfKO4m-bcWSAqHmNyXjWAWBPY6yw1gCdbqJ2JuVpRRQ8GYdJcUAE52umUVdhca61WZYcR7CscvUxzEo8Aj2_JAyrj-pa-nQs4Og0RTkkz4QdK6dd3SqQldNXhwKMcLTRYE0SiTWZdWYqawEi-MCieeHajJeQML6JaQAiyLogq-x8FxeOpu5widQsND3MhI9A7QtjMVFWJLmvS_NWWHRwkUQFDslVwRlWEvOlagAQ1n2NokBHFHgW5bn0kuRSxEuAuDPrpvqOXMUE8FiRHBzLxH0PPxXp_lDJ63d7iiA8xHHILUYFdXmJ6rY_lVK0vFJpabr4B1x0glXtXF5AvlDLOHAn4wZqhmjFvGxAXQyA6xi1gz-VHeakWXOT7-JMPPSRRL0iYalpUcKuR9F-KAyGiQUyFK8MABLFTUASbBJQmyScq-fuhhZ0VWxgaH2c4OOYeSenPZ0uhL073xtaMGzI6fQhMonF-QnufoMJnvj4Sm2dWsRTLPRqgaE44jQS2NOM4KOXGvq2gNUw-MgJBAhTHB3TUzHlWhhRr2sP6swQKJlUkZIFwe3F9npr2fY4BH4F7TogpwjAslmpcPoI9rSPMHDXe_L6chBJaPzw2ewUC5Ddr3-pIYrAneuT_960ABxJzK2GFVkpgR4OM8UqUHx6cbWeVNvEhHaNfUxixA4AG9h0x4tCgr6kHQyULOEgHEtEfT_7HWU2kJ07X1OS3JhcEaCxEgElrV2etm9ZslQsPo2tHkCHbIyeQQmg3si-0B8wvBtjSo7S4J1onMwtgAiPEEFfP5W1Xsg90-Or9qRAREVciWKNyWXNcpavHRY8fA6VrfZU22DAIgUJpE5AZqAPmDRHn_72VjwdbPCoFcw4__BBJwOpwTpYIU93UxLknIiVsJ1CoZ0lhWpC343StIRWfb12wPcEqOZ5dQzC1JbExyyQB4fmdvJwPZxkxHl4iFsUdSdnabHyzMVTJ-uOUGjU6cghamXVCRlWglNdapgAclnxStBrVITanYUsVvxawJ8UOD9bMk7WBCEc8ESloChXiD2ni4GxLkjxa_fzorCAiEHILcb5cdXhdm7zeS6kYNp9vZbcb3DcslkJoCIgzlBbbOzDH-paxpBNUICA-XBES4z9vw-FraI8CS9vRxrUJNjNyKGeoWHZEUqSpzW-rJDK8ek-IEeYdKp95fxuTPaAz9BIt4eejh6wMcjk2LHQ-KPY6YNbiU1GKAFvJ-9qxEREPfTd3k3FnRnSnisdguhE8q3trqyXwMQSBU18Ujw-BGdUcDsP5kKS2IW8gGQ1VBgvwDFTQ3kd0txxg1tXwsQQQGGwraa9WWmF6h5DSeb0lK4hndIc88Q0cp3xdO5AljzvWDhbc3ouzqS1AGBI7aTE9zTNF0slMXqgAQszc5LgSNQJRInWTbEZFQoKfw261AymCcWO-PtUqFKR5eDGZDb4pxSYy3smOv5gqTikSKEETPc0EdtTARnCxLUD52uC1ERQaXANmrHdAUlimqctFuA4aqFtusALcHCiyW2AegjacAPQzIMPNqLC6FnQZIgNEDCv6D2z173JoizN-1cnknCcLBUAyeLpKUH10uIHweYoCFrRCQosg-QorgU9YBJ06qxHrORDk3p-7gy5iITk-Qxsn4CNVw-Fla7cQQPzT55M4BidsN2-MRVddT7-N6WOfBDKUR0qzB9UtJ5J8WAy-JKsGySEq682Wg4A2Xz4OKGcQHuIhYd7BW2uqCn7d59iYHQoTbQ1SklBLXl2cocpioQMItXNGkTbRMyKmWVMStg-wFsE8Bc3hqa26GlABFD1gIhXlPWzs2Fd3iiZQ8vb0ohkoHHcPTY5mWUxeqJXofqUADaZzfKgh6iUvskd4FZ0cjxbGIAD42pi0ljB8OgwXVwE_wx5B7O5FWo0nVPr7xr8mICxZFXCte1dXQqGxwkimAReiT2eHJeUHGIRKfzWyOKEkzCk-4_O0laETfzkOL3gnEPUmY_f8clWzAnLcwtCVJCkRbghSqHlJT32Bs-9ZuTwThkZqiBTBNy2SWGg3jwafK9QAEuvykIGZKlEkPRdaLjjyE0L_2212ixRW7vPfsy4gO1IkSqhuZnFkjrDwbpsLNZddbZEmxy0LgFhSGbU1gRnXIyXV-7evgy5CHyI2Rzgz2Bpw-NpsfKo-Tsj15J86Fj1WFGaCXndyVIuD5kGNGi29QHKAC8MmHphmTAWNHrwP8y4o6sOXppgLTh8gL2gcOtUPQPHVdmysEHHs9t-JBisMazFai01iRk6HqP1LtSwhuEZHlgf-Dzydb3IsgQCCNe0OANr4kLyKNXUQHT9DMzbkP2Lv1FJptDRQ--j7qAkiM3soUaRtZndZiJ3zR7gqGqdLV6cVxhQNoGZ5OqsHiQ_nGyzr54m9mipZJDorYxEExiJt_edcTpIwfuzU4LUnFSVKElqAZllhfYC3xVeKJyuiWEyxGMsUFI14UxiWFpY1xQ02xMytgZchUxgvN1UrA98QVfXJaEC0Km7y292YPy44QzZ4g058fVGHkOVkpQAiok1zth_VMCGVcnAVtjWTI8MQIM_7nJaEDnkOOyd8AzzbMGD9-31Poy9A7ffHkg0KH1sBdqJ6RmF5kbjlTKgeE6RGYYsG1jYksmNfL7ogliPMIRD764CdrCZ_PjM4YyMo-xRN1uZeYIAXS9TYwJIaKAJwCnufSlxAVIOQ83inACGzXmWeJNcWO4xgeC-OEZwjwAExzsuAob0sYwU6AEETPtICVNjHe26sLHDI6uW5OiMGQBx6m1NKTEWZr-Zjii4wsF9HjjbrHCORXHUvnRqsDPgBCM7OrruXKWYBNCl4KgTfBmHxy1xprxBt6PbCsyMuH1EAQ4NKeXF7nqPDWI8ENJ5rVKU-2gw0uW1fL48bjyPMCA3W7YywhQ51Djk",
+			"name": "The Brigade",
+			"video": "https://www.youtube.com/watch?v=Nt9L1jCKGnE&ab_channel=SonyPicturesEntertainment",
+			"data": "2022",
+			"country": "Russian",
+			"actors": [
+				{
+					"actorId": 1,
+					"image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1600647/9e38e7a7-0dc7-4e04-9a1d-a580ec1b4de4/orig",
+					"name": "Tom Holland",
+					"birthday": "June 1, 1996",
+					"height": "168 cm",
+					"sex": "Male"
+				},
+				{
+					"actorId": 2,
+					"image": "https://st.kp.yandex.net/images/actor_iphone/iphone360_2317683.jpg",
+					"name": "Zendaya",
+					"height": "178 cm",
+					"birthday": "September 1, 1996",
+					"sex": "Female"
+				},
+				{
+					"actorId": 3,
+					"image": "https://avatars.mds.yandex.net/get-kinopoisk-image/6201401/99a484a9-4462-4c8c-bed3-22cda29cd215/orig",
+					"name": "Jacob Batalon",
+					"birthday": "October 9, 1996",
+					"height": "165 cm",
+					"sex": "Male"
+				},
+				{
+					"actorId": 4,
+					"image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/2c4a3629-917c-431e-864e-c6e03b1b8b3a/orig",
+					"name": "Samuel L. Jackson",
+					"birthday": "December 21, 1948",
+					"height": "188 cm",
+					"sex": "Male"
+				},
+				{
+					"actorId": 5,
+					"image": "https://st.kp.yandex.net/images/actor_iphone/iphone360_22692.jpg",
+					"name": "Jake Gyllenhaal",
+					"birthday": "December 19, 1980",
+					"height": "181 cm",
+					"sex": "Male"
+				},
+				{
+					"actorId": 6,
+					"image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/bbb0dc5c-b2f9-4bfd-9512-26f214c39347/orig",
+					"name": "Jon Favreau",
+					"birthday": "October 19, 1966",
+					"height": "185 cm",
+					"sex": "Male"
+				},
+				{
+					"actorId": 7,
+					"image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/e8231946-87f6-450a-8feb-35ff6cc4588a/orig",
+					"name": "J.K. Simmons",
+					"birthday": "June 9, 1955",
+					"height": "180 cm",
+					"sex": "Male"
+				},
+				{
+					"actorId": 8,
+					"image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/c0274c46-d07b-4eaa-a0be-09e20632b91e/orig",
+					"name": "Tony Revolori",
+					"birthday": "April 28, 1996",
+					"height": "168 cm",
+					"sex": "Male"
+				},
+				{
+					"actorId": 9,
+					"image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/9ee0499c-ce39-4f3f-b1be-cee66b21af18/orig",
+					"name": "Cobie Smulders",
+					"birthday": "April 3, 1982",
+					"height": "173 cm",
+					"sex": "Female"
+				},
+				{
+					"actorId": 10,
+					"image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1704946/f7860573-57fb-470a-97e8-975842a22e6e/orig",
+					"name": "Angourie Rice",
+					"birthday": "June 1, 2001",
+					"height": "160 cm",
+					"sex": "Female"
+				}
+			],
+			"kind": ["crime"],
+			"seasons": 1,
+			"age": 18,
+			"time": 45,
+			"budget": "160 000 000 $",
+			"title": "This is the story of four childhood friends, ordinary Moscow guys, Sasha Bely, Kosmos, Pchela and Phil, who grew up in the same yard. Friends decided to earn some money, but an unplanned murder instantly mixed up everything planned, putting their lives on the line."
+		},
+		{
+			"id": 11,
+			"background": "https://4kwallpapers.com/images/wallpapers/spider-man-far-from-home-5k-7680x4320-947.jpg",
+			"image": "https://avatars.mds.yandex.net/get-kinopoisk-image/4303601/1073b002-96de-49ae-a432-1da460f6890c/300x450",
+			"name": "Ojingeo geim",
+			"video": "https://www.youtube.com/watch?v=Nt9L1jCKGnE&ab_channel=SonyPicturesEntertainment",
+			"data": "2022",
+			"country": "Korea South",
+			"actors": [
+				{
+					"actorId": 1,
+					"image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1600647/9e38e7a7-0dc7-4e04-9a1d-a580ec1b4de4/orig",
+					"name": "Tom Holland",
+					"birthday": "June 1, 1996",
+					"height": "168 cm",
+					"sex": "Male"
+				},
+				{
+					"actorId": 2,
+					"image": "https://st.kp.yandex.net/images/actor_iphone/iphone360_2317683.jpg",
+					"name": "Zendaya",
+					"height": "178 cm",
+					"birthday": "September 1, 1996",
+					"sex": "Female"
+				},
+				{
+					"actorId": 3,
+					"image": "https://avatars.mds.yandex.net/get-kinopoisk-image/6201401/99a484a9-4462-4c8c-bed3-22cda29cd215/orig",
+					"name": "Jacob Batalon",
+					"birthday": "October 9, 1996",
+					"height": "165 cm",
+					"sex": "Male"
+				},
+				{
+					"actorId": 4,
+					"image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/2c4a3629-917c-431e-864e-c6e03b1b8b3a/orig",
+					"name": "Samuel L. Jackson",
+					"birthday": "December 21, 1948",
+					"height": "188 cm",
+					"sex": "Male"
+				},
+				{
+					"actorId": 5,
+					"image": "https://st.kp.yandex.net/images/actor_iphone/iphone360_22692.jpg",
+					"name": "Jake Gyllenhaal",
+					"birthday": "December 19, 1980",
+					"height": "181 cm",
+					"sex": "Male"
+				},
+				{
+					"actorId": 6,
+					"image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/bbb0dc5c-b2f9-4bfd-9512-26f214c39347/orig",
+					"name": "Jon Favreau",
+					"birthday": "October 19, 1966",
+					"height": "185 cm",
+					"sex": "Male"
+				},
+				{
+					"actorId": 7,
+					"image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/e8231946-87f6-450a-8feb-35ff6cc4588a/orig",
+					"name": "J.K. Simmons",
+					"birthday": "June 9, 1955",
+					"height": "180 cm",
+					"sex": "Male"
+				},
+				{
+					"actorId": 8,
+					"image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/c0274c46-d07b-4eaa-a0be-09e20632b91e/orig",
+					"name": "Tony Revolori",
+					"birthday": "April 28, 1996",
+					"height": "168 cm",
+					"sex": "Male"
+				},
+				{
+					"actorId": 9,
+					"image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/9ee0499c-ce39-4f3f-b1be-cee66b21af18/orig",
+					"name": "Cobie Smulders",
+					"birthday": "April 3, 1982",
+					"height": "173 cm",
+					"sex": "Female"
+				},
+				{
+					"actorId": 10,
+					"image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1704946/f7860573-57fb-470a-97e8-975842a22e6e/orig",
+					"name": "Angourie Rice",
+					"birthday": "June 1, 2001",
+					"height": "160 cm",
+					"sex": "Female"
+				}
+			],
+			"kind": ["drama", "horror"],
+			"seasons": 2,
+			"age": 18,
+			"time": 55,
+			"budget": "160 000 000 $",
+			"title": "Song Gi-hoon is no longer young, divorced, deep in debt and sitting on the neck of an old mother. Even the money won at the races does not stay in his hands for a long time, and one day he meets a mysterious stranger on the subway, who first offers to play a child's game, and then gives Gi-hoon a considerable amount and a business card. But the man's joy will be replaced by despair when he finds out that the ex-wife and her new husband are going to take his daughter to America. He calls the number on his business card and becomes the latest participant in a secret survival game with a $40 million prize. Among the fellow sufferers are his childhood friend - a bankrupt financier, a gangster, a terminally ill old man, a North Korean defector, an immigrant from Pakistan and many others in desperate need of money."
+		},
+		{
+			"id": 12,
+			"background": "https://4kwallpapers.com/images/wallpapers/spider-man-far-from-home-5k-7680x4320-947.jpg",
+			"image": "https://avatars.mds.yandex.net/get-kinopoisk-image/6201401/8472ca52-2751-4bbe-9a08-8a1be75f93d5/300x450",
+			"name": "La casa de papel ",
+			"video": "https://www.youtube.com/watch?v=Nt9L1jCKGnE&ab_channel=SonyPicturesEntertainment",
+			"data": "2022",
+			"country": "Spain",
+			"actors": [
+				{
+					"actorId": 1,
+					"image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1600647/9e38e7a7-0dc7-4e04-9a1d-a580ec1b4de4/orig",
+					"name": "Tom Holland",
+					"birthday": "June 1, 1996",
+					"height": "168 cm",
+					"sex": "Male"
+				},
+				{
+					"actorId": 2,
+					"image": "https://st.kp.yandex.net/images/actor_iphone/iphone360_2317683.jpg",
+					"name": "Zendaya",
+					"height": "178 cm",
+					"birthday": "September 1, 1996",
+					"sex": "Female"
+				},
+				{
+					"actorId": 3,
+					"image": "https://avatars.mds.yandex.net/get-kinopoisk-image/6201401/99a484a9-4462-4c8c-bed3-22cda29cd215/orig",
+					"name": "Jacob Batalon",
+					"birthday": "October 9, 1996",
+					"height": "165 cm",
+					"sex": "Male"
+				},
+				{
+					"actorId": 4,
+					"image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/2c4a3629-917c-431e-864e-c6e03b1b8b3a/orig",
+					"name": "Samuel L. Jackson",
+					"birthday": "December 21, 1948",
+					"height": "188 cm",
+					"sex": "Male"
+				},
+				{
+					"actorId": 5,
+					"image": "https://st.kp.yandex.net/images/actor_iphone/iphone360_22692.jpg",
+					"name": "Jake Gyllenhaal",
+					"birthday": "December 19, 1980",
+					"height": "181 cm",
+					"sex": "Male"
+				},
+				{
+					"actorId": 6,
+					"image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/bbb0dc5c-b2f9-4bfd-9512-26f214c39347/orig",
+					"name": "Jon Favreau",
+					"birthday": "October 19, 1966",
+					"height": "185 cm",
+					"sex": "Male"
+				},
+				{
+					"actorId": 7,
+					"image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/e8231946-87f6-450a-8feb-35ff6cc4588a/orig",
+					"name": "J.K. Simmons",
+					"birthday": "June 9, 1955",
+					"height": "180 cm",
+					"sex": "Male"
+				},
+				{
+					"actorId": 8,
+					"image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/c0274c46-d07b-4eaa-a0be-09e20632b91e/orig",
+					"name": "Tony Revolori",
+					"birthday": "April 28, 1996",
+					"height": "168 cm",
+					"sex": "Male"
+				},
+				{
+					"actorId": 9,
+					"image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/9ee0499c-ce39-4f3f-b1be-cee66b21af18/orig",
+					"name": "Cobie Smulders",
+					"birthday": "April 3, 1982",
+					"height": "173 cm",
+					"sex": "Female"
+				},
+				{
+					"actorId": 10,
+					"image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1704946/f7860573-57fb-470a-97e8-975842a22e6e/orig",
+					"name": "Angourie Rice",
+					"birthday": "June 1, 2001",
+					"height": "160 cm",
+					"sex": "Female"
+				}
+			],
+			"kind": ["crime","thriller", "detective"],
+			"seasons": 5,
+			"age": 18,
+			"time": 44,
+			"budget": "160 000 000 $",
+			"title": "The story of criminals who decided to rob the Royal Mint of Spain and steal 2.4 billion euros."
+		}
 	]
 }

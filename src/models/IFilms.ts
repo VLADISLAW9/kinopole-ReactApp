@@ -5,6 +5,7 @@ export interface IFilms {
 	id: number
 	video: string
 	background: string
+	seasons?: number
 	image: string
 	actors:IActor[]
 	pictures: string[]
