@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import FilmsFilter from '../components/FilmsFilter'
 import FilmsPageItem from '../components/FilmsPageItem'
+import SeriesPageItem from '../components/SeriesPageItem'
 import { useAppSelector } from '../hooks/redux.hook'
 import { api } from '../store/data/api'
 
@@ -13,10 +14,10 @@ const SeriesPage = () => {
 	return (
 		<div className='container__filmPage px-20 mt-10 mb-10'>
 			<h1 className='filmPage__header text-stone-500 text-[63px] font-bold'>
-				All films
+				All series
 			</h1>
 			<p className='filmPage__title text-stone-400 text-[13.2px]'>
-				Selection of films from all over the world
+				Selection of series from all over the world
 			</p>
 			<div className='filmPage__block flex justify-between mt-10'>
 				<FilmsFilter />
@@ -35,7 +36,7 @@ const SeriesPage = () => {
 											.map(serial => serial)
 											.sort((a, b) => Number(b.data) - Number(a.data))
 											.map(serial => (
-												<FilmsPageItem serial={serial} />
+												<SeriesPageItem serial={serial} />
 											))}
 									</>
 								) : (
@@ -49,7 +50,7 @@ const SeriesPage = () => {
 											.map(serial => serial)
 											.sort((a, b) => Number(a.data) - Number(b.data))
 											.map(serial => (
-												<SerialPageItem serial={serial} />
+												<SeriesPageItem serial={serial} />
 											))}
 									</>
 								)}
@@ -58,32 +59,32 @@ const SeriesPage = () => {
 							<>
 								{sorted === 'new' ? (
 									<>
-										{films
+										{series
 											?.filter(
 												f =>
 													Number(f.data) >= years[0] &&
 													Number(f.data) <= years[1] &&
 													f.kind.some(f => f === genre)
 											)
-											.map(film => film)
+											.map(serial => serial)
 											.sort((a, b) => Number(b.data) - Number(a.data))
-											.map(film => (
-												<FilmsPageItem film={film} />
+											.map(serial => (
+												<SeriesPageItem serial={serial} />
 											))}
 									</>
 								) : (
 									<>
-										{films
+										{series
 											?.filter(
 												f =>
 													Number(f.data) >= years[0] &&
 													Number(f.data) <= years[1] &&
 													f.kind.some(f => f === genre)
 											)
-											.map(film => film)
+											.map(serial => serial)
 											.sort((a, b) => Number(a.data) - Number(b.data))
-											.map(film => (
-												<FilmsPageItem film={film} />
+											.map(serial => (
+												<SeriesPageItem serial={serial} />
 											))}
 									</>
 								)}

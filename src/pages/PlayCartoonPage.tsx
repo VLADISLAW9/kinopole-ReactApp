@@ -1,11 +1,11 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import ReactPlayer from 'react-player'
 import { useAppSelector } from '../hooks/redux.hook'
 import { api } from '../store/data/api'
 import { AiOutlineArrowLeft } from 'react-icons/ai'
 import { useActions } from '../hooks/actions.hook'
 
-const PlayCartoonPage = () => {
+const PlayFilmPage = () => {
 	const { cartoonId } = useAppSelector(state => state.getCartoonId)
 	const { data: cartoonInfo } = api.useFetchCartoonInfoQuery(cartoonId)
 	const { now, will, was } = useAppSelector(state => state.filmState)
@@ -41,19 +41,13 @@ const PlayCartoonPage = () => {
 
 	const addFilmToWatching = () => {
 		for (let i = 0; i < will.length; i++) {
-			if (will[i].id === cartoonId) {
+			if (will[i].name === cartoonInfo?.name) {
 				removeWill(cartoonInfo)
 			}
 		}
 
-		if (now.length === 0) {
+		if (now.includes(cartoonInfo) === false) {
 			addNow(cartoonInfo)
-		} else {
-			for (let i = 0; i < now.length; i++) {
-				if (now[i].id !== cartoonId) {
-					addNow(cartoonInfo)
-				}
-			}
 		}
 	}
 
@@ -63,7 +57,7 @@ const PlayCartoonPage = () => {
 			addWas(cartoonInfo)
 		} else {
 			for (let i = 0; i < was.length; i++) {
-				if (was[i].id !== cartoonId) {
+				if (was[i].name !== cartoonInfo?.name) {
 					addWas(cartoonInfo)
 				}
 			}
@@ -103,4 +97,4 @@ const PlayCartoonPage = () => {
 	)
 }
 
-export default PlayCartoonPage
+export default PlayFilmPage

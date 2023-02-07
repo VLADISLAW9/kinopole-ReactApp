@@ -9,6 +9,7 @@ import MoreFilms from '../components/MoreFilms'
 import Comments from '../components/Commenst'
 import { Link } from 'react-router-dom'
 import { useActions } from '../hooks/actions.hook'
+import MoreCartoons from '../components/MoreCartoons'
 
 const CartoonPage = () => {
 	const { cartoonId } = useAppSelector(state => state.getCartoonId)
@@ -21,7 +22,7 @@ const CartoonPage = () => {
 
 	useEffect(() => {
 		for (let i = 0; i < will.length; i++) {
-			if (will[i].id === cartoonId) {
+			if (will[i].name === cartoonInfo?.name) {
 				setFav(true)
 			} else {
 				setFav(false)
@@ -150,26 +151,7 @@ const CartoonPage = () => {
 				>
 					Description
 				</li>
-				<li
-					onClick={onActors}
-					className={` ${
-						value === 'Actors'
-							? 'border-b-2 border-red-700 pb-1 text-white font-semibold mr-10 cursor-pointer'
-							: 'text-white font-semibold mr-10 pb-1 cursor-pointer '
-					} `}
-				>
-					Actors
-				</li>
-				<li
-					onClick={onImage}
-					className={` ${
-						value === 'Image'
-							? 'border-b-2 border-red-700 pb-1 text-white font-semibold mr-10 cursor-pointer'
-							: 'text-white font-semibold mr-10 pb-1 cursor-pointer'
-					} `}
-				>
-					Image
-				</li>
+				
 			</ul>
 			{value === 'Description' && (
 				<div className='mt-5 mb-20 '>
@@ -178,9 +160,7 @@ const CartoonPage = () => {
 					</p>
 				</div>
 			)}
-			{value === 'Actors' && <CarouselActors filmInfo={cartoonInfo} />}
-			{value === 'Image' && <FilmPicture filmInfo={cartoonInfo} />}
-			<MoreFilms filmInfo={cartoonInfo} />
+			<MoreCartoons cartoonInfo={cartoonInfo} />
 			<Comments filmInfo={cartoonInfo} />
 		</div>
 	)

@@ -6,15 +6,15 @@ import { AiOutlineArrowLeft } from 'react-icons/ai'
 import { useActions } from '../hooks/actions.hook'
 
 const PlayFilmPage = () => {
-	const { filmId } = useAppSelector(state => state.getFilmId)
-	const { data: filmInfo } = api.useFetchFilmInfoQuery(filmId)
+	const { serialId } = useAppSelector(state => state.getSerialId)
+	const { data: serialInfo } = api.useFetchSerialInfoQuery(serialId)
 	const { now, will, was } = useAppSelector(state => state.filmState)
 	const { addNow, removeNow, addWas, removeWas, removeWill } = useActions()
 
 	// console.log(now.includes(filmInfo))
 
 	const bgStyle = {
-		backgroundImage: `url('${filmInfo?.background}')`,
+		backgroundImage: `url('${serialInfo?.background}')`,
 		backgroundPosition: 'bottom',
 		backgroundSize: 'cover',
 		backgroundRepeat: 'no-repeat',
@@ -31,7 +31,7 @@ const PlayFilmPage = () => {
 	}
 	const contentStyle = {
 		borderRadius: '16px',
-		background: `linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('${filmInfo?.background}')  center center no-repeat`,
+		background: `linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('${serialInfo?.background}')  center center no-repeat`,
 		backgroundSize: 'cover',
 	}
 
@@ -41,24 +41,24 @@ const PlayFilmPage = () => {
 
 	const addFilmToWatching = () => {
 		for (let i = 0; i < will.length; i++) {
-			if (will[i].name === filmInfo?.name) {
-				removeWill(filmInfo)
+			if (will[i].name === serialInfo?.name) {
+				removeWill(serialInfo)
 			}
 		}
 
-		if(now.includes(filmInfo) === false) {
-			addNow(filmInfo)
+		if (now.includes(serialInfo) === false) {
+			addNow(serialInfo)
 		}
 	}
 
 	const removeFilmFromWatching = () => {
-		removeNow(filmInfo)
+		removeNow(serialInfo)
 		if (was.length === 0) {
-			addWas(filmInfo)
+			addWas(serialInfo)
 		} else {
 			for (let i = 0; i < was.length; i++) {
-				if (was[i].name !== filmInfo?.name) {
-					addWas(filmInfo)
+				if (was[i].name !== serialInfo?.name) {
+					addWas(serialInfo)
 				}
 			}
 		}
@@ -75,7 +75,7 @@ const PlayFilmPage = () => {
 						>
 							<AiOutlineArrowLeft className='text-white w-6 h-6' />
 						</button>
-						<h1 className='font-bold  text-white'>{filmInfo?.name}</h1>
+						<h1 className='font-bold  text-white'>{serialInfo?.name}</h1>
 					</div>
 					<div className='flex justify-center items-center'>
 						<ReactPlayer
@@ -88,7 +88,7 @@ const PlayFilmPage = () => {
 							width={1200}
 							playing
 							className='shadow-xl'
-							url={filmInfo?.video}
+							url={serialInfo?.video}
 						/>
 					</div>
 				</div>

@@ -83,6 +83,26 @@ export const api = createApi({
 				},
 			}),
 		}),
+		fetchSimilarCartoons: build.query<IFilms[], any>({
+			query: (cartoon: any) => ({
+				url: `/cartoons?id_ne=${cartoon?.id}`,
+				params: {
+					q: cartoon?.kind[0],
+					s: cartoon?.kind[1],
+					f: cartoon?.kind[2],
+				},
+			}),
+		}),
+		fetchSimilarSeries: build.query<IFilms[], any>({
+			query: (serial: any) => ({
+				url: `/series?id_ne=${serial?.id}`,
+				params: {
+					q: serial?.kind[0],
+					s: serial?.kind[1],
+					f: serial?.kind[2],
+				},
+			}),
+		}),
 		fetchFilmComments: build.query<IComments[], any>({
 			query: (id: any) => ({
 				url: `/films/${id}/comments`,
@@ -117,6 +137,22 @@ export const api = createApi({
 				url: '/films',
 				params: {
 					q: film,
+				},
+			}),
+		}),
+		searchCartoons: build.query<IFilms[], string>({
+			query: (cartoon: string) => ({
+				url: '/cartoons',
+				params: {
+					q: cartoon,
+				},
+			}),
+		}),
+		searchSeries: build.query<IFilms[], string>({
+			query: (serial: string) => ({
+				url: '/series',
+				params: {
+					q: serial,
 				},
 			}),
 		}),

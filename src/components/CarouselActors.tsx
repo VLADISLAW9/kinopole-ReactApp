@@ -2,6 +2,7 @@ import React from 'react'
 import { IFilms } from '../models/IFilms'
 import { useSnapCarousel } from 'react-snap-carousel'
 import { MdKeyboardArrowRight } from 'react-icons/md'
+import { CardMedia } from '@mui/material'
 
 interface FilmInfoProps {
 	filmInfo?: IFilms
@@ -45,9 +46,15 @@ const CarouselActors: React.FC<FilmInfoProps> = ({ filmInfo }) => {
 				}}
 			>
 				{filmInfo?.actors.map(actor => (
-					<li className='hover:-translate-y-1 transition-transform flex justify-center items-center flex-shrink-0 w-1/6 mr-5'>
+					<li className='silmilar__item hover:-translate-y-1 w-[250px] mr-5 last:mr-0  cursor-pointer transition-transform flex items-start justify-center  flex-shrink-0'>
 						<div>
-							<img className='hover:opacity-75 transition-opacity rounded-md' src={actor.image} />
+							<div>
+								<CardMedia
+									className='semilar__image hover:opacity-75 transition-opacity'
+									image={actor.image}
+									title={actor.name}
+								/>
+							</div>
 							<h1 className='mt-3 text-white font-medium'>{actor.name}</h1>
 						</div>
 					</li>

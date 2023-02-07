@@ -7,13 +7,13 @@ import { Link } from 'react-router-dom'
 import { useActions } from '../hooks/actions.hook'
 import { CardMedia } from '@mui/material'
 
-interface FilmInfoProps {
-	filmInfo?: IFilms
+interface SerialInfoProps {
+	serialInfo?: IFilms
 }
 
-const MoreFilms: React.FC<FilmInfoProps> = ({ filmInfo }) => {
-	const { getFilmId } = useActions()
-	const { data: films } = api.useFetchSimilarFilmsQuery(filmInfo)
+const MoreSeries: React.FC<SerialInfoProps> = ({ serialInfo }) => {
+	const { getSerialId } = useActions()
+	const { data: serials } = api.useFetchSimilarSeriesQuery(serialInfo)
 	const { scrollRef, pages, activePageIndex, next, prev, goTo } =
 		useSnapCarousel()
 
@@ -21,9 +21,9 @@ const MoreFilms: React.FC<FilmInfoProps> = ({ filmInfo }) => {
 		<div className='mt-5 mb-10'>
 			<div className='similar__header flex items-center justify-between'>
 				<h1 className='text-white text-2xl font-medium'>
-					Similar films
+					Similar series
 					<span className='font-light text-gray-400 ml-3'>
-						({films?.length})
+						({serials?.length})
 					</span>
 				</h1>
 				<div className='similar__btns'>
@@ -51,9 +51,9 @@ const MoreFilms: React.FC<FilmInfoProps> = ({ filmInfo }) => {
 					scrollSnapType: 'x mandatory',
 				}}
 			>
-				{films?.map(film => (
+				{serials?.map(serial => (
 					<Link
-						onClick={() => (getFilmId(film.id), window.scrollTo(0, 0))}
+						onClick={() => (getSerialId(serial.id), window.scrollTo(0, 0))}
 						className='silmilar__item hover:-translate-y-1 w-[250px] mr-5 last:mr-0  cursor-pointer transition-transform flex items-start justify-center  flex-shrink-0'
 						to='/film/:id'
 					>
@@ -61,11 +61,11 @@ const MoreFilms: React.FC<FilmInfoProps> = ({ filmInfo }) => {
 							<div>
 								<CardMedia
 									className='semilar__image hover:opacity-75 transition-opacity'
-									image={film.image}
-									title={film.name}
+									image={serial.image}
+									title={serial.name}
 								/>
 							</div>
-							<h1 className='mt-3 text-white font-medium'>{film.name}</h1>
+							<h1 className='mt-3 text-white font-medium'>{serial.name}</h1>
 						</li>
 					</Link>
 				))}
@@ -74,4 +74,4 @@ const MoreFilms: React.FC<FilmInfoProps> = ({ filmInfo }) => {
 	)
 }
 
-export default MoreFilms
+export default MoreSeries

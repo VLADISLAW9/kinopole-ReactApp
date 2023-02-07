@@ -2,6 +2,7 @@
 	"films": [
 		{
 			"id": 1,
+			"type": "film",
 			"background": "https://4kwallpapers.com/images/wallpapers/spider-man-far-from-home-5k-7680x4320-947.jpg",
 			"image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1900788/5cadd28b-996e-4224-ab98-f7aed64aa56c/x1000",
 			"name": "Spider-Man: Far From Home",
@@ -110,6 +111,7 @@
 		},
 		{
 			"id": 2,
+			"type": "film",
 			"background": "https://www.film.ru/sites/default/files/filefield_paths/7_49.jpeg",
 			"image": "https://avatars.mds.yandex.net/get-kinopoisk-image/6201401/57f8f038-f628-44d3-922d-fb28f719ff77/x1000",
 			"name": "Top Gun: Maverick",
@@ -166,10 +168,11 @@
 		},
 		{
 			"id": 14,
+			"type": "film",
 			"background": "https://api.vmuzey.com/static/event/E501636494741/0a88ca66ddec10f0-w820-h440.jpg",
 			"image": "https://kinopoisk-ru.clstorage.net/bu28E9406/ab2ad7VS7i/zaNUd1yQFoFWXjnMTXVubIRk55T82mQSVc0vGPdAmZWeAttT9xMhh_ElQO_HgJBMGjR5MAbSpGhjOcd9D0Jnro_0EyUD2wyPAQB2jR0jbj7JK72V6ZQsRBHQPEWsH7altjDyIdEsCafdRAOrgJ3NFUV0aGYJkfsncyq1Qx8_Y_bwrXhTTaBvhnZ9Y9Z6dEtknwTNq8KwbgBTkx483F2ol4Q7-zjWETmTzk04sbP5zBJRb2liD6HEQ0IdjX5cDm_owYp6Z0mtS553XW3aZnp-R7Iu4qvyhWcaTJYWBv5DnaK8GeAH9j0KttNnMY-S38kTeW1vbimr12pXHI1ddh9LxfqWd31Ui3OoW2tn5XprcGSPJNG2xJ5CImmjHAXVSK-XkSveC9I_I7j8RTe7h8fWDXtye3AjqeRQcx2zelIsYs7QlGdRbblbo3d6f9p-bGFxkxLDpcWtThVsri4D8mmes5oZ0RXtPRaZ3GMYkaDL7jhvdEF6AYDWe3sLqHtbCELH8LNJYmynfY1-aFDhbV1LZ4gHw7zfvVMnRJQ2Ketak7atCdkP2SstofJsPpCD-uopZFd9TTqW0WxPDaNoTQ5LwNWHdHlWtXC_eEh100BNX3iNHOyF5L1EG1OLMhzYaZirnx3gHfsmCojGWjK9ouvHEVt4VXEDhtxDZRKpUXMSb9P_tW9neLdzgV95WNt7WEtdqgLrg-CxRSJZhSwU82qamZkj8QbKGDCTwFwysp3U0D1lUWJsEYneTUorgkxoPknS4q5Zenm3a79-RmH6XU9mYZk4_KPFhWU8VrASHM9bhZOjHPwp0D8MrudjGYu54-0ZTHhKbySL2Xt7NYFeeANT1euwR1hfsVWJXVRt82BaclG-GuGB6a9AGG-oFxDfWLqxpCDiMOoRAY7AaD23n-PWPltabU4nhdVfbCWEVFg3WNP5kXJbeq16jltHZP1VT0xEmgj7lMW5diZWpDE8yWi7rbU08wrWPQeu0m4Qqbz28DhRSEtiDanpTm8Rk1tbAGLu-bthdHyac5lWVUTAVXlJQ4Yf0KHyl2gRRZM1HOhZgYqQPcQO_wYJh-RPHKiB1eAoT35iehSN-UBEKbh5Wg5R0PKNaW5tknChdUJa1FxBZnOXPs2Wy41CJ0ixDSv6Vb2QmBLqE8smK4LibR2zmdnAP1p5dmA0ifVEVBCPbk0OVML1i0VkQ6lirkRDecFEWWJhrwzGvdmNaTZ5gyg10Uuan44j9jz3KS6L23w8rJPkyQxaX2FDA6DjZXAcnFZLKGPH4atQYl6lS6NGQm3YfVFQeKkE5Z3MoHMnc7EnNdNmhqqlNfYM3Tcnsv14N6q_3tE0RFRIayW6wUZbKpJtex9H5_mkRVp2m3S5c0NF2H1USWW-H-290LdRMVisBhDSTpCzkRnVDuksOrDeWS6Uu9vlKlx9TFwzreRtQxGIa1EqY_LMiGpgX6l8tktOYPFIdGBTmgnOlPiESB1Vtys532mjoKAT9wzvNw-k_mUChJrFyDZ-X29zFrL6X3ARo1BeN0D37aRSYlqGdJtWYELSRn5lc7EI3YvCrGg-Q482B9NemoKWK9gt0xcthNt9Bq-mwtE1UXVNYzq26X5ELa1yUA1m6_-0dkNKsFOqYVd22URtRGuSI8G32IdmPkW2LRvQQ7yZsTXhKdoUCrHRbDerutjCPU9ycGI6hd9teQ-iXmcKddfao1RaXItJmH50fflOV2VknjLig_GhRBhJkhMYyGuBl7wi9DL6FwSs9m4Xv4PC6jNsbFpZAbrkUEwNmlh8MkDz86ZOTFSWc55jbnvDfXhyWZsw3Z3lnEwNRIkKM9B-kJKtFMQ_-ykRjvplEZqe9949Q2lfRDWh9WV0NIZZUQBJ09-kRXVPpU21ZXRP_WBUQkKuA8ihwpZQJ2yLIBD9VqWclijzEc8PLYzDfwGstPbPO0JrW10okuZjTAyeUlcDRfrcqlZAZYpNp3loR_JBb25PmjDzh_qRSCRmkRAhz0KfkIAo-jfqPxeN2HAArY3Q9DBBbFxnLKDUWm8YqURnAFj62IVXcX26YolxXXbZa1Rwa7IL-IL-m2EDRoUsAPp-uJahHfoOzi4Yo_hlO4u9-eMeTk12TwSqwkBJC6VTVTxQx-OObEdkiUuGXGVEzX1ZX0asDMS5_o1ZOWqmFwXtYaiAnDD6D_cVJpnVWD2SlMfKLkh6aGYFuN1YQguGdkkdQO3vi3RkR7tevVtlettZbUhZjwjeiOOGeSZMrTAV9Vy9sYMb5zT6PyejxWE9hpnbwwtqWGB6IYjRUHA9r2tSKUTk4aZRZE-ySJp0aE_ia1pyQpQjzrfOhksVcKQxIsxqh52NNuIz-zsssf1SNaia684qTlxWTg-t-WtqPJ1NdzdT4O6YYntglnmkfmJ-8VZYQlmtPM2o65xLJmSHDj_uWZ6tnhnpPdEKDK_-YiCUm_DlCUduYUAOifpvUhC8cWgjdNPtr1NXTbZrtXhVduNmV016nxn4q9q4ax1vsxwB0UWngJw4xDfVDSm280Azha7gxy9KSmxaLK_WTG8MsF1vNGvw0qdHbli7TYtnRXTaTXBha5cix5TsgVIPdJYuG9xfuL6zEvUo1CQ6ksVeOKaj8eEmQ0hcZCKJ3UFgJotbVRNs5M63ckVjqmuBZkt_5WhXeUGpB9Ow3ZJ3FFmCNwH-dbCwtSDlHeoMOI3xcw2WpdDzN19Dfn0sg_98UzqjXl0wVsHisVNsYrZciUpBe-RKc2xrsC7egO29UTN2tRwY4HWoqoM84wjrBzCB4H43lJjG7Ax8bGBPIbLEa2scgWpHPXv064x5bH6CVKd4ZXTEf319T7oA_pTNhm4PZ4sCJe5BsJCtM8IIyBomhc5rBamu8twXeHhORyKY9EF1JY9xajNk2vqlSE53gW6HQ2hG9E1xbn-bL-Owxpx1Ik63MgDRRYWKoj_AEdUnNJb9SAWPj_bnJEd6e3AZmtdvdjM",
 			"name": "Cheburashka",
-			"video": "https://www.youtube.com/watch?v=Nt9L1jCKGnE&ab_channel=SonyPicturesEntertainment",
+			"video": "https://www.youtube.com/watch?v=x1qvJL7NF9s&ab_channel=CentralPartnership",
 			"data": "2022",
 			"country": "Russian",
 			"pictures": [
@@ -274,10 +277,11 @@
 		},
 		{
 			"id": 11,
+			"type": "film",
 			"background": "http://mobimg.b-cdn.net/v3/fetch/6e/6e364d7548651ee1f30d21a3d7e5fe22.jpeg",
 			"image": "https://kinopoisk-ru.clstorage.net/bu28E9406/ab2ad7VS7i/zaNUd1yQFoFWXjnMTXVubIRk55T82mQSVc0vGPdAmZWeAttT9xMhh_ElQO_HgJBMGjQrbAGA8Wo4Zsd6XUM5ro-gESQDgVnVVAAhhBspPTHOLrzF68MsRBHQPEWsH7altjDyIdEsCafdRAOrgJ3NFUV0aGYJkfsncyq1Qx8_Y_bwrXhTTaBvhnZ9Y9Z6dEtknwTNq8KwbgBTkx483F2ol4Q7-zjWETmTzk04sbP5zBJRb2liD6HEQ0IdjX5cDm_owYp6Z0mtS553XW3aZnp-R7Iu4qvyhWcaTJYWBv5DnaK8GeAH9j0KttNnMY-S38kTeW1vbimr12pXHI1ddh9LxfqWd31Ui3OoW2tn5XprcGSPJNG2xJ5CImmjHAXVSK-XkSveC9I_I7j8RTe7h8fWDXtye3AjqeRQcx2zelIsYs7QlGdRbblbo3d6f9p-bGFxkxLDpcWtThVsri4D8mmes5oZ0RXtPRaZ3GMYkaDL7jhvdEF6AYDWe3sLqHtbCELH8LNJYmynfY1-aFDhbV1LZ4gHw7zfvVMnRJQ2Ketak7atCdkP2SstofJsPpCD-uopZFd9TTqW0WxPDaNoTQ5LwNWHdHlWtXC_eEh100BNX3iNHOyF5L1EG1OLMhzYaZirnx3gHfsmCojGWjK9ouvHEVt4VXEDhtxDZRKpUXMSb9P_tW9neLdzgV95WNt7WEtdqgLrg-CxRSJZhSwU82qamZkj8QbKGDCTwFwysp3U0D1lUWJsEYneTUorgkxoPknS4q5Zenm3a79-RmH6XU9mYZk4_KPFhWU8VrASHM9bhZOjHPwp0D8MrudjGYu54-0ZTHhKbySL2Xt7NYFeeANT1euwR1hfsVWJXVRt82BaclG-GuGB6a9AGG-oFxDfWLqxpCDiMOoRAY7AaD23n-PWPltabU4nhdVfbCWEVFg3WNP5kXJbeq16jltHZP1VT0xEmgj7lMW5diZWpDE8yWi7rbU08wrWPQeu0m4Qqbz28DhRSEtiDanpTm8Rk1tbAGLu-bthdHyac5lWVUTAVXlJQ4Yf0KHyl2gRRZM1HOhZgYqQPcQO_wYJh-RPHKiB1eAoT35iehSN-UBEKbh5Wg5R0PKNaW5tknChdUJa1FxBZnOXPs2Wy41CJ0ixDSv6Vb2QmBLqE8smK4LibR2zmdnAP1p5dmA0ifVEVBCPbk0OVML1i0VkQ6lirkRDecFEWWJhrwzGvdmNaTZ5gyg10Uuan44j9jz3KS6L23w8rJPkyQxaX2FDA6DjZXAcnFZLKGPH4atQYl6lS6NGQm3YfVFQeKkE5Z3MoHMnc7EnNdNmhqqlNfYM3Tcnsv14N6q_3tE0RFRIayW6wUZbKpJtex9H5_mkRVp2m3S5c0NF2H1USWW-H-290LdRMVisBhDSTpCzkRnVDuksOrDeWS6Uu9vlKlx9TFwzreRtQxGIa1EqY_LMiGpgX6l8tktOYPFIdGBTmgnOlPiESB1Vtys532mjoKAT9wzvNw-k_mUChJrFyDZ-X29zFrL6X3ARo1BeN0D37aRSYlqGdJtWYELSRn5lc7EI3YvCrGg-Q482B9NemoKWK9gt0xcthNt9Bq-mwtE1UXVNYzq26X5ELa1yUA1m6_-0dkNKsFOqYVd22URtRGuSI8G32IdmPkW2LRvQQ7yZsTXhKdoUCrHRbDerutjCPU9ycGI6hd9teQ-iXmcKddfao1RaXItJmH50fflOV2VknjLig_GhRBhJkhMYyGuBl7wi9DL6FwSs9m4Xv4PC6jNsbFpZAbrkUEwNmlh8MkDz86ZOTFSWc55jbnvDfXhyWZsw3Z3lnEwNRIkKM9B-kJKtFMQ_-ykRjvplEZqe9949Q2lfRDWh9WV0NIZZUQBJ09-kRXVPpU21ZXRP_WBUQkKuA8ihwpZQJ2yLIBD9VqWclijzEc8PLYzDfwGstPbPO0JrW10okuZjTAyeUlcDRfrcqlZAZYpNp3loR_JBb25PmjDzh_qRSCRmkRAhz0KfkIAo-jfqPxeN2HAArY3Q9DBBbFxnLKDUWm8YqURnAFj62IVXcX26YolxXXbZa1Rwa7IL-IL-m2EDRoUsAPp-uJahHfoOzi4Yo_hlO4u9-eMeTk12TwSqwkBJC6VTVTxQx-OObEdkiUuGXGVEzX1ZX0asDMS5_o1ZOWqmFwXtYaiAnDD6D_cVJpnVWD2SlMfKLkh6aGYFuN1YQguGdkkdQO3vi3RkR7tevVtlettZbUhZjwjeiOOGeSZMrTAV9Vy9sYMb5zT6PyejxWE9hpnbwwtqWGB6IYjRUHA9r2tSKUTk4aZRZE-ySJp0aE_ia1pyQpQjzrfOhksVcKQxIsxqh52NNuIz-zsssf1SNaia684qTlxWTg-t-WtqPJ1NdzdT4O6YYntglnmkfmJ-8VZYQlmtPM2o65xLJmSHDj_uWZ6tnhnpPdEKDK_-YiCUm_DlCUduYUAOifpvUhC8cWgjdNPtr1NXTbZrtXhVduNmV016nxn4q9q4ax1vsxwB0UWngJw4xDfVDSm280Azha7gxy9KSmxaLK_WTG8MsF1vNGvw0qdHbli7TYtnRXTaTXBha5cix5TsgVIPdJYuG9xfuL6zEvUo1CQ6ksVeOKaj8eEmQ0hcZCKJ3UFgJotbVRNs5M63ckVjqmuBZkt_5WhXeUGpB9Ow3ZJ3FFmCNwH-dbCwtSDlHeoMOI3xcw2WpdDzN19Dfn0sg_98UzqjXl0wVsHisVNsYrZciUpBe-RKc2xrsC7egO29UTN2tRwY4HWoqoM84wjrBzCB4H43lJjG7Ax8bGBPIbLEa2scgWpHPXv064x5bH6CVKd4ZXTEf319T7oA_pTNhm4PZ4sCJe5BsJCtM8IIyBomhc5rBamu8twXeHhORyKY9EF1JY9xajNk2vqlSE53gW6HQ2hG9E1xbn-bL-Owxpx1Ik63MgDRRYWKoj_AEdUnNJb9SAWPj_bnJEd6e3AZmtdvdjM",
 			"name": "Harry Potter and the Prisoner of Azkaban",
-			"video": "https://www.youtube.com/watch?v=Nt9L1jCKGnE&ab_channel=SonyPicturesEntertainment",
+			"video": "https://www.youtube.com/watch?v=1ZdlAg3j8nI&ab_channel=RottenTomatoesClassicTrailers",
 			"data": "2004",
 			"country": "UK",
 			"pictures": [
@@ -382,10 +386,11 @@
 		},
 		{
 			"id": 12,
+			"type": "film",
 			"background": "https://www.peacocktv.com/dam/growth/assets/seo/HarryPotter/CoS/hp-cos-og.png",
 			"image": "https://avatars.mds.yandex.net/get-kinopoisk-image/4774061/1ef65bfb-b16b-42aa-a54a-758395253290/300x450",
 			"name": "Harry Potter and the Chamber of Secrets",
-			"video": "https://www.youtube.com/watch?v=Nt9L1jCKGnE&ab_channel=SonyPicturesEntertainment",
+			"video": "https://www.youtube.com/watch?v=uwieFbajGxw&ab_channel=HarryPotterClips",
 			"data": "2002",
 			"country": "UK",
 			"pictures": [
@@ -490,10 +495,11 @@
 		},
 		{
 			"id": 13,
+			"type": "film",
 			"background": "https://s26037.cdn.ngenix.net/sdp/nc-snapshot1541143248544.jpg",
 			"image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1898899/27ed5c19-a045-49dd-8624-5f629c5d96e0/300x450",
 			"name": "Harry Potter and the Philosopher's Stone",
-			"video": "https://www.youtube.com/watch?v=Nt9L1jCKGnE&ab_channel=SonyPicturesEntertainment",
+			"video": "https://www.youtube.com/watch?v=R9U5qEp_7eE&ab_channel=LeoMorcel",
 			"data": "2001",
 			"country": "UK",
 			"pictures": [
@@ -598,6 +604,7 @@
 		},
 		{
 			"id": 3,
+			"type": "film",
 			"background": "https://www.lastmovieoutpost.com/wp-content/uploads/2022/03/Uncharted.jpg",
 			"image": "https://st.kp.yandex.net/images/film_big/468373.jpg",
 			"name": "Uncharted",
@@ -696,6 +703,7 @@
 		},
 		{
 			"id": 4,
+			"type": "film",
 			"background": "https://gamemag.ru/images/imagemanager/cache/f4/119e/f4119e_uhdpaper.com-download-pc-2k-wallpaper-101-0-f.jpg",
 			"image": "https://avatars.mds.yandex.net/get-kinopoisk-image/6201401/e091e668-b8a3-416d-a6ea-25c1a17b781a/x1000",
 			"name": "The Batman",
@@ -752,10 +760,11 @@
 		},
 		{
 			"id": 5,
-			"background": "https://www.film.ru/sites/default/files/filefield_paths/7_49.jpeg",
+			"type": "film",
+			"background": "https://img5.goodfon.ru/original/2560x1600/c/7c/movie-the-northman-nicole-kidamn-anya-taylor-joy.jpg",
 			"image": "https://st.kp.yandex.net/images/film_big/1313198.jpg",
 			"name": "The Northman",
-			"video": "https://www.youtube.com/watch?v=mqqft2x_Aa4&ab_channel=WarnerBros.Pictures",
+			"video": "https://www.youtube.com/watch?v=oMSdFM12hOw&t=6s&ab_channel=FocusFeatures",
 			"data": "2022",
 			"actors": [
 				{
@@ -808,7 +817,8 @@
 		},
 		{
 			"id": 6,
-			"background": "https://www.film.ru/sites/default/files/filefield_paths/7_49.jpeg",
+			"type": "film",
+			"background": "https://images.alphacoders.com/126/1265902.jpg",
 			"image": "https://st.kp.yandex.net/images/film_big/4324674.jpg",
 			"name": "Prey",
 			"video": "https://www.youtube.com/watch?v=wZ7LytagKlc&ab_channel=20thCenturyStudios",
@@ -864,7 +874,8 @@
 		},
 		{
 			"id": 7,
-			"background": "https://www.film.ru/sites/default/files/filefield_paths/7_49.jpeg",
+			"type": "film",
+			"background": "https://staticg.sportskeeda.com/editor/2022/03/ec1fc-16470204101136-1920.jpg",
 			"image": "https://st.kp.yandex.net/images/film_big/714185.jpg",
 			"name": "The Adam Project",
 			"data": "2022",
@@ -920,7 +931,8 @@
 		},
 		{
 			"id": 8,
-			"background": "https://www.film.ru/sites/default/files/filefield_paths/7_49.jpeg",
+			"type": "film",
+			"background": "https://rare-gallery.com/mocahbig/1375109-doctor-strange-in-the-multiverse-of-madness-4k-pc.jpg",
 			"image": "https://st.kp.yandex.net/images/film_big/1219909.jpg",
 			"name": "Doctor Strange in the Multiverse of Madness",
 			"data": "2022",
@@ -976,7 +988,8 @@
 		},
 		{
 			"id": 9,
-			"background": "https://www.film.ru/sites/default/files/filefield_paths/7_49.jpeg",
+			"type": "film",
+			"background": "https://attackofthefanboy.com/wp-content/uploads/2022/08/The-Gray-Man-Netflix.jpg",
 			"image": "https://st.kp.yandex.net/images/film_big/558393.jpg",
 			"name": "The Gray Man",
 			"video": "https://www.youtube.com/watch?v=BmllggGO4pM&ab_channel=Netflix",
@@ -1032,7 +1045,8 @@
 		},
 		{
 			"id": 10,
-			"background": "https://www.film.ru/sites/default/files/filefield_paths/7_49.jpeg",
+			"type": "film",
+			"background": "https://www.meewella.com/critic/images/film/20220807-bullettrain.jpg",
 			"image": "https://st.kp.yandex.net/images/film_big/1392550.jpg",
 			"name": "Bullet Train",
 			"video": "https://www.youtube.com/watch?v=0IOsk2Vlc4o&ab_channel=SonyPicturesEntertainment",
@@ -1088,6 +1102,7 @@
 		},
 		{
 			"id": 15,
+			"type": "film",
 			"background": "https://s01.diziler.com/original/22-11/02/avatar-suyun-yolu.jpg?0.5124734858527262",
 			"image": "https://avatars.mds.yandex.net/get-kinopoisk-image/6201401/2e51cb8b-fd51-4166-84a2-63559733baac/300x450",
 			"name": "Avatar: The Way of Water",
@@ -1196,6 +1211,7 @@
 		},
 		{
 			"id": 16,
+			"type": "film",
 			"background": "https://img.phimmoichilla.net/images/info/babylon.jpg",
 			"image": "https://avatars.mds.yandex.net/get-kinopoisk-image/4483445/5d5a860e-31e0-4a0c-90c7-b65ae415f1c9/300x450",
 			"name": "Babylon",
@@ -1328,10 +1344,11 @@
 	"cartoons": [
 		{
 			"id": 1,
-			"background": "https://img.phimmoichilla.net/images/info/babylon.jpg",
+			"type": "cartoon",
+			"background": "https://i.ytimg.com/vi/1e05WCDDFGw/maxresdefault.jpg",
 			"image": "https://kinopoisk-ru.clstorage.net/2m92cL434/b1325dDIn/bFeLVmiaQqFqVbnHGQk4JNzg-156n4cZIAKZ9EvApIWH0jhItveKgghFPTYb2pFfIXjZ8DWgqqji3djGaSBLEl1ewl895gr4FkDA73BVDDGV3KYnJ4KiOHkS7bk-rdg5R3Lw7X5vdiKI9Lg7CsbkKkQF2PVtja6Au9jJDoVBvy9k71dmPPo3SdJ9aEOtlZCYKBXP2kLKU428Y4FQVxjEzQeqKCkGzwouHLTY_xYj5NpwmXBtlckmdTekGUYcqRe_XCtP0kz2wzFOBejbHQEYBExFZ8JaKgttYPdpYFecEMEzFvihhgPu0oRoGOs-B-AuLOFoPUGhKrkXiNGyMOGXVwhTg8YkwlMVRk209zGBNCSQ5YduRuprPSyzBRjjZFAh406kqeKbBrp0cKy_-sMM3oD9vPmBlTYV69z5vqTpyyM0VxNWpPqnEfJdPHcxTeQo0BXvoibuDz3Um-WIY2RQ8dsepM2Oe5quvGSY04IDQBJ4HfB5MfVSnbNQLaLYTR8j3FeLOgxOQ1W21VAjsQVccOBFA042lr_FcLvNTAeggEGHJnwpNhdq3sxsENuyp5iaCG0oIf318kWXmIFG7H2j__gTn4rQeostGvV8X3GhrKgMGdtGUuavnRAPMfBHaETh0-pU1dqPCrbADNTregu4skw5DF1F_Xbpn8h9YmhZmyfQn8MW1MLLDUahKLPFrWCYLJl76qbmv1X8_yWUxyDArafqfPXCVzY2kAQUq9LPFMrAFUQB6aV2BavEkXbMea8D0KMjZmQ6q5VS0VQ3cQk4gGg5R3Ja9t8JKDv9RF9EkHEvniTNDkv-zgyAiHeOe2hioJFY-Z0JiqkXIFFiWA3bs8A_U15gHtstdiXk86VlqFTcvat2TvIH0SDrvUCLxADN5-YsQQoHAiYYYFBfnh8Y7vA50AV1HX6VOxxFQsz5I4ew22_CzJ5DRW55yLchGWCwADGb2oYWA42g971or8ioYSdWpFGKR6Iu1JyE33oP2I546SB9TZWm-Wd0LZKkGR-r2D87Qih2E5FO9dRXLd0QuCg1_zrSQpvVHBdtAEdMzNl_0rDZDgeqTkhwMGP-u4TKPJWAhU058mUPWCnm2IlXqzzrMyIM3s9B4sk4T5WpUHjQzefSJn7rTbDbaTircNjdmxLw9YZv2lIceJS_eqsEquwluKkxEe5F6zD1NrD5V188VysCNJZrpcJRuDMlRTx0YN3Prr7Kr2UcXykQW0AsYV9yLL0yc2KiyOiYM9KrhMZUYSQNCX1ybRPcAXrsDaujvAPnPlweI6HWkbCv3ZmEMNBd28re8pu9iDeFZL_ctE17ukixvuMiKqiQKMPqFzhOoFXQlc05Kv1HCE0SqAGni1iHKxJECpex6mkga83FrIxk5V-iNoKv7YSHfWj7nDxllyLwJV7LFiqEVLgPztdgVnzVtO3hHcLFoyz9mtCRE8tcH2uCaDqDNWZlYEs5PZRsqB3rvtaSfyHol40YY-BciSsm2F3CZ4Ya0Pw4j9qv4GLcAbxVYZHOJaPAUfZwCUuLqJ8vbtzKl43yFeDDdR2g8NA5V6K2Fg-ZGF9l3C_YlM0DKpA9rteyAow0kAf-MxyuRLm8vTW1WqFPPI3G5M3nh9C_X0Ksirep5mE0Qx3NRGDsiUcqchrj7bAThRRXzNh1W8Iccaa7sj484GRXmjuEvnw5jPl9fXJxq1Q9_nwZL6fY15NeQHYvBeqZXHf5qbzkxOmfWiYe7ymQM8VU2-CkHRdu5OGiW7oKxEQQT4qnVMaEETwJ7RW2OR_c3bpkjadTCB9LWtSe33F-rfCvyWUcpAThmy6OBpNd_Jc9DM88QOkDQuz1Rl_-2oTcJP_C2whiMIF0BQGhqmXnUNG2ZBUnLwxHw9LgQu8VEoG4yym9BKhomZfGQhKvwTCzueQ3TCT5--7kgaL3tkYsQJC3MhPMomy5pOmBoUL158zRylBlQyMoN9-23LY_xfoRyPdFZZCIxOHrtoYON70415VoB5gMAauWFPXGQyq6TBgYA-aX9D6sfcgBFSGy4aOsCc7cDUtLzEPXpvSKp8FWWSA7FRU0nHiND9p2dhtZDDP9yGf0DKFfQkSpmgOyjtj8vDuyR_wm3O20dcWFVhlnjFlWqFk3VyQTp6LEQk81illo4-2pTGiciftChqqvLfQ3AZxX3Mxd77Zw1Ypj3tKk3IgDSjtoykwtpJk5AUJhMzTZFtBJUzc4uwtiqP6bJe4ZVNcVkTR4mKmLfmbKr8lot4Ecv1CMyedOnK0S755OMIhIv2KPtA7I9awdWbUGyVuABcbICbMf8NOX5nR661Fi9UzPxeXoMAipq9aq2uvlgOvpcPckOIVjTryNZgv2yhhU5CPKS2jezPGg9UUFvp3n3D06cEULR0xfg64sbsshQh1cuyVl1GwI2YemUuKnLSCL9RQ3GAhhl65w6Vrjrr40DKTXDjM8kqChzDkVEcJ5p3Sl-txRx6dAW7u29DYntVLduEeVUQy4UKFrrqJ2N4Gs_yWAo7BwhfemQC3Ca54CwBQgJ0I3cKpIkaipfTmCHZ9Q9U5MJZ8nsDOHmjxCnwnq1TQXxWWQ0AgxH0qi1q_ZFMPx-MeotNGnRnClUrOa1kA4mIeyF4ROcHmggTmRJukPmInGMPm7C2CX1xJ8XiuBUmHcy11BlOjU0avqNprjUeRv8Zzb8DCVL77U2Rqz5hoYDBzDdrNEPvx5uCU1bWY5Dyy9KtgVR1fcP6du-BY3fQKVSMd1XbR4eI3jcjLWExUM5-HUfxxI5ZO-fKmuw5oqgPxQS4KD7MoI3VSdlUmC5U-oNWYknbNf1EfTvtxik_HOXUjzIUXI1AyZ18Z6CreNEP9lFHtsQCFz_jA5YgMe2tDoaD8Sj_AiIC1AYdWF-injQNlS_EUXU0BnE0JE9kc97pm0p2kVKLjk2adiInp7xbwThUQH5MDxv264WZ5jDsasCMDT8kPgjvyRXCVFuc4F07TE",
 			"name": "Puss in Boots 2: The Last Wish",
-			"video": "https://www.youtube.com/watch?v=Nt9L1jCKGnE&ab_channel=SonyPicturesEntertainment",
+			"video": "https://www.youtube.com/watch?v=RqrXhwS33yc&ab_channel=UniversalPictures",
 			"data": "2022",
 			"country": "USA",
 			"kind": ["drama", "comedy", "cartoon"],
@@ -1342,10 +1359,11 @@
 		},
 		{
 			"id": 2,
-			"background": "https://img.phimmoichilla.net/images/info/babylon.jpg",
+			"type": "cartoon",
+			"background": "https://mobimg.b-cdn.net/v3/fetch/72/72cc44da0d5c33657cfda61f2e1c1fc4.jpeg?w=1600",
 			"image": "https://kinopoisk-ru.clstorage.net/2m92cL434/b1325dDIn/bFeLVmiaQqFqVbnHGQk4JNzg-156n4cZIAKZ9EvApIWH0jhItveKgghFPSIzyoVXNVjZ7UTspqjGyIjGdSUaRl1e6kJ152rcBwzBvjhMZVTN3dIGft_eOHkS7bk-rdg5R3Lw7X5vdiKI9Lg7CsbkKkQF2PVtja6Au9jJDoVBvy9k71dmPPo3SdJ9aEOtlZCYKBXP2kLKU428Y4FQVxjEzQeqKCkGzwouHLTY_xYj5NpwmXBtlckmdTekGUYcqRe_XCtP0kz2wzFOBejbHQEYBExFZ8JaKgttYPdpYFecEMEzFvihhgPu0oRoGOs-B-AuLOFoPUGhKrkXiNGyMOGXVwhTg8YkwlMVRk209zGBNCSQ5YduRuprPSyzBRjjZFAh406kqeKbBrp0cKy_-sMM3oD9vPmBlTYV69z5vqTpyyM0VxNWpPqnEfJdPHcxTeQo0BXvoibuDz3Um-WIY2RQ8dsepM2Oe5quvGSY04IDQBJ4HfB5MfVSnbNQLaLYTR8j3FeLOgxOQ1W21VAjsQVccOBFA042lr_FcLvNTAeggEGHJnwpNhdq3sxsENuyp5iaCG0oIf318kWXmIFG7H2j__gTn4rQeostGvV8X3GhrKgMGdtGUuavnRAPMfBHaETh0-pU1dqPCrbADNTregu4skw5DF1F_Xbpn8h9YmhZmyfQn8MW1MLLDUahKLPFrWCYLJl76qbmv1X8_yWUxyDArafqfPXCVzY2kAQUq9LPFMrAFUQB6aV2BavEkXbMea8D0KMjZmQ6q5VS0VQ3cQk4gGg5R3Ja9t8JKDv9RF9EkHEvniTNDkv-zgyAiHeOe2hioJFY-Z0JiqkXIFFiWA3bs8A_U15gHtstdiXk86VlqFTcvat2TvIH0SDrvUCLxADN5-YsQQoHAiYYYFBfnh8Y7vA50AV1HX6VOxxFQsz5I4ew22_CzJ5DRW55yLchGWCwADGb2oYWA42g971or8ioYSdWpFGKR6Iu1JyE33oP2I546SB9TZWm-Wd0LZKkGR-r2D87Qih2E5FO9dRXLd0QuCg1_zrSQpvVHBdtAEdMzNl_0rDZDgeqTkhwMGP-u4TKPJWAhU058mUPWCnm2IlXqzzrMyIM3s9B4sk4T5WpUHjQzefSJn7rTbDbaTircNjdmxLw9YZv2lIceJS_eqsEquwluKkxEe5F6zD1NrD5V188VysCNJZrpcJRuDMlRTx0YN3Prr7Kr2UcXykQW0AsYV9yLL0yc2KiyOiYM9KrhMZUYSQNCX1ybRPcAXrsDaujvAPnPlweI6HWkbCv3ZmEMNBd28re8pu9iDeFZL_ctE17ukixvuMiKqiQKMPqFzhOoFXQlc05Kv1HCE0SqAGni1iHKxJECpex6mkga83FrIxk5V-iNoKv7YSHfWj7nDxllyLwJV7LFiqEVLgPztdgVnzVtO3hHcLFoyz9mtCRE8tcH2uCaDqDNWZlYEs5PZRsqB3rvtaSfyHol40YY-BciSsm2F3CZ4Ya0Pw4j9qv4GLcAbxVYZHOJaPAUfZwCUuLqJ8vbtzKl43yFeDDdR2g8NA5V6K2Fg-ZGF9l3C_YlM0DKpA9rteyAow0kAf-MxyuRLm8vTW1WqFPPI3G5M3nh9C_X0Ksirep5mE0Qx3NRGDsiUcqchrj7bAThRRXzNh1W8Iccaa7sj484GRXmjuEvnw5jPl9fXJxq1Q9_nwZL6fY15NeQHYvBeqZXHf5qbzkxOmfWiYe7ymQM8VU2-CkHRdu5OGiW7oKxEQQT4qnVMaEETwJ7RW2OR_c3bpkjadTCB9LWtSe33F-rfCvyWUcpAThmy6OBpNd_Jc9DM88QOkDQuz1Rl_-2oTcJP_C2whiMIF0BQGhqmXnUNG2ZBUnLwxHw9LgQu8VEoG4yym9BKhomZfGQhKvwTCzueQ3TCT5--7kgaL3tkYsQJC3MhPMomy5pOmBoUL158zRylBlQyMoN9-23LY_xfoRyPdFZZCIxOHrtoYON70415VoB5gMAauWFPXGQyq6TBgYA-aX9D6sfcgBFSGy4aOsCc7cDUtLzEPXpvSKp8FWWSA7FRU0nHiND9p2dhtZDDP9yGf0DKFfQkSpmgOyjtj8vDuyR_wm3O20dcWFVhlnjFlWqFk3VyQTp6LEQk81illo4-2pTGiciftChqqvLfQ3AZxX3Mxd77Zw1Ypj3tKk3IgDSjtoykwtpJk5AUJhMzTZFtBJUzc4uwtiqP6bJe4ZVNcVkTR4mKmLfmbKr8lot4Ecv1CMyedOnK0S755OMIhIv2KPtA7I9awdWbUGyVuABcbICbMf8NOX5nR661Fi9UzPxeXoMAipq9aq2uvlgOvpcPckOIVjTryNZgv2yhhU5CPKS2jezPGg9UUFvp3n3D06cEULR0xfg64sbsshQh1cuyVl1GwI2YemUuKnLSCL9RQ3GAhhl65w6Vrjrr40DKTXDjM8kqChzDkVEcJ5p3Sl-txRx6dAW7u29DYntVLduEeVUQy4UKFrrqJ2N4Gs_yWAo7BwhfemQC3Ca54CwBQgJ0I3cKpIkaipfTmCHZ9Q9U5MJZ8nsDOHmjxCnwnq1TQXxWWQ0AgxH0qi1q_ZFMPx-MeotNGnRnClUrOa1kA4mIeyF4ROcHmggTmRJukPmInGMPm7C2CX1xJ8XiuBUmHcy11BlOjU0avqNprjUeRv8Zzb8DCVL77U2Rqz5hoYDBzDdrNEPvx5uCU1bWY5Dyy9KtgVR1fcP6du-BY3fQKVSMd1XbR4eI3jcjLWExUM5-HUfxxI5ZO-fKmuw5oqgPxQS4KD7MoI3VSdlUmC5U-oNWYknbNf1EfTvtxik_HOXUjzIUXI1AyZ18Z6CreNEP9lFHtsQCFz_jA5YgMe2tDoaD8Sj_AiIC1AYdWF-injQNlS_EUXU0BnE0JE9kc97pm0p2kVKLjk2adiInp7xbwThUQH5MDxv264WZ5jDsasCMDT8kPgjvyRXCVFuc4F07TE",
 			"name": "Mystery Coco",
-			"video": "https://www.youtube.com/watch?v=Nt9L1jCKGnE&ab_channel=SonyPicturesEntertainment",
+			"video": "https://www.youtube.com/watch?v=yg8116aeD7E&ab_channel=DisneyMusicVEVO",
 			"data": "2022",
 			"country": "USA",
 			"kind": ["fantasy", "comedy", "cartoon"],
@@ -1356,10 +1374,11 @@
 		},
 		{
 			"id": 3,
-			"background": "https://img.phimmoichilla.net/images/info/babylon.jpg",
+			"type": "cartoon",
+			"background": "https://img-assets.drafthouse.com/images/shows/zootopia/Zootopia-Hero.jpg?ixlib=js-2.3.2&ar=16%3A9",
 			"image": "https://avatars.mds.yandex.net/get-kinopoisk-image/4716873/893bba73-3105-4944-8d18-a38f929f2759/300x450",
 			"name": "Zootopia",
-			"video": "https://www.youtube.com/watch?v=Nt9L1jCKGnE&ab_channel=SonyPicturesEntertainment",
+			"video": "https://www.youtube.com/watch?v=jWM0ct-OLsM&ab_channel=WaltDisneyAnimationStudios",
 			"data": "2022",
 			"country": "USA",
 			"kind": ["comedy", "cartoon"],
@@ -1371,10 +1390,11 @@
 
 		{
 			"id": 4,
-			"background": "https://img.phimmoichilla.net/images/info/babylon.jpg",
+			"type": "cartoon",
+			"background": "https://cdn.entries.clios.com/styles/clio_aotw_ems_image_details_retina/s3/entry_attachments/image/51/1495/20830/76576/7482SdtC15i_fXxxlh7Lo_RNrZ-tO-bX_ut5dikbpHY.jpg/7482SdtC15i_fXxxlh7Lo_RNrZ-tO-bX_ut5dikbpHY.jpg",
 			"image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1600647/2af3423b-054e-4359-b9a7-ed36c163214a/300x450",
 			"name": "The Secret Life of Pets",
-			"video": "https://www.youtube.com/watch?v=Nt9L1jCKGnE&ab_channel=SonyPicturesEntertainment",
+			"video": "https://www.youtube.com/watch?v=i-80SGWfEjM&ab_channel=Illumination",
 			"data": "2022",
 			"country": "USA",
 			"kind": ["comedy", "cartoon"],
@@ -1385,10 +1405,11 @@
 		},
 		{
 			"id": 5,
-			"background": "https://img.phimmoichilla.net/images/info/babylon.jpg",
+			"type": "cartoon",
+			"background": "https://slovnet.ru/wp-content/uploads/2018/09/8-61.jpg",
 			"image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1773646/894f7e3c-cedf-4e5c-946a-9021efdf17dd/300x450",
 			"name": "Ratatouille",
-			"video": "https://www.youtube.com/watch?v=Nt9L1jCKGnE&ab_channel=SonyPicturesEntertainment",
+			"video": "https://www.youtube.com/watch?v=NgsQ8mVkN8w&ab_channel=RottenTomatoesClassicTrailers",
 			"data": "2022",
 			"country": "USA",
 			"kind": ["drama", "comedy", "cartoon"],
@@ -1399,10 +1420,11 @@
 		},
 		{
 			"id": 6,
-			"background": "https://img.phimmoichilla.net/images/info/babylon.jpg",
+			"type": "cartoon",
+			"background": "https://www.fonstola.ru/pic/201308/1680x1050/fonstola.ru_108318.jpg",
 			"image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1599028/8d19eeb1-608b-4cdd-917e-b3a255471e2b/300x450",
 			"name": "Up",
-			"video": "https://www.youtube.com/watch?v=Nt9L1jCKGnE&ab_channel=SonyPicturesEntertainment",
+			"video": "https://www.youtube.com/watch?v=ORFWdXl_zJ4&ab_channel=DisneyUK",
 			"data": "2022",
 			"country": "USA",
 			"kind": ["drama", "comedy", "cartoon"],
@@ -1413,10 +1435,11 @@
 		},
 		{
 			"id": 7,
-			"background": "https://img.phimmoichilla.net/images/info/babylon.jpg",
+			"type": "cartoon",
+			"background": "https://www.film.ru/sites/default/files/trailers_frame/despicable-me-widescreen-wallpaper.jpg",
 			"image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1900788/ae11375b-68ad-4bf7-98d2-127d83e09381/300x450",
 			"name": "Despicable Me",
-			"video": "https://www.youtube.com/watch?v=Nt9L1jCKGnE&ab_channel=SonyPicturesEntertainment",
+			"video": "https://www.youtube.com/watch?v=NB1qppAPxk4&ab_channel=RottenTomatoesFamily",
 			"data": "2022",
 			"country": "USA",
 			"kind": ["drama", "comedy", "cartoon"],
@@ -1427,10 +1450,11 @@
 		},
 		{
 			"id": 8,
-			"background": "https://img.phimmoichilla.net/images/info/babylon.jpg",
+			"type": "cartoon",
+			"background": "https://dreamforum.ru/misc.php?item=139&download=0",
 			"image": "https://kinopoisk-ru.clstorage.net/2m92cL434/b1325dDIn/bFeLVmiaQqFqVbnHGQk4JNzg-156n4cZIAKZ9EvApIWH0jhItveKgghFPSID_rlHKVzYoUmsh-TPnJjHMQBORl1filsJ5gbECyDBsiBRGDmMhJY_N56iOHkS7bk-rdg5R3Lw7X5vdiKI9Lg7CsbkKkQF2PVtja6Au9jJDoVBvy9k71dmPPo3SdJ9aEOtlZCYKBXP2kLKU428Y4FQVxjEzQeqKCkGzwouHLTY_xYj5NpwmXBtlckmdTekGUYcqRe_XCtP0kz2wzFOBejbHQEYBExFZ8JaKgttYPdpYFecEMEzFvihhgPu0oRoGOs-B-AuLOFoPUGhKrkXiNGyMOGXVwhTg8YkwlMVRk209zGBNCSQ5YduRuprPSyzBRjjZFAh406kqeKbBrp0cKy_-sMM3oD9vPmBlTYV69z5vqTpyyM0VxNWpPqnEfJdPHcxTeQo0BXvoibuDz3Um-WIY2RQ8dsepM2Oe5quvGSY04IDQBJ4HfB5MfVSnbNQLaLYTR8j3FeLOgxOQ1W21VAjsQVccOBFA042lr_FcLvNTAeggEGHJnwpNhdq3sxsENuyp5iaCG0oIf318kWXmIFG7H2j__gTn4rQeostGvV8X3GhrKgMGdtGUuavnRAPMfBHaETh0-pU1dqPCrbADNTregu4skw5DF1F_Xbpn8h9YmhZmyfQn8MW1MLLDUahKLPFrWCYLJl76qbmv1X8_yWUxyDArafqfPXCVzY2kAQUq9LPFMrAFUQB6aV2BavEkXbMea8D0KMjZmQ6q5VS0VQ3cQk4gGg5R3Ja9t8JKDv9RF9EkHEvniTNDkv-zgyAiHeOe2hioJFY-Z0JiqkXIFFiWA3bs8A_U15gHtstdiXk86VlqFTcvat2TvIH0SDrvUCLxADN5-YsQQoHAiYYYFBfnh8Y7vA50AV1HX6VOxxFQsz5I4ew22_CzJ5DRW55yLchGWCwADGb2oYWA42g971or8ioYSdWpFGKR6Iu1JyE33oP2I546SB9TZWm-Wd0LZKkGR-r2D87Qih2E5FO9dRXLd0QuCg1_zrSQpvVHBdtAEdMzNl_0rDZDgeqTkhwMGP-u4TKPJWAhU058mUPWCnm2IlXqzzrMyIM3s9B4sk4T5WpUHjQzefSJn7rTbDbaTircNjdmxLw9YZv2lIceJS_eqsEquwluKkxEe5F6zD1NrD5V188VysCNJZrpcJRuDMlRTx0YN3Prr7Kr2UcXykQW0AsYV9yLL0yc2KiyOiYM9KrhMZUYSQNCX1ybRPcAXrsDaujvAPnPlweI6HWkbCv3ZmEMNBd28re8pu9iDeFZL_ctE17ukixvuMiKqiQKMPqFzhOoFXQlc05Kv1HCE0SqAGni1iHKxJECpex6mkga83FrIxk5V-iNoKv7YSHfWj7nDxllyLwJV7LFiqEVLgPztdgVnzVtO3hHcLFoyz9mtCRE8tcH2uCaDqDNWZlYEs5PZRsqB3rvtaSfyHol40YY-BciSsm2F3CZ4Ya0Pw4j9qv4GLcAbxVYZHOJaPAUfZwCUuLqJ8vbtzKl43yFeDDdR2g8NA5V6K2Fg-ZGF9l3C_YlM0DKpA9rteyAow0kAf-MxyuRLm8vTW1WqFPPI3G5M3nh9C_X0Ksirep5mE0Qx3NRGDsiUcqchrj7bAThRRXzNh1W8Iccaa7sj484GRXmjuEvnw5jPl9fXJxq1Q9_nwZL6fY15NeQHYvBeqZXHf5qbzkxOmfWiYe7ymQM8VU2-CkHRdu5OGiW7oKxEQQT4qnVMaEETwJ7RW2OR_c3bpkjadTCB9LWtSe33F-rfCvyWUcpAThmy6OBpNd_Jc9DM88QOkDQuz1Rl_-2oTcJP_C2whiMIF0BQGhqmXnUNG2ZBUnLwxHw9LgQu8VEoG4yym9BKhomZfGQhKvwTCzueQ3TCT5--7kgaL3tkYsQJC3MhPMomy5pOmBoUL158zRylBlQyMoN9-23LY_xfoRyPdFZZCIxOHrtoYON70415VoB5gMAauWFPXGQyq6TBgYA-aX9D6sfcgBFSGy4aOsCc7cDUtLzEPXpvSKp8FWWSA7FRU0nHiND9p2dhtZDDP9yGf0DKFfQkSpmgOyjtj8vDuyR_wm3O20dcWFVhlnjFlWqFk3VyQTp6LEQk81illo4-2pTGiciftChqqvLfQ3AZxX3Mxd77Zw1Ypj3tKk3IgDSjtoykwtpJk5AUJhMzTZFtBJUzc4uwtiqP6bJe4ZVNcVkTR4mKmLfmbKr8lot4Ecv1CMyedOnK0S755OMIhIv2KPtA7I9awdWbUGyVuABcbICbMf8NOX5nR661Fi9UzPxeXoMAipq9aq2uvlgOvpcPckOIVjTryNZgv2yhhU5CPKS2jezPGg9UUFvp3n3D06cEULR0xfg64sbsshQh1cuyVl1GwI2YemUuKnLSCL9RQ3GAhhl65w6Vrjrr40DKTXDjM8kqChzDkVEcJ5p3Sl-txRx6dAW7u29DYntVLduEeVUQy4UKFrrqJ2N4Gs_yWAo7BwhfemQC3Ca54CwBQgJ0I3cKpIkaipfTmCHZ9Q9U5MJZ8nsDOHmjxCnwnq1TQXxWWQ0AgxH0qi1q_ZFMPx-MeotNGnRnClUrOa1kA4mIeyF4ROcHmggTmRJukPmInGMPm7C2CX1xJ8XiuBUmHcy11BlOjU0avqNprjUeRv8Zzb8DCVL77U2Rqz5hoYDBzDdrNEPvx5uCU1bWY5Dyy9KtgVR1fcP6du-BY3fQKVSMd1XbR4eI3jcjLWExUM5-HUfxxI5ZO-fKmuw5oqgPxQS4KD7MoI3VSdlUmC5U-oNWYknbNf1EfTvtxik_HOXUjzIUXI1AyZ18Z6CreNEP9lFHtsQCFz_jA5YgMe2tDoaD8Sj_AiIC1AYdWF-injQNlS_EUXU0BnE0JE9kc97pm0p2kVKLjk2adiInp7xbwThUQH5MDxv264WZ5jDsasCMDT8kPgjvyRXCVFuc4F07TE",
 			"name": "Frozen",
-			"video": "https://www.youtube.com/watch?v=Nt9L1jCKGnE&ab_channel=SonyPicturesEntertainment",
+			"video": "https://www.youtube.com/watch?v=WKaIjiGrpfY&ab_channel=DisneyPrincess",
 			"data": "2022",
 			"country": "USA",
 			"kind": ["drama", "fantasy", "comedy", "cartoon"],
@@ -1441,10 +1465,11 @@
 		},
 		{
 			"id": 9,
-			"background": "https://img.phimmoichilla.net/images/info/babylon.jpg",
+			"type": "cartoon",
+			"background": "https://phonoteka.org/uploads/posts/2021-11/1635895736_37-phonoteka-org-p-chelovek-pauk-cherez-vselennie-fon-krasivi-44.jpg",
 			"image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1900788/64417bd3-838b-4910-a9f4-c278c509d568/300x450",
 			"name": "Spider-Man: Into the Spider-Verse",
-			"video": "https://www.youtube.com/watch?v=Nt9L1jCKGnE&ab_channel=SonyPicturesEntertainment",
+			"video": "https://www.youtube.com/watch?v=cqGjhVJWtEg&ab_channel=SonyPicturesEntertainment",
 			"data": "2022",
 			"country": "USA",
 			"kind": ["adventure", "comedy", "cartoon"],
@@ -1455,10 +1480,11 @@
 		},
 		{
 			"id": 10,
-			"background": "https://img.phimmoichilla.net/images/info/babylon.jpg",
+			"type": "cartoon",
+			"background": "https://thelifestyleelite.com/wp-content/uploads/2021/12/spidermanacrossSVlrg.jpg",
 			"image": "https://avatars.mds.yandex.net/get-kinopoisk-image/6201401/395586f4-38b6-4d88-8e54-0d1abaee6924/300x450",
 			"name": "Spider-Man: Web of Universes",
-			"video": "https://www.youtube.com/watch?v=Nt9L1jCKGnE&ab_channel=SonyPicturesEntertainment",
+			"video": "https://www.youtube.com/watch?v=cqGjhVJWtEg&ab_channel=SonyPicturesEntertainment",
 			"data": "2022",
 			"country": "USA",
 			"kind": ["fantasy", "comedy", "cartoon"],
@@ -1469,10 +1495,11 @@
 		},
 		{
 			"id": 11,
-			"background": "https://img.phimmoichilla.net/images/info/babylon.jpg",
+			"type": "cartoon",
+			"background": "https://www.film.ru/sites/default/files/news/25757835-925464.jpeg",
 			"image": "https://kinopoisk-ru.clstorage.net/2m92cL434/b1325dDIn/bFeLVmiaQqFqVbnHGQk4JNzg-156n4cZIAKZ9EvApIWH0jhItveKgghFPSIP2p1fMWDYrBDx5qjKxIzHMFhSQl1fhwJh52-IGwzBthhcTWzQkJYHCsa2OHkS7bk-rdg5R3Lw7X5vdiKI9Lg7CsbkKkQF2PVtja6Au9jJDoVBvy9k71dmPPo3SdJ9aEOtlZCYKBXP2kLKU428Y4FQVxjEzQeqKCkGzwouHLTY_xYj5NpwmXBtlckmdTekGUYcqRe_XCtP0kz2wzFOBejbHQEYBExFZ8JaKgttYPdpYFecEMEzFvihhgPu0oRoGOs-B-AuLOFoPUGhKrkXiNGyMOGXVwhTg8YkwlMVRk209zGBNCSQ5YduRuprPSyzBRjjZFAh406kqeKbBrp0cKy_-sMM3oD9vPmBlTYV69z5vqTpyyM0VxNWpPqnEfJdPHcxTeQo0BXvoibuDz3Um-WIY2RQ8dsepM2Oe5quvGSY04IDQBJ4HfB5MfVSnbNQLaLYTR8j3FeLOgxOQ1W21VAjsQVccOBFA042lr_FcLvNTAeggEGHJnwpNhdq3sxsENuyp5iaCG0oIf318kWXmIFG7H2j__gTn4rQeostGvV8X3GhrKgMGdtGUuavnRAPMfBHaETh0-pU1dqPCrbADNTregu4skw5DF1F_Xbpn8h9YmhZmyfQn8MW1MLLDUahKLPFrWCYLJl76qbmv1X8_yWUxyDArafqfPXCVzY2kAQUq9LPFMrAFUQB6aV2BavEkXbMea8D0KMjZmQ6q5VS0VQ3cQk4gGg5R3Ja9t8JKDv9RF9EkHEvniTNDkv-zgyAiHeOe2hioJFY-Z0JiqkXIFFiWA3bs8A_U15gHtstdiXk86VlqFTcvat2TvIH0SDrvUCLxADN5-YsQQoHAiYYYFBfnh8Y7vA50AV1HX6VOxxFQsz5I4ew22_CzJ5DRW55yLchGWCwADGb2oYWA42g971or8ioYSdWpFGKR6Iu1JyE33oP2I546SB9TZWm-Wd0LZKkGR-r2D87Qih2E5FO9dRXLd0QuCg1_zrSQpvVHBdtAEdMzNl_0rDZDgeqTkhwMGP-u4TKPJWAhU058mUPWCnm2IlXqzzrMyIM3s9B4sk4T5WpUHjQzefSJn7rTbDbaTircNjdmxLw9YZv2lIceJS_eqsEquwluKkxEe5F6zD1NrD5V188VysCNJZrpcJRuDMlRTx0YN3Prr7Kr2UcXykQW0AsYV9yLL0yc2KiyOiYM9KrhMZUYSQNCX1ybRPcAXrsDaujvAPnPlweI6HWkbCv3ZmEMNBd28re8pu9iDeFZL_ctE17ukixvuMiKqiQKMPqFzhOoFXQlc05Kv1HCE0SqAGni1iHKxJECpex6mkga83FrIxk5V-iNoKv7YSHfWj7nDxllyLwJV7LFiqEVLgPztdgVnzVtO3hHcLFoyz9mtCRE8tcH2uCaDqDNWZlYEs5PZRsqB3rvtaSfyHol40YY-BciSsm2F3CZ4Ya0Pw4j9qv4GLcAbxVYZHOJaPAUfZwCUuLqJ8vbtzKl43yFeDDdR2g8NA5V6K2Fg-ZGF9l3C_YlM0DKpA9rteyAow0kAf-MxyuRLm8vTW1WqFPPI3G5M3nh9C_X0Ksirep5mE0Qx3NRGDsiUcqchrj7bAThRRXzNh1W8Iccaa7sj484GRXmjuEvnw5jPl9fXJxq1Q9_nwZL6fY15NeQHYvBeqZXHf5qbzkxOmfWiYe7ymQM8VU2-CkHRdu5OGiW7oKxEQQT4qnVMaEETwJ7RW2OR_c3bpkjadTCB9LWtSe33F-rfCvyWUcpAThmy6OBpNd_Jc9DM88QOkDQuz1Rl_-2oTcJP_C2whiMIF0BQGhqmXnUNG2ZBUnLwxHw9LgQu8VEoG4yym9BKhomZfGQhKvwTCzueQ3TCT5--7kgaL3tkYsQJC3MhPMomy5pOmBoUL158zRylBlQyMoN9-23LY_xfoRyPdFZZCIxOHrtoYON70415VoB5gMAauWFPXGQyq6TBgYA-aX9D6sfcgBFSGy4aOsCc7cDUtLzEPXpvSKp8FWWSA7FRU0nHiND9p2dhtZDDP9yGf0DKFfQkSpmgOyjtj8vDuyR_wm3O20dcWFVhlnjFlWqFk3VyQTp6LEQk81illo4-2pTGiciftChqqvLfQ3AZxX3Mxd77Zw1Ypj3tKk3IgDSjtoykwtpJk5AUJhMzTZFtBJUzc4uwtiqP6bJe4ZVNcVkTR4mKmLfmbKr8lot4Ecv1CMyedOnK0S755OMIhIv2KPtA7I9awdWbUGyVuABcbICbMf8NOX5nR661Fi9UzPxeXoMAipq9aq2uvlgOvpcPckOIVjTryNZgv2yhhU5CPKS2jezPGg9UUFvp3n3D06cEULR0xfg64sbsshQh1cuyVl1GwI2YemUuKnLSCL9RQ3GAhhl65w6Vrjrr40DKTXDjM8kqChzDkVEcJ5p3Sl-txRx6dAW7u29DYntVLduEeVUQy4UKFrrqJ2N4Gs_yWAo7BwhfemQC3Ca54CwBQgJ0I3cKpIkaipfTmCHZ9Q9U5MJZ8nsDOHmjxCnwnq1TQXxWWQ0AgxH0qi1q_ZFMPx-MeotNGnRnClUrOa1kA4mIeyF4ROcHmggTmRJukPmInGMPm7C2CX1xJ8XiuBUmHcy11BlOjU0avqNprjUeRv8Zzb8DCVL77U2Rqz5hoYDBzDdrNEPvx5uCU1bWY5Dyy9KtgVR1fcP6du-BY3fQKVSMd1XbR4eI3jcjLWExUM5-HUfxxI5ZO-fKmuw5oqgPxQS4KD7MoI3VSdlUmC5U-oNWYknbNf1EfTvtxik_HOXUjzIUXI1AyZ18Z6CreNEP9lFHtsQCFz_jA5YgMe2tDoaD8Sj_AiIC1AYdWF-injQNlS_EUXU0BnE0JE9kc97pm0p2kVKLjk2adiInp7xbwThUQH5MDxv264WZ5jDsasCMDT8kPgjvyRXCVFuc4F07TE",
 			"name": "Moana",
-			"video": "https://www.youtube.com/watch?v=Nt9L1jCKGnE&ab_channel=SonyPicturesEntertainment",
+			"video": "https://www.youtube.com/watch?v=6eHMLX2QWPs&ab_channel=EntertainmentAccess",
 			"data": "2022",
 			"country": "USA",
 			"kind": ["fantasy", "comedy", "cartoon"],
@@ -1483,10 +1510,11 @@
 		},
 		{
 			"id": 12,
-			"background": "https://img.phimmoichilla.net/images/info/babylon.jpg",
+			"type": "cartoon",
+			"background": "https://pic.rutubelist.ru/video/86/7c/867cdbaf879b0647d85c2bd6ce4d4142.jpg",
 			"image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1629390/2d503116-1507-4d23-bffe-cc4096b4f586/300x450",
 			"name": "Brave",
-			"video": "https://www.youtube.com/watch?v=Nt9L1jCKGnE&ab_channel=SonyPicturesEntertainment",
+			"video": "https://www.youtube.com/watch?v=NvR9YOpDG4A&ab_channel=Disney",
 			"data": "2022",
 			"country": "USA",
 			"kind": ["fantasy", "action", "comedy", "cartoon"],
@@ -1497,10 +1525,11 @@
 		},
 		{
 			"id": 13,
-			"background": "https://img.phimmoichilla.net/images/info/babylon.jpg",
+			"type": "cartoon",
+			"background": "https://worthy.clan.su/_pu/0/00713304.jpg",
 			"image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1704946/60aa1abc-b754-4817-ad9c-0bcda427a12b/300x450",
 			"name": "The Lion King",
-			"video": "https://www.youtube.com/watch?v=Nt9L1jCKGnE&ab_channel=SonyPicturesEntertainment",
+			"video": "https://www.youtube.com/watch?v=GibiNy4d4gc&ab_channel=DisneyMusicVEVO",
 			"data": "1994",
 			"country": "USA",
 			"kind": ["drama", "adventure", "cartoon"],
@@ -1508,29 +1537,16 @@
 			"time": 109,
 			"budget": "38 000 000 $",
 			"title": "Simba the lion cub challenges his uncle the killer. Great soundtrack, hand-drawn animation and Shakespearean scope"
-		},
-		{
-			"id": 1,
-			"background": "https://img.phimmoichilla.net/images/info/babylon.jpg",
-			"image": "https://kinopoisk-ru.clstorage.net/2m92cL434/b1325dDIn/bFeLVmiaQqFqVbnHGQk4JNzg-156n4cZIAKZ9EvApIWH0jhItveKgghFPTYb2pFfIXjZ8DWgqqji3djGaSBLEl1ewl895gr4FkDA73BVDDGV3KYnJ4KiOHkS7bk-rdg5R3Lw7X5vdiKI9Lg7CsbkKkQF2PVtja6Au9jJDoVBvy9k71dmPPo3SdJ9aEOtlZCYKBXP2kLKU428Y4FQVxjEzQeqKCkGzwouHLTY_xYj5NpwmXBtlckmdTekGUYcqRe_XCtP0kz2wzFOBejbHQEYBExFZ8JaKgttYPdpYFecEMEzFvihhgPu0oRoGOs-B-AuLOFoPUGhKrkXiNGyMOGXVwhTg8YkwlMVRk209zGBNCSQ5YduRuprPSyzBRjjZFAh406kqeKbBrp0cKy_-sMM3oD9vPmBlTYV69z5vqTpyyM0VxNWpPqnEfJdPHcxTeQo0BXvoibuDz3Um-WIY2RQ8dsepM2Oe5quvGSY04IDQBJ4HfB5MfVSnbNQLaLYTR8j3FeLOgxOQ1W21VAjsQVccOBFA042lr_FcLvNTAeggEGHJnwpNhdq3sxsENuyp5iaCG0oIf318kWXmIFG7H2j__gTn4rQeostGvV8X3GhrKgMGdtGUuavnRAPMfBHaETh0-pU1dqPCrbADNTregu4skw5DF1F_Xbpn8h9YmhZmyfQn8MW1MLLDUahKLPFrWCYLJl76qbmv1X8_yWUxyDArafqfPXCVzY2kAQUq9LPFMrAFUQB6aV2BavEkXbMea8D0KMjZmQ6q5VS0VQ3cQk4gGg5R3Ja9t8JKDv9RF9EkHEvniTNDkv-zgyAiHeOe2hioJFY-Z0JiqkXIFFiWA3bs8A_U15gHtstdiXk86VlqFTcvat2TvIH0SDrvUCLxADN5-YsQQoHAiYYYFBfnh8Y7vA50AV1HX6VOxxFQsz5I4ew22_CzJ5DRW55yLchGWCwADGb2oYWA42g971or8ioYSdWpFGKR6Iu1JyE33oP2I546SB9TZWm-Wd0LZKkGR-r2D87Qih2E5FO9dRXLd0QuCg1_zrSQpvVHBdtAEdMzNl_0rDZDgeqTkhwMGP-u4TKPJWAhU058mUPWCnm2IlXqzzrMyIM3s9B4sk4T5WpUHjQzefSJn7rTbDbaTircNjdmxLw9YZv2lIceJS_eqsEquwluKkxEe5F6zD1NrD5V188VysCNJZrpcJRuDMlRTx0YN3Prr7Kr2UcXykQW0AsYV9yLL0yc2KiyOiYM9KrhMZUYSQNCX1ybRPcAXrsDaujvAPnPlweI6HWkbCv3ZmEMNBd28re8pu9iDeFZL_ctE17ukixvuMiKqiQKMPqFzhOoFXQlc05Kv1HCE0SqAGni1iHKxJECpex6mkga83FrIxk5V-iNoKv7YSHfWj7nDxllyLwJV7LFiqEVLgPztdgVnzVtO3hHcLFoyz9mtCRE8tcH2uCaDqDNWZlYEs5PZRsqB3rvtaSfyHol40YY-BciSsm2F3CZ4Ya0Pw4j9qv4GLcAbxVYZHOJaPAUfZwCUuLqJ8vbtzKl43yFeDDdR2g8NA5V6K2Fg-ZGF9l3C_YlM0DKpA9rteyAow0kAf-MxyuRLm8vTW1WqFPPI3G5M3nh9C_X0Ksirep5mE0Qx3NRGDsiUcqchrj7bAThRRXzNh1W8Iccaa7sj484GRXmjuEvnw5jPl9fXJxq1Q9_nwZL6fY15NeQHYvBeqZXHf5qbzkxOmfWiYe7ymQM8VU2-CkHRdu5OGiW7oKxEQQT4qnVMaEETwJ7RW2OR_c3bpkjadTCB9LWtSe33F-rfCvyWUcpAThmy6OBpNd_Jc9DM88QOkDQuz1Rl_-2oTcJP_C2whiMIF0BQGhqmXnUNG2ZBUnLwxHw9LgQu8VEoG4yym9BKhomZfGQhKvwTCzueQ3TCT5--7kgaL3tkYsQJC3MhPMomy5pOmBoUL158zRylBlQyMoN9-23LY_xfoRyPdFZZCIxOHrtoYON70415VoB5gMAauWFPXGQyq6TBgYA-aX9D6sfcgBFSGy4aOsCc7cDUtLzEPXpvSKp8FWWSA7FRU0nHiND9p2dhtZDDP9yGf0DKFfQkSpmgOyjtj8vDuyR_wm3O20dcWFVhlnjFlWqFk3VyQTp6LEQk81illo4-2pTGiciftChqqvLfQ3AZxX3Mxd77Zw1Ypj3tKk3IgDSjtoykwtpJk5AUJhMzTZFtBJUzc4uwtiqP6bJe4ZVNcVkTR4mKmLfmbKr8lot4Ecv1CMyedOnK0S755OMIhIv2KPtA7I9awdWbUGyVuABcbICbMf8NOX5nR661Fi9UzPxeXoMAipq9aq2uvlgOvpcPckOIVjTryNZgv2yhhU5CPKS2jezPGg9UUFvp3n3D06cEULR0xfg64sbsshQh1cuyVl1GwI2YemUuKnLSCL9RQ3GAhhl65w6Vrjrr40DKTXDjM8kqChzDkVEcJ5p3Sl-txRx6dAW7u29DYntVLduEeVUQy4UKFrrqJ2N4Gs_yWAo7BwhfemQC3Ca54CwBQgJ0I3cKpIkaipfTmCHZ9Q9U5MJZ8nsDOHmjxCnwnq1TQXxWWQ0AgxH0qi1q_ZFMPx-MeotNGnRnClUrOa1kA4mIeyF4ROcHmggTmRJukPmInGMPm7C2CX1xJ8XiuBUmHcy11BlOjU0avqNprjUeRv8Zzb8DCVL77U2Rqz5hoYDBzDdrNEPvx5uCU1bWY5Dyy9KtgVR1fcP6du-BY3fQKVSMd1XbR4eI3jcjLWExUM5-HUfxxI5ZO-fKmuw5oqgPxQS4KD7MoI3VSdlUmC5U-oNWYknbNf1EfTvtxik_HOXUjzIUXI1AyZ18Z6CreNEP9lFHtsQCFz_jA5YgMe2tDoaD8Sj_AiIC1AYdWF-injQNlS_EUXU0BnE0JE9kc97pm0p2kVKLjk2adiInp7xbwThUQH5MDxv264WZ5jDsasCMDT8kPgjvyRXCVFuc4F07TE",
-			"name": "Puss in Boots 2: The Last Wish",
-			"video": "https://www.youtube.com/watch?v=Nt9L1jCKGnE&ab_channel=SonyPicturesEntertainment",
-			"data": "2022",
-			"country": "USA",
-			"kind": ["drama", "comedy", "cartoon"],
-			"age": 18,
-			"time": 189,
-			"budget": "78 000 000 $",
-			"title": "Hollywood, 1926 At a noisy party in the producer's mansion, aspiring actress Nellie Laroy and a guy from the serving staff, Manny Torres, meet. The event is not only fun, but also beneficial for both: Nellie receives an invitation to shoot, and Manny drives drunk silent film star Jack Conrad home, and he asks the guy to work as his assistant. So both get on the set and begin to make a career in the movie: Nelly - in the acting field, Manny - as an assistant producer. Meanwhile, progress does not stand still, and sound films are gaining popularity."
 		}
 	],
 	"series": [
 		{
 			"id": 1,
-			"background": "https://4kwallpapers.com/images/wallpapers/spider-man-far-from-home-5k-7680x4320-947.jpg",
+			"type": "serial",
+			"background": "https://www.film.ru/sites/default/files/news/45161256-1098834.jpg",
 			"image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/dd78edfd-6a1f-486c-9a86-6acbca940418/300x450",
 			"name": "Game of Thrones",
-			"video": "https://www.youtube.com/watch?v=Nt9L1jCKGnE&ab_channel=SonyPicturesEntertainment",
+			"video": "https://www.youtube.com/watch?v=KPLWWIOCOOQ&ab_channel=GameofThrones",
 			"data": "2022",
 			"country": "USA",
 			"actors": [
@@ -1624,10 +1640,11 @@
 		},
 		{
 			"id": 2,
-			"background": "https://4kwallpapers.com/images/wallpapers/spider-man-far-from-home-5k-7680x4320-947.jpg",
+			"type": "serial",
+			"background": "https://img2.goodfon.ru/wallpaper/nbig/1/e6/vo-vse-tyazhkie-breaking-bad-2926.jpg",
 			"image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1900788/fb35416f-3b0d-4b96-bc65-cf6923f9e329/300x450",
 			"name": "Breaking Bad",
-			"video": "https://www.youtube.com/watch?v=Nt9L1jCKGnE&ab_channel=SonyPicturesEntertainment",
+			"video": "https://www.youtube.com/watch?v=HhesaQXLuRY&ab_channel=TrailerBlend",
 			"data": "2022",
 			"country": "USA",
 			"actors": [
@@ -1721,10 +1738,11 @@
 		},
 		{
 			"id": 3,
-			"background": "https://4kwallpapers.com/images/wallpapers/spider-man-far-from-home-5k-7680x4320-947.jpg",
+			"type": "serial",
+			"background": "https://a.d-cd.net/3IAAAgJPvOA-1920.jpg",
 			"image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1599028/270df10e-2e72-4d8e-a49b-f84c751162a7/300x450",
 			"name": "House, M.D",
-			"video": "https://www.youtube.com/watch?v=Nt9L1jCKGnE&ab_channel=SonyPicturesEntertainment",
+			"video": "https://www.youtube.com/watch?v=MczMB8nU1sY&ab_channel=iflixMalaysia",
 			"data": "2022",
 			"country": "USA",
 			"actors": [
@@ -1818,10 +1836,11 @@
 		},
 		{
 			"id": 4,
-			"background": "https://4kwallpapers.com/images/wallpapers/spider-man-far-from-home-5k-7680x4320-947.jpg",
+			"type": "serial",
+			"background": "https://proprikol.ru/wp-content/uploads/2021/11/kartinki-sherlok-holms-5.jpg",
 			"image": "https://kinopoisk-ru.clstorage.net/b2r8V9452/a89bdefp/gUUdv5fmqRalX6w5-iCQoRXx0shFpHGXGMrYlGhQc0gmZNtTieDSOVbF9zyUHKeJFTdKPsy--NUXMpSmMlXjOHWBOD6So1gHUJ_Z2I7VhcQg5RZNoNAAU52umUVdhca61WZYcR7CscvUxzEo8Aj2_JAyrj-pa-nQs4Og0RTkkz4QdK6dd3SqQldNXhwKMcLTRYE0SiTWZdWYqawEi-MCieeHajJeQML6JaQAiyLogq-x8FxeOpu5widQsND3MhI9A7QtjMVFWJLmvS_NWWHRwkUQFDslVwRlWEvOlagAQ1n2NokBHFHgW5bn0kuRSxEuAuDPrpvqOXMUE8FiRHBzLxH0PPxXp_lDJ63d7iiA8xHHILUYFdXmJ6rY_lVK0vFJpabr4B1x0glXtXF5AvlDLOHAn4wZqhmjFvGxAXQyA6xi1gz-VHeakWXOT7-JMPPSRRL0iYalpUcKuR9F-KAyGiQUyFK8MABLFTUASbBJQmyScq-fuhhZ0VWxgaH2c4OOYeSenPZ0uhL073xtaMGzI6fQhMonF-QnufoMJnvj4Sm2dWsRTLPRqgaE44jQS2NOM4KOXGvq2gNUw-MgJBAhTHB3TUzHlWhhRr2sP6swQKJlUkZIFwe3F9npr2fY4BH4F7TogpwjAslmpcPoI9rSPMHDXe_L6chBJaPzw2ewUC5Ddr3-pIYrAneuT_960ABxJzK2GFVkpgR4OM8UqUHx6cbWeVNvEhHaNfUxixA4AG9h0x4tCgr6kHQyULOEgHEtEfT_7HWU2kJ07X1OS3JhcEaCxEgElrV2etm9ZslQsPo2tHkCHbIyeQQmg3si-0B8wvBtjSo7S4J1onMwtgAiPEEFfP5W1Xsg90-Or9qRAREVciWKNyWXNcpavHRY8fA6VrfZU22DAIgUJpE5AZqAPmDRHn_72VjwdbPCoFcw4__BBJwOpwTpYIU93UxLknIiVsJ1CoZ0lhWpC343StIRWfb12wPcEqOZ5dQzC1JbExyyQB4fmdvJwPZxkxHl4iFsUdSdnabHyzMVTJ-uOUGjU6cghamXVCRlWglNdapgAclnxStBrVITanYUsVvxawJ8UOD9bMk7WBCEc8ESloChXiD2ni4GxLkjxa_fzorCAiEHILcb5cdXhdm7zeS6kYNp9vZbcb3DcslkJoCIgzlBbbOzDH-paxpBNUICA-XBES4z9vw-FraI8CS9vRxrUJNjNyKGeoWHZEUqSpzW-rJDK8ek-IEeYdKp95fxuTPaAz9BIt4eejh6wMcjk2LHQ-KPY6YNbiU1GKAFvJ-9qxEREPfTd3k3FnRnSnisdguhE8q3trqyXwMQSBU18Ujw-BGdUcDsP5kKS2IW8gGQ1VBgvwDFTQ3kd0txxg1tXwsQQQGGwraa9WWmF6h5DSeb0lK4hndIc88Q0cp3xdO5AljzvWDhbc3ouzqS1AGBI7aTE9zTNF0slMXqgAQszc5LgSNQJRInWTbEZFQoKfw261AymCcWO-PtUqFKR5eDGZDb4pxSYy3smOv5gqTikSKEETPc0EdtTARnCxLUD52uC1ERQaXANmrHdAUlimqctFuA4aqFtusALcHCiyW2AegjacAPQzIMPNqLC6FnQZIgNEDCv6D2z173JoizN-1cnknCcLBUAyeLpKUH10uIHweYoCFrRCQosg-QorgU9YBJ06qxHrORDk3p-7gy5iITk-Qxsn4CNVw-Fla7cQQPzT55M4BidsN2-MRVddT7-N6WOfBDKUR0qzB9UtJ5J8WAy-JKsGySEq682Wg4A2Xz4OKGcQHuIhYd7BW2uqCn7d59iYHQoTbQ1SklBLXl2cocpioQMItXNGkTbRMyKmWVMStg-wFsE8Bc3hqa26GlABFD1gIhXlPWzs2Fd3iiZQ8vb0ohkoHHcPTY5mWUxeqJXofqUADaZzfKgh6iUvskd4FZ0cjxbGIAD42pi0ljB8OgwXVwE_wx5B7O5FWo0nVPr7xr8mICxZFXCte1dXQqGxwkimAReiT2eHJeUHGIRKfzWyOKEkzCk-4_O0laETfzkOL3gnEPUmY_f8clWzAnLcwtCVJCkRbghSqHlJT32Bs-9ZuTwThkZqiBTBNy2SWGg3jwafK9QAEuvykIGZKlEkPRdaLjjyE0L_2212ixRW7vPfsy4gO1IkSqhuZnFkjrDwbpsLNZddbZEmxy0LgFhSGbU1gRnXIyXV-7evgy5CHyI2Rzgz2Bpw-NpsfKo-Tsj15J86Fj1WFGaCXndyVIuD5kGNGi29QHKAC8MmHphmTAWNHrwP8y4o6sOXppgLTh8gL2gcOtUPQPHVdmysEHHs9t-JBisMazFai01iRk6HqP1LtSwhuEZHlgf-Dzydb3IsgQCCNe0OANr4kLyKNXUQHT9DMzbkP2Lv1FJptDRQ--j7qAkiM3soUaRtZndZiJ3zR7gqGqdLV6cVxhQNoGZ5OqsHiQ_nGyzr54m9mipZJDorYxEExiJt_edcTpIwfuzU4LUnFSVKElqAZllhfYC3xVeKJyuiWEyxGMsUFI14UxiWFpY1xQ02xMytgZchUxgvN1UrA98QVfXJaEC0Km7y292YPy44QzZ4g058fVGHkOVkpQAiok1zth_VMCGVcnAVtjWTI8MQIM_7nJaEDnkOOyd8AzzbMGD9-31Poy9A7ffHkg0KH1sBdqJ6RmF5kbjlTKgeE6RGYYsG1jYksmNfL7ogliPMIRD764CdrCZ_PjM4YyMo-xRN1uZeYIAXS9TYwJIaKAJwCnufSlxAVIOQ83inACGzXmWeJNcWO4xgeC-OEZwjwAExzsuAob0sYwU6AEETPtICVNjHe26sLHDI6uW5OiMGQBx6m1NKTEWZr-Zjii4wsF9HjjbrHCORXHUvnRqsDPgBCM7OrruXKWYBNCl4KgTfBmHxy1xprxBt6PbCsyMuH1EAQ4NKeXF7nqPDWI8ENJ5rVKU-2gw0uW1fL48bjyPMCA3W7YywhQ51Djk",
 			"name": "Sherlock",
-			"video": "https://www.youtube.com/watch?v=Nt9L1jCKGnE&ab_channel=SonyPicturesEntertainment",
+			"video": "https://www.youtube.com/watch?v=IrBKwzL3K7s&ab_channel=eleanorcreates",
 			"data": "2022",
 			"country": "USA",
 			"actors": [
@@ -1915,10 +1934,11 @@
 		},
 		{
 			"id": 5,
-			"background": "https://4kwallpapers.com/images/wallpapers/spider-man-far-from-home-5k-7680x4320-947.jpg",
+			"type": "serial",
+			"background": "https://media.cnn.com/api/v1/images/stellar/prod/140327194124-himym-cast.jpg?q=w_800,h_532,x_0,y_0,c_fill/w_1280",
 			"image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1629390/c340e00b-17ca-4ad2-b55a-a941a524926f/300x450",
 			"name": "How I Met Your Mother",
-			"video": "https://www.youtube.com/watch?v=Nt9L1jCKGnE&ab_channel=SonyPicturesEntertainment",
+			"video": "https://www.youtube.com/watch?v=cjJLEYMzpjc&ab_channel=HenryPage",
 			"data": "2022",
 			"country": "USA",
 			"actors": [
@@ -2012,10 +2032,11 @@
 		},
 		{
 			"id": 6,
-			"background": "https://4kwallpapers.com/images/wallpapers/spider-man-far-from-home-5k-7680x4320-947.jpg",
+			"type": "serial",
+			"background": "https://i.artfile.ru/1920x1080_1045123_[www.ArtFile.ru].jpg",
 			"image": "https://kinopoisk-ru.clstorage.net/b2r8V9452/a89bdefp/gUUdv5fmqRalX6w5-iCQoRXx0shFpHGXGMrYlGhQc0gmZNtTieDSOVbF9zyULBeJJYfKO9m7WKUiR9HmN0XzXVWBOJvyk1gHIIrp2AugtWTA4GZNNbCg852umUVdhca61WZYcR7CscvUxzEo8Aj2_JAyrj-pa-nQs4Og0RTkkz4QdK6dd3SqQldNXhwKMcLTRYE0SiTWZdWYqawEi-MCieeHajJeQML6JaQAiyLogq-x8FxeOpu5widQsND3MhI9A7QtjMVFWJLmvS_NWWHRwkUQFDslVwRlWEvOlagAQ1n2NokBHFHgW5bn0kuRSxEuAuDPrpvqOXMUE8FiRHBzLxH0PPxXp_lDJ63d7iiA8xHHILUYFdXmJ6rY_lVK0vFJpabr4B1x0glXtXF5AvlDLOHAn4wZqhmjFvGxAXQyA6xi1gz-VHeakWXOT7-JMPPSRRL0iYalpUcKuR9F-KAyGiQUyFK8MABLFTUASbBJQmyScq-fuhhZ0VWxgaH2c4OOYeSenPZ0uhL073xtaMGzI6fQhMonF-QnufoMJnvj4Sm2dWsRTLPRqgaE44jQS2NOM4KOXGvq2gNUw-MgJBAhTHB3TUzHlWhhRr2sP6swQKJlUkZIFwe3F9npr2fY4BH4F7TogpwjAslmpcPoI9rSPMHDXe_L6chBJaPzw2ewUC5Ddr3-pIYrAneuT_960ABxJzK2GFVkpgR4OM8UqUHx6cbWeVNvEhHaNfUxixA4AG9h0x4tCgr6kHQyULOEgHEtEfT_7HWU2kJ07X1OS3JhcEaCxEgElrV2etm9ZslQsPo2tHkCHbIyeQQmg3si-0B8wvBtjSo7S4J1onMwtgAiPEEFfP5W1Xsg90-Or9qRAREVciWKNyWXNcpavHRY8fA6VrfZU22DAIgUJpE5AZqAPmDRHn_72VjwdbPCoFcw4__BBJwOpwTpYIU93UxLknIiVsJ1CoZ0lhWpC343StIRWfb12wPcEqOZ5dQzC1JbExyyQB4fmdvJwPZxkxHl4iFsUdSdnabHyzMVTJ-uOUGjU6cghamXVCRlWglNdapgAclnxStBrVITanYUsVvxawJ8UOD9bMk7WBCEc8ESloChXiD2ni4GxLkjxa_fzorCAiEHILcb5cdXhdm7zeS6kYNp9vZbcb3DcslkJoCIgzlBbbOzDH-paxpBNUICA-XBES4z9vw-FraI8CS9vRxrUJNjNyKGeoWHZEUqSpzW-rJDK8ek-IEeYdKp95fxuTPaAz9BIt4eejh6wMcjk2LHQ-KPY6YNbiU1GKAFvJ-9qxEREPfTd3k3FnRnSnisdguhE8q3trqyXwMQSBU18Ujw-BGdUcDsP5kKS2IW8gGQ1VBgvwDFTQ3kd0txxg1tXwsQQQGGwraa9WWmF6h5DSeb0lK4hndIc88Q0cp3xdO5AljzvWDhbc3ouzqS1AGBI7aTE9zTNF0slMXqgAQszc5LgSNQJRInWTbEZFQoKfw261AymCcWO-PtUqFKR5eDGZDb4pxSYy3smOv5gqTikSKEETPc0EdtTARnCxLUD52uC1ERQaXANmrHdAUlimqctFuA4aqFtusALcHCiyW2AegjacAPQzIMPNqLC6FnQZIgNEDCv6D2z173JoizN-1cnknCcLBUAyeLpKUH10uIHweYoCFrRCQosg-QorgU9YBJ06qxHrORDk3p-7gy5iITk-Qxsn4CNVw-Fla7cQQPzT55M4BidsN2-MRVddT7-N6WOfBDKUR0qzB9UtJ5J8WAy-JKsGySEq682Wg4A2Xz4OKGcQHuIhYd7BW2uqCn7d59iYHQoTbQ1SklBLXl2cocpioQMItXNGkTbRMyKmWVMStg-wFsE8Bc3hqa26GlABFD1gIhXlPWzs2Fd3iiZQ8vb0ohkoHHcPTY5mWUxeqJXofqUADaZzfKgh6iUvskd4FZ0cjxbGIAD42pi0ljB8OgwXVwE_wx5B7O5FWo0nVPr7xr8mICxZFXCte1dXQqGxwkimAReiT2eHJeUHGIRKfzWyOKEkzCk-4_O0laETfzkOL3gnEPUmY_f8clWzAnLcwtCVJCkRbghSqHlJT32Bs-9ZuTwThkZqiBTBNy2SWGg3jwafK9QAEuvykIGZKlEkPRdaLjjyE0L_2212ixRW7vPfsy4gO1IkSqhuZnFkjrDwbpsLNZddbZEmxy0LgFhSGbU1gRnXIyXV-7evgy5CHyI2Rzgz2Bpw-NpsfKo-Tsj15J86Fj1WFGaCXndyVIuD5kGNGi29QHKAC8MmHphmTAWNHrwP8y4o6sOXppgLTh8gL2gcOtUPQPHVdmysEHHs9t-JBisMazFai01iRk6HqP1LtSwhuEZHlgf-Dzydb3IsgQCCNe0OANr4kLyKNXUQHT9DMzbkP2Lv1FJptDRQ--j7qAkiM3soUaRtZndZiJ3zR7gqGqdLV6cVxhQNoGZ5OqsHiQ_nGyzr54m9mipZJDorYxEExiJt_edcTpIwfuzU4LUnFSVKElqAZllhfYC3xVeKJyuiWEyxGMsUFI14UxiWFpY1xQ02xMytgZchUxgvN1UrA98QVfXJaEC0Km7y292YPy44QzZ4g058fVGHkOVkpQAiok1zth_VMCGVcnAVtjWTI8MQIM_7nJaEDnkOOyd8AzzbMGD9-31Poy9A7ffHkg0KH1sBdqJ6RmF5kbjlTKgeE6RGYYsG1jYksmNfL7ogliPMIRD764CdrCZ_PjM4YyMo-xRN1uZeYIAXS9TYwJIaKAJwCnufSlxAVIOQ83inACGzXmWeJNcWO4xgeC-OEZwjwAExzsuAob0sYwU6AEETPtICVNjHe26sLHDI6uW5OiMGQBx6m1NKTEWZr-Zjii4wsF9HjjbrHCORXHUvnRqsDPgBCM7OrruXKWYBNCl4KgTfBmHxy1xprxBt6PbCsyMuH1EAQ4NKeXF7nqPDWI8ENJ5rVKU-2gw0uW1fL48bjyPMCA3W7YywhQ51Djk",
 			"name": "The Office",
-			"video": "https://www.youtube.com/watch?v=Nt9L1jCKGnE&ab_channel=SonyPicturesEntertainment",
+			"video": "https://www.youtube.com/watch?v=LHOtME2DL4g&ab_channel=MathewPerry",
 			"data": "2022",
 			"country": "USA",
 			"actors": [
@@ -2109,10 +2130,11 @@
 		},
 		{
 			"id": 7,
-			"background": "https://4kwallpapers.com/images/wallpapers/spider-man-far-from-home-5k-7680x4320-947.jpg",
+			"type": "serial",
+			"background": "https://leganerd.com/wp-content/uploads/2021/06/wallpapersden.com_amybeth-mcnulty-in-anne-with-an-e_1920x1080.jpg",
 			"image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1599028/209536e2-8eda-47e3-9044-3a1d330ba809/300x450",
 			"name": "Anna",
-			"video": "https://www.youtube.com/watch?v=Nt9L1jCKGnE&ab_channel=SonyPicturesEntertainment",
+			"video": "https://www.youtube.com/watch?v=S5qJXYNNINo&ab_channel=Netflix",
 			"data": "2022",
 			"country": "Canada",
 			"actors": [
@@ -2206,10 +2228,11 @@
 		},
 		{
 			"id": 8,
-			"background": "https://4kwallpapers.com/images/wallpapers/spider-man-far-from-home-5k-7680x4320-947.jpg",
+			"type": "serial",
+			"background": "https://mir-s3-cdn-cf.behance.net/project_modules/1400_opt_1/8a6a68144592045.628efcd3e77b5.jpg",
 			"image": "https://avatars.mds.yandex.net/get-kinopoisk-image/4303601/4639b97f-1ff6-4f63-b7f6-02ea1a14f553/300x450",
 			"name": "Stranger Things",
-			"video": "https://www.youtube.com/watch?v=Nt9L1jCKGnE&ab_channel=SonyPicturesEntertainment",
+			"video": "https://www.youtube.com/watch?v=faym3TgWE68&ab_channel=MillieBobbyBrown",
 			"data": "2022",
 			"country": "USA",
 			"actors": [
@@ -2303,10 +2326,11 @@
 		},
 		{
 			"id": 9,
-			"background": "https://4kwallpapers.com/images/wallpapers/spider-man-far-from-home-5k-7680x4320-947.jpg",
+			"type": "serial",
+			"background": "https://i.pinimg.com/originals/77/cd/1f/77cd1f3a7e9387a235fc93fff14c4171.jpg",
 			"image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1599028/e1ec4209-569e-4745-a324-b180af8097ef/300x450",
 			"name": "Peaky Blinders",
-			"video": "https://www.youtube.com/watch?v=Nt9L1jCKGnE&ab_channel=SonyPicturesEntertainment",
+			"video": "https://www.youtube.com/watch?v=GVUqZC7lNiw&ab_channel=Sixer",
 			"data": "2022",
 			"country": "USA",
 			"actors": [
@@ -2400,10 +2424,11 @@
 		},
 		{
 			"id": 10,
-			"background": "https://4kwallpapers.com/images/wallpapers/spider-man-far-from-home-5k-7680x4320-947.jpg",
+			"type": "serial",
+			"background": "https://kinodramaturg.ru/wp-content/uploads/2022/04/brigada-serial.jpg",
 			"image": "https://kinopoisk-ru.clstorage.net/b2r8V9452/a89bdefp/gUUdv5fmqRalX6w5-iCQoRXx0shFpHGXGMrYlGhQc0gmZNtTieDSOVbF9zyULBeJJYfKO4m-bcWSAqHmNyXjWAWBPY6yw1gCdbqJ2JuVpRRQ8GYdJcUAE52umUVdhca61WZYcR7CscvUxzEo8Aj2_JAyrj-pa-nQs4Og0RTkkz4QdK6dd3SqQldNXhwKMcLTRYE0SiTWZdWYqawEi-MCieeHajJeQML6JaQAiyLogq-x8FxeOpu5widQsND3MhI9A7QtjMVFWJLmvS_NWWHRwkUQFDslVwRlWEvOlagAQ1n2NokBHFHgW5bn0kuRSxEuAuDPrpvqOXMUE8FiRHBzLxH0PPxXp_lDJ63d7iiA8xHHILUYFdXmJ6rY_lVK0vFJpabr4B1x0glXtXF5AvlDLOHAn4wZqhmjFvGxAXQyA6xi1gz-VHeakWXOT7-JMPPSRRL0iYalpUcKuR9F-KAyGiQUyFK8MABLFTUASbBJQmyScq-fuhhZ0VWxgaH2c4OOYeSenPZ0uhL073xtaMGzI6fQhMonF-QnufoMJnvj4Sm2dWsRTLPRqgaE44jQS2NOM4KOXGvq2gNUw-MgJBAhTHB3TUzHlWhhRr2sP6swQKJlUkZIFwe3F9npr2fY4BH4F7TogpwjAslmpcPoI9rSPMHDXe_L6chBJaPzw2ewUC5Ddr3-pIYrAneuT_960ABxJzK2GFVkpgR4OM8UqUHx6cbWeVNvEhHaNfUxixA4AG9h0x4tCgr6kHQyULOEgHEtEfT_7HWU2kJ07X1OS3JhcEaCxEgElrV2etm9ZslQsPo2tHkCHbIyeQQmg3si-0B8wvBtjSo7S4J1onMwtgAiPEEFfP5W1Xsg90-Or9qRAREVciWKNyWXNcpavHRY8fA6VrfZU22DAIgUJpE5AZqAPmDRHn_72VjwdbPCoFcw4__BBJwOpwTpYIU93UxLknIiVsJ1CoZ0lhWpC343StIRWfb12wPcEqOZ5dQzC1JbExyyQB4fmdvJwPZxkxHl4iFsUdSdnabHyzMVTJ-uOUGjU6cghamXVCRlWglNdapgAclnxStBrVITanYUsVvxawJ8UOD9bMk7WBCEc8ESloChXiD2ni4GxLkjxa_fzorCAiEHILcb5cdXhdm7zeS6kYNp9vZbcb3DcslkJoCIgzlBbbOzDH-paxpBNUICA-XBES4z9vw-FraI8CS9vRxrUJNjNyKGeoWHZEUqSpzW-rJDK8ek-IEeYdKp95fxuTPaAz9BIt4eejh6wMcjk2LHQ-KPY6YNbiU1GKAFvJ-9qxEREPfTd3k3FnRnSnisdguhE8q3trqyXwMQSBU18Ujw-BGdUcDsP5kKS2IW8gGQ1VBgvwDFTQ3kd0txxg1tXwsQQQGGwraa9WWmF6h5DSeb0lK4hndIc88Q0cp3xdO5AljzvWDhbc3ouzqS1AGBI7aTE9zTNF0slMXqgAQszc5LgSNQJRInWTbEZFQoKfw261AymCcWO-PtUqFKR5eDGZDb4pxSYy3smOv5gqTikSKEETPc0EdtTARnCxLUD52uC1ERQaXANmrHdAUlimqctFuA4aqFtusALcHCiyW2AegjacAPQzIMPNqLC6FnQZIgNEDCv6D2z173JoizN-1cnknCcLBUAyeLpKUH10uIHweYoCFrRCQosg-QorgU9YBJ06qxHrORDk3p-7gy5iITk-Qxsn4CNVw-Fla7cQQPzT55M4BidsN2-MRVddT7-N6WOfBDKUR0qzB9UtJ5J8WAy-JKsGySEq682Wg4A2Xz4OKGcQHuIhYd7BW2uqCn7d59iYHQoTbQ1SklBLXl2cocpioQMItXNGkTbRMyKmWVMStg-wFsE8Bc3hqa26GlABFD1gIhXlPWzs2Fd3iiZQ8vb0ohkoHHcPTY5mWUxeqJXofqUADaZzfKgh6iUvskd4FZ0cjxbGIAD42pi0ljB8OgwXVwE_wx5B7O5FWo0nVPr7xr8mICxZFXCte1dXQqGxwkimAReiT2eHJeUHGIRKfzWyOKEkzCk-4_O0laETfzkOL3gnEPUmY_f8clWzAnLcwtCVJCkRbghSqHlJT32Bs-9ZuTwThkZqiBTBNy2SWGg3jwafK9QAEuvykIGZKlEkPRdaLjjyE0L_2212ixRW7vPfsy4gO1IkSqhuZnFkjrDwbpsLNZddbZEmxy0LgFhSGbU1gRnXIyXV-7evgy5CHyI2Rzgz2Bpw-NpsfKo-Tsj15J86Fj1WFGaCXndyVIuD5kGNGi29QHKAC8MmHphmTAWNHrwP8y4o6sOXppgLTh8gL2gcOtUPQPHVdmysEHHs9t-JBisMazFai01iRk6HqP1LtSwhuEZHlgf-Dzydb3IsgQCCNe0OANr4kLyKNXUQHT9DMzbkP2Lv1FJptDRQ--j7qAkiM3soUaRtZndZiJ3zR7gqGqdLV6cVxhQNoGZ5OqsHiQ_nGyzr54m9mipZJDorYxEExiJt_edcTpIwfuzU4LUnFSVKElqAZllhfYC3xVeKJyuiWEyxGMsUFI14UxiWFpY1xQ02xMytgZchUxgvN1UrA98QVfXJaEC0Km7y292YPy44QzZ4g058fVGHkOVkpQAiok1zth_VMCGVcnAVtjWTI8MQIM_7nJaEDnkOOyd8AzzbMGD9-31Poy9A7ffHkg0KH1sBdqJ6RmF5kbjlTKgeE6RGYYsG1jYksmNfL7ogliPMIRD764CdrCZ_PjM4YyMo-xRN1uZeYIAXS9TYwJIaKAJwCnufSlxAVIOQ83inACGzXmWeJNcWO4xgeC-OEZwjwAExzsuAob0sYwU6AEETPtICVNjHe26sLHDI6uW5OiMGQBx6m1NKTEWZr-Zjii4wsF9HjjbrHCORXHUvnRqsDPgBCM7OrruXKWYBNCl4KgTfBmHxy1xprxBt6PbCsyMuH1EAQ4NKeXF7nqPDWI8ENJ5rVKU-2gw0uW1fL48bjyPMCA3W7YywhQ51Djk",
 			"name": "The Brigade",
-			"video": "https://www.youtube.com/watch?v=Nt9L1jCKGnE&ab_channel=SonyPicturesEntertainment",
+			"video": "https://www.youtube.com/watch?v=z8VTHBLni-A&ab_channel=%D0%97%D0%90%D0%A1%D0%A2%D0%90%D0%92%D0%9A%D0%98",
 			"data": "2022",
 			"country": "Russian",
 			"actors": [
@@ -2497,10 +2522,11 @@
 		},
 		{
 			"id": 11,
-			"background": "https://4kwallpapers.com/images/wallpapers/spider-man-far-from-home-5k-7680x4320-947.jpg",
+			"type": "serial",
+			"background": "https://avatars.dzeninfra.ru/get-zen_doc/2458644/pub_6169a84e0669723cc4e04a32_6169a8c061b2bd52432a6ca9/scale_1200",
 			"image": "https://avatars.mds.yandex.net/get-kinopoisk-image/4303601/1073b002-96de-49ae-a432-1da460f6890c/300x450",
-			"name": "Ojingeo geim",
-			"video": "https://www.youtube.com/watch?v=Nt9L1jCKGnE&ab_channel=SonyPicturesEntertainment",
+			"name": "Squid Game",
+			"video": "https://www.youtube.com/watch?v=oqxAJKy0ii4&ab_channel=Netflix",
 			"data": "2022",
 			"country": "Korea South",
 			"actors": [
@@ -2594,10 +2620,11 @@
 		},
 		{
 			"id": 12,
-			"background": "https://4kwallpapers.com/images/wallpapers/spider-man-far-from-home-5k-7680x4320-947.jpg",
+			"type": "serial",
+			"background": "https://mir-s3-cdn-cf.behance.net/project_modules/1400/c09815128735621.615f5b16a5515.jpeg",
 			"image": "https://avatars.mds.yandex.net/get-kinopoisk-image/6201401/8472ca52-2751-4bbe-9a08-8a1be75f93d5/300x450",
-			"name": "La casa de papel ",
-			"video": "https://www.youtube.com/watch?v=Nt9L1jCKGnE&ab_channel=SonyPicturesEntertainment",
+			"name": "Money heist",
+			"video": "https://www.youtube.com/watch?v=_InqQJRqGW4&ab_channel=Netflix",
 			"data": "2022",
 			"country": "Spain",
 			"actors": [
@@ -2682,7 +2709,7 @@
 					"sex": "Female"
 				}
 			],
-			"kind": ["crime","thriller", "detective"],
+			"kind": ["crime", "thriller", "detective"],
 			"seasons": 5,
 			"age": 18,
 			"time": 44,

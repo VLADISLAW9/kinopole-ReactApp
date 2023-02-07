@@ -6,12 +6,12 @@ import SerialItem from './SerialItem'
 
 const Series = () => {
 	const { data: series } = api.useFetchNewSeriesQuery('')
-	console.log(series)
+	// console.log(series)
 	const handleClick = () => {
 		window.scrollTo(0, 0)
 	}
 	return (
-		<div>
+		<div className='mt-20 mb-20'>
 			<div className='flex justify-between items-center'>
 				<h1 className='text-3xl text-white font-semibold'>New series</h1>
 				<Link onClick={handleClick} to='/series'>

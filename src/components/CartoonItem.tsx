@@ -24,7 +24,7 @@ const CartoonItem: React.FC<CartoontemProps> = ({ cartoon }) => {
 						className='hover:opacity-75 transition-opacity'
 						sx={{ height: 400, borderRadius: 2 }}
 						image={cartoon.image}
-						title='green iguana'
+						title={cartoon.name}
 					/>
 				</div>
 				<h1 className='text-white mt-4 font-semibold'>{cartoon.name}</h1>

@@ -5,11 +5,14 @@ import { useActions } from '../hooks/actions.hook'
 import { useAppSelector } from '../hooks/redux.hook'
 import { useSnapCarousel } from 'react-snap-carousel'
 import { FaRegSadCry } from 'react-icons/fa'
+import ProfilePageFilm from '../components/ProfilePageFilm'
+import ProfilePageCartoon from '../components/ProfilePageCartoon'
+import ProfilePageSerial from '../components/ProfilePageSerial'
 
 const ProfilePage = () => {
 	const [value, setValue] = useState<string | number>('will')
 	const { will, was, now } = useAppSelector(state => state.filmState)
-	const { getFilmId } = useActions()
+	const { getFilmId, getCartoonId, getSerialId } = useActions()
 	const { scrollRef, pages, activePageIndex, next, prev, goTo } =
 		useSnapCarousel()
 
@@ -24,14 +27,6 @@ const ProfilePage = () => {
 	const onWasWatch = () => {
 		setValue('was')
 	}
-
-	useEffect(() => {
-		for (let i = 1; i < now.length - 1; i++) {
-			if (now[i].id === now[i + 1].id) {
-				now.splice(now[i], 1)
-			}
-		}
-	})
 
 	return (
 		<div className='px-20 mt-20 mb-20'>
@@ -78,23 +73,17 @@ const ProfilePage = () => {
 					{will.length > 0 && (
 						<ul className='profile__list mt-7'>
 							{will.map(film => (
-								<Link
-									onClick={() => (getFilmId(film.id), window.scrollTo(0, 0))}
-									className='hover:-translate-y-1 cursor-pointer transition-transform flex justify-center  '
-									to='/player/:id'
-								>
-									<li>
-										<div>
-											<img
-												className='hover:opacity-75 transition-opacity rounded-md'
-												src={film.image}
-											/>
-											<h1 className='mt-3 text-white font-medium'>
-												{film.name}
-											</h1>
-										</div>
-									</li>
-								</Link>
+								<>
+									{film.type === 'film' && (
+										<ProfilePageFilm key={film.name} film={film} />
+									)}
+									{film.type === 'cartoon' && (
+										<ProfilePageCartoon key={film.name} film={film} />
+									)}
+									{film.type === 'serial' && (
+										<ProfilePageSerial key={film.name} film={film} />
+									)}
+								</>
 							))}
 						</ul>
 					)}
@@ -115,23 +104,17 @@ const ProfilePage = () => {
 					{now.length > 0 && (
 						<ul className='profile__list mt-7'>
 							{now.map(film => (
-								<Link
-									onClick={() => (getFilmId(film.id), window.scrollTo(0, 0))}
-									className='hover:-translate-y-1 cursor-pointer transition-transform flex justify-center  '
-									to='/player/:id'
-								>
-									<li>
-										<div>
-											<img
-												className='hover:opacity-75 transition-opacity rounded-md'
-												src={film.image}
-											/>
-											<h1 className='mt-3 text-white font-medium'>
-												{film.name}
-											</h1>
-										</div>
-									</li>
-								</Link>
+								<>
+									{film.type === 'film' && (
+										<ProfilePageFilm key={film.name} film={film} />
+									)}
+									{film.type === 'cartoon' && (
+										<ProfilePageCartoon key={film.name} film={film} />
+									)}
+									{film.type === 'serial' && (
+										<ProfilePageSerial key={film.name} film={film} />
+									)}
+								</>
 							))}
 						</ul>
 					)}
@@ -151,24 +134,18 @@ const ProfilePage = () => {
 				<>
 					{was.length > 0 && (
 						<ul className='mt-7 profile__list'>
-							{was.map(film => (
-								<Link
-									onClick={() => (getFilmId(film.id), window.scrollTo(0, 0))}
-									className='hover:-translate-y-1 cursor-pointer transition-transform flex justify-center'
-									to='/player/:id'
-								>
-									<li className=''>
-										<div>
-											<img
-												className='hover:opacity-75 transition-opacity  rounded-md'
-												src={film.image}
-											/>
-											<h1 className='mt-3 text-white font-medium'>
-												{film.name}
-											</h1>
-										</div>
-									</li>
-								</Link>
+							{now.map(film => (
+								<>
+									{film.type === 'film' && (
+										<ProfilePageFilm key={film.name} film={film} />
+									)}
+									{film.type === 'cartoon' && (
+										<ProfilePageCartoon key={film.name} film={film} />
+									)}
+									{film.type === 'serial' && (
+										<ProfilePageSerial key={film.name} film={film} />
+									)}
+								</>
 							))}
 						</ul>
 					)}

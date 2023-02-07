@@ -22,7 +22,7 @@ const FilmPage = () => {
 
 	useEffect(() => {
 		for (let i = 0; i < will.length; i++) {
-			if (will[i].id === filmId) {
+			if (will[i].name === filmInfo?.name) {
 				setFav(true)
 			} else {
 				setFav(false)
@@ -60,8 +60,11 @@ const FilmPage = () => {
 	return (
 		<div className='container__filmPage px-20 mt-10 mb-20	'>
 			<div className='filmPage flex mt-14'>
-				<div className='filmPage__image  w-1/4 h-1/4 '>
-					<img className='rounded-md' src={filmInfo?.image} />
+				<div className='filmPage__image'>
+					<img
+						className='rounded-md h-[450px] w-[300px]'
+						src={filmInfo?.image}
+					/>
 				</div>
 				<div className='filmPage__info ml-28'>
 					<h1 className='info__name text-white text-4xl font-bold'>
@@ -155,16 +158,6 @@ const FilmPage = () => {
 				>
 					Actors
 				</li>
-				<li
-					onClick={onImage}
-					className={` ${
-						value === 'Image'
-							? 'border-b-2 border-red-700 pb-1 text-white font-semibold mr-10 cursor-pointer'
-							: 'text-white font-semibold mr-10 pb-1 cursor-pointer'
-					} `}
-				>
-					Image
-				</li>
 			</ul>
 			{value === 'Description' && (
 				<div className='mt-5 mb-20 '>
@@ -172,7 +165,6 @@ const FilmPage = () => {
 				</div>
 			)}
 			{value === 'Actors' && <CarouselActors filmInfo={filmInfo} />}
-			{value === 'Image' && <FilmPicture filmInfo={filmInfo} />}
 			<MoreFilms filmInfo={filmInfo} />
 			<Comments filmInfo={filmInfo} />
 		</div>

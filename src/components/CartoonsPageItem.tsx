@@ -1,3 +1,4 @@
+import { CardMedia } from '@mui/material'
 import React, { FC } from 'react'
 import { Link } from 'react-router-dom'
 import { useActions } from '../hooks/actions.hook'
@@ -22,10 +23,13 @@ const CartoonsPageItem: FC<FilmProps> = ({ cartoon }) => {
 			to={`/cartoon/${cartoon.id}`}
 		>
 			<li className='filmPage__film flex px-2 py-7 cursor-pointer border-t-2 border-t-stone-700'>
-				<img
-					className='film__image w-[15%] h-[15%] rounded-md mr-5'
-					src={cartoon.image}
-				/>
+				<div>
+					<CardMedia
+						className='film__image rounded-md mr-5'
+						image={cartoon.image}
+						title={cartoon.name}
+					/>
+				</div>
 				<div className='filmPage__info'>
 					<h1 className='text-white font-medium text-xl'>{cartoon.name}</h1>
 					<p className='text-white font-light mt-3 text-lg'>

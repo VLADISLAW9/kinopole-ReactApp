@@ -24,7 +24,7 @@ const SerialItem: React.FC<FilmItemProps> = ({ serial }) => {
 						className='hover:opacity-75 transition-opacity'
 						sx={{ height: 400, borderRadius: 2 }}
 						image={serial.image}
-						title='green iguana'
+						title={serial.name}
 					/>
 				</div>
 				<h1 className='text-white mt-4 font-semibold'>{serial.name}</h1>

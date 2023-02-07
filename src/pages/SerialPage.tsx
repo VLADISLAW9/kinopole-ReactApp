@@ -9,6 +9,7 @@ import MoreFilms from '../components/MoreFilms'
 import Comments from '../components/Commenst'
 import { Link } from 'react-router-dom'
 import { useActions } from '../hooks/actions.hook'
+import MoreSeries from '../components/MoreSeries'
 
 const SerialPage = () => {
 	const { serialId } = useAppSelector(state => state.getSerialId)
@@ -16,24 +17,19 @@ const SerialPage = () => {
 	const { will } = useAppSelector(state => state.filmState)
 	const { data: serialInfo } = api.useFetchSerialInfoQuery(serialId)
 	const [fav, setFav] = useState(false)
-	const {getSerialId} = useActions()
+	const { getSerialId } = useActions()
 	const [value, setValue] = useState<string | number>('Description')
 	console.log(will)
 
 	useEffect(() => {
 		for (let i = 0; i < will.length; i++) {
-			if (will[i].id === serialId) {
+			if (will[i].name === serialInfo?.name) {
 				setFav(true)
 			} else {
 				setFav(false)
 			}
 		}
 	})
-
-	const handleFilmId = () => {
-		getSerialId(serialInfo?.id)
-		window.scrollTo(0, 0)
-	}
 
 	const addFav = () => {
 		addWill(serialInfo)
@@ -57,6 +53,13 @@ const SerialPage = () => {
 		setValue('Image')
 	}
 
+	const handleSerialId = () => {
+		getSerialId(serialInfo?.id)
+		window.scrollTo(0, 0)
+	}
+
+	
+
 	return (
 		<div className='container__filmPage px-20 mt-10 mb-20	'>
 			<div className='filmPage flex mt-14'>
@@ -68,7 +71,10 @@ const SerialPage = () => {
 						{serialInfo?.name} ({serialInfo?.data})
 					</h1>
 					<div className='info__btns flex mt-10'>
-						<Link onClick={handleFilmId} to={`/FilmPlayer/${serialInfo?.id}`}>
+						<Link
+							onClick={handleSerialId}
+							to={`/SerialPlayer/${serialInfo?.id}`}
+						>
 							<button className='info__btn hover:opacity-75 transition-opacity px-5 py-3 bg-red-700  rounded-2xl text-white text-lg font-semibold flex items-center'>
 								<BsFillPlayFill className=' w-6 h-6 translate-y-[0px]' />
 								<span className='ml-1'>Watch</span>
@@ -137,12 +143,6 @@ const SerialPage = () => {
 								{serialInfo?.time} min
 							</span>
 						</li>
-						<li className='mt-4 flex'>
-							<span className='block flex-initial w-36  text-gray-400'>
-								Budget
-							</span>
-							<span className='relative text-white '>{serialInfo?.budget}</span>
-						</li>
 					</ul>
 				</div>
 			</div>
@@ -167,16 +167,7 @@ const SerialPage = () => {
 				>
 					Actors
 				</li>
-				<li
-					onClick={onImage}
-					className={` ${
-						value === 'Image'
-							? 'border-b-2 border-red-700 pb-1 text-white font-semibold mr-10 cursor-pointer'
-							: 'text-white font-semibold mr-10 pb-1 cursor-pointer'
-					} `}
-				>
-					Image
-				</li>
+				
 			</ul>
 			{value === 'Description' && (
 				<div className='mt-5 mb-20 '>
@@ -184,8 +175,7 @@ const SerialPage = () => {
 				</div>
 			)}
 			{value === 'Actors' && <CarouselActors filmInfo={serialInfo} />}
-			{value === 'Image' && <FilmPicture filmInfo={serialInfo} />}
-			<MoreFilms filmInfo={serialInfo} />
+			<MoreSeries serialInfo={serialInfo} />
 			<Comments filmInfo={serialInfo} />
 		</div>
 	)
