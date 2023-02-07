@@ -10,6 +10,7 @@ import Comments from '../components/Commenst'
 import { Link } from 'react-router-dom'
 import { useActions } from '../hooks/actions.hook'
 import MoreCartoons from '../components/MoreCartoons'
+import { CardMedia } from '@mui/material'
 
 const CartoonPage = () => {
 	const { cartoonId } = useAppSelector(state => state.getCartoonId)
@@ -60,15 +61,22 @@ const CartoonPage = () => {
 	return (
 		<div className='container__filmPage px-20 mt-10 mb-20	'>
 			<div className='filmPage flex mt-14'>
-				<div className='filmPage__image  w-1/4 h-1/4 '>
-					<img className='rounded-md' src={cartoonInfo?.image} />
+				<div className=''>
+					<CardMedia
+						className='filmPage__image hover:opacity-75 transition-opacity'
+						image={cartoonInfo?.image}
+						title={cartoonInfo?.name}
+					/>
 				</div>
 				<div className='filmPage__info ml-28'>
 					<h1 className='info__name text-white text-4xl font-bold'>
 						{cartoonInfo?.name} ({cartoonInfo?.data})
 					</h1>
 					<div className='info__btns flex mt-10'>
-						<Link onClick={handleCartoonmId} to={`/CartoonPlayer/${cartoonInfo?.id}`}>
+						<Link
+							onClick={handleCartoonmId}
+							to={`/CartoonPlayer/${cartoonInfo?.id}`}
+						>
 							<button className='info__btn hover:opacity-75 transition-opacity px-5 py-3 bg-red-700  rounded-2xl text-white text-lg font-semibold flex items-center'>
 								<BsFillPlayFill className=' w-6 h-6 translate-y-[0px]' />
 								<span className='ml-1'>Watch</span>
@@ -151,7 +159,6 @@ const CartoonPage = () => {
 				>
 					Description
 				</li>
-				
 			</ul>
 			{value === 'Description' && (
 				<div className='mt-5 mb-20 '>

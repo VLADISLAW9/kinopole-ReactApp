@@ -10,6 +10,7 @@ import Comments from '../components/Commenst'
 import { Link } from 'react-router-dom'
 import { useActions } from '../hooks/actions.hook'
 import MoreSeries from '../components/MoreSeries'
+import { CardMedia } from '@mui/material'
 
 const SerialPage = () => {
 	const { serialId } = useAppSelector(state => state.getSerialId)
@@ -63,8 +64,12 @@ const SerialPage = () => {
 	return (
 		<div className='container__filmPage px-20 mt-10 mb-20	'>
 			<div className='filmPage flex mt-14'>
-				<div className='filmPage__image  w-1/4 h-1/4 '>
-					<img className='rounded-md' src={serialInfo?.image} />
+				<div className=''>
+					<CardMedia
+						className='filmPage__image hover:opacity-75 transition-opacity'
+						image={serialInfo?.image}
+						title={serialInfo?.name}
+					/>
 				</div>
 				<div className='filmPage__info ml-28'>
 					<h1 className='info__name text-white text-4xl font-bold'>
@@ -167,7 +172,6 @@ const SerialPage = () => {
 				>
 					Actors
 				</li>
-				
 			</ul>
 			{value === 'Description' && (
 				<div className='mt-5 mb-20 '>

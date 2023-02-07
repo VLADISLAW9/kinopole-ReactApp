@@ -9,6 +9,7 @@ import MoreFilms from '../components/MoreFilms'
 import Comments from '../components/Commenst'
 import { Link } from 'react-router-dom'
 import { useActions } from '../hooks/actions.hook'
+import { CardMedia } from '@mui/material'
 
 const FilmPage = () => {
 	const { filmId } = useAppSelector(state => state.getFilmId)
@@ -60,12 +61,14 @@ const FilmPage = () => {
 	return (
 		<div className='container__filmPage px-20 mt-10 mb-20	'>
 			<div className='filmPage flex mt-14'>
-				<div className='filmPage__image'>
-					<img
-						className='rounded-md h-[450px] w-[300px]'
-						src={filmInfo?.image}
+				<div className=''>
+					<CardMedia
+						className='filmPage__image hover:opacity-75 transition-opacity'
+						image={filmInfo?.image}
+						title={filmInfo?.name}
 					/>
 				</div>
+
 				<div className='filmPage__info ml-28'>
 					<h1 className='info__name text-white text-4xl font-bold'>
 						{filmInfo?.name} ({filmInfo?.data})
